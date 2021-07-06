@@ -1,7 +1,14 @@
 
 /* colors: 
-yellow: #FFBE00
-Navy: #192B37 */
+grey: #6C7A89 395261
+Navy: #192B37 
+turquoise: #00afb9 */
+
+
+/* PHOTOS:
+A3QXXEfcA1U
+
+*/
 
 /* ........... universal styles default settings........ */
 * {
@@ -35,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: #FFBE00;
+    color: #00afb9;
 }
 
 
@@ -116,7 +123,7 @@ a:hover {
 }
 
 .bg-light {
-    background-color: #FFBE00;
+    background-color: #00afb9;
 }
 .bg-lightblue {
     background-color:rgb(209, 233, 243);
@@ -141,8 +148,8 @@ a:hover {
 }
 
 
-.bg-img1 {
-    background-image: url('/assets/the-sleep-co-lamp.jpg');
+.bg-sarong1 {
+    background-image: url('https://source.unsplash.com/A3QXXEfcA1U');
     background-size: cover;
     background-position: center;
 }
@@ -159,13 +166,29 @@ a:hover {
     background-position: 50% 53%;
 }
 
+/* ..............instagram gallery style.................. */
+
+.bg-image {
+    background-color: rgb(235,235,235);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .square {
+    padding-bottom: 100%;
+  }
+  
+  .insta-gallery .bg-image {
+    border: 2px solid white;
+  }
+
 
 /* TYPOGRAPHY UTILITY CLASSES */
 
 body {
     border: none;
-    font-family: "Catamaran", sans-serif;
-    color: #192B37;
+    font-family: "Lato", sans-serif;
+    color: #395261;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -173,6 +196,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+}
 h2 {font-size: 2.2rem;}
 h3 {font-size: 1.8rem;}
 h4 {font-size: 1.5rem;}
@@ -195,18 +224,15 @@ a {
 }
 
 a:hover{
-    color: #FFBE00;
+    color: #00afb9;
 }
 
 .text-left      { text-align: left ;}
 .text-center    { text-align: center ;}
 .text-right     { text-align: right ;}
 
-/* .left       { text-align: left;     }
-.right      { text-align: right;    }
-.centered   { text-align: center;   } */
 
-.featuredcolor-text {color: #FFBE00;}
+.featuredcolor-text {color: #00afb9;}
 .featureddark-text  {color: #192B37}
 .whitecolor-text    {color: white;}
 
@@ -219,6 +245,8 @@ a:hover{
     font-size: 2rem;
     line-height: 1.1;}
 .text-big     {font-size: 4.5rem;}
+
+.caps { text-transform: uppercase;}
 
 /* Typography more specific elements */
 
@@ -236,17 +264,12 @@ a:hover{
     color: rgb (120,125,128);
 }
 
-/* p.emphasis {} */
 
 
 /* ..........................header and footer styles.................. */
 
 header {
-    background-image: url('/assets/the-sleep-co-white.jpg');
-    background-size: cover ;
-    background-position: center;
     padding: 1.5% 5%;
-
 }
 
 header h3 {
@@ -254,21 +277,83 @@ header h3 {
     line-height: 1;
 }
 
-.logo h2 {
+.logo {
+    font-weight: 200;
+    letter-spacing: 0.3rem;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     border: none;
     color: inherit;
     display: inline-block;
     padding: 0.5rem;
+    margin-bottom:0;
 }
 
-footer a {
-    border: none;
+ header .fas {
+    font-size: 1.2rem;
+    margin-bottom:0;
+}
 
+footer nav a {
+    border: none;
+    display:block;
+    padding: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+footer h4 {
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+  }
+
+footer .fab {
+      font-size: 1.1rem;
+  }
+
+
+/*  .......footer social..... */
+
+.inline a {
+    display:inline-block;
+    padding: 0.5rem;
+  }
+  
+
+/* ..............hero banner styling.......... */
+
+
+.hero-banner {
+    background-color: #77ACA2;
+    background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+    color: white;
+    background-size: cover;
+    background-position: top;
+    min-height: 90vh;
+  }
+
+.fixed {
+    background-attachment: fixed;
+  }
+ 
+/*.........sarong gallery styling.....  */
+/* 
+.gallery [class*="col-"] {
+    padding: 0.5%;
+  }
+   */
+/* ............button styles............ */
+
+
+.shopbutton {
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid inherit;
+    padding: 0.5rem, 1rem;
+    display: inline-block;
 }
 
 /* ........................card styling........... */
@@ -295,7 +380,7 @@ footer a {
 
 form input, 
 form textarea {
-  width: 100%;
+  width: 80%;
   display: block;
   margin: 0.3rem 0;
   /*  NOTE: applied 2 values and 0 for left and right so it is all aligned in the left  */
@@ -309,13 +394,13 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: #FFBE00;
+  border-color: #00afb9;
 }
 
-textarea {
-  /* min-height: 20vh; */
+/* textarea {
+  min-height: 20vh;
   margin-bottom: 0.5rem;
-}
+} */
 
 /* NOTE: labels are are inline elements so need to be set as block elements so it can accept the vertical marging and padding  */
 /* form label {
@@ -332,7 +417,6 @@ form button {
   padding: 0.5rem 1.5rem;
   letter-spacing: 0.1em;
   /* margin: 0.5rem 0; */
-  width: 100%;
   appearance: none;
   margin-top: 0;
 }

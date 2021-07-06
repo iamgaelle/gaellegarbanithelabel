@@ -3,7 +3,7 @@
 <!-- this is the head of our html where we add extra resource and metadata. this is where all the info that is not displayed on screen is mentioned like gridlex, googlefont... -->
 <head>
 <!-- Need to add a title. this text  will appear in SE as well as in the tab of the browser -->
-    <title> the sleep.co </title>
+    <title> Gaelle Garbani The Label </title>
 
 <!-- NOTE: add metadata ref on top of our CSS link so they don't overwrite our own stylesheet-->
 
@@ -15,6 +15,7 @@
 
 <!-- this is our googlefont stylesheet (catamaran 200,400,500, 800) -->
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 
 <!-- this is our fontawsome icons fonts -->
@@ -33,33 +34,50 @@
 
 
 <!-- .....................header................... -->
-
-    <header class="grid text-center tall100vh md-tall80">
-        <div class="col-12 header-nav grid-top">
-            <div class="col-5_sm-12-middle sm-padded-b-0">
-                <a href="/index.html" class="logo">
-                    <h2> The sleep co </h2>
-                </a>
-            </div>
-            <div class="col-7_sm-12-middle text-right sm-text-center">
-                <nav>
-                    <a href="/index.html"> Home </a>
-                    <a href="/about.html"> About </a>
-                    <a href="/products.html"> Products </a>
-                    <a href="/footer.html"> Contact </a>
-                </nav>
-            </div>
-        </div>
-        <div class="col-12">
-            <h3 class="font-weight-xbold editable">
-                <span class="featuredcolor-text">sleep</span> like baby
-            </h3>
-            <h1 class="font-weight-light"> the ultimate mattress solution</h1>
-        </div>
-    </header>
      
-<!-- .................gallery section.................. -->
+    <header class="grid text-center">
+        <div class="col-12">
+            <a href="/index.html">
+                <h2 class="logo"> Gaelle Garbani </h2>
+            </a>
+        </div>
+        <div class="col-10 text-center">
+            <nav>
+                <a href="/index.html"> Home </a>
+                <a href="/shop.html"> Shop </a>
+                <a href="/collection.html"> Collection </a>
+                <a href="/about.html"> About us </a>
+            </nav>
+        </div>
+        <div class="col-2 text-right">
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+      </header>
 
+<!-- ............hero bannner..................... -->
+
+<section class="hero-banner grid-center fixed"> 
+    <div class="col-8_sm-12-middle text-center">
+      <h2> eco-conscious wearable piece of art </h2>
+    </div> 
+  </section>
+
+
+<!-- ........gallery sarong section........... -->
+
+<section class="grid-SpaceBetween text-center padded">
+    <h1 class="col-12 text-center">
+        Sarongs
+    </h1>
+    <a class="col-12 shopbutton" href="/shop.html"> Shop </a>
+ 
+    <div class="col-5 bg-sarong1 square paddedsmall"></div>
+    <div class="col-5 bg-sarong1 square paddedsmall"></div>
+
+</section>
+
+<!-- .................gallery section.................. -->
+<!-- 
     <section class="grid">
         <div class="padded col-6_xs-12-middle">
             <h2 class="editable">
@@ -90,60 +108,12 @@
             </p>
         </div>
     </section>
+ -->
 
-<!-- .................dark banner symbol grid section.................. -->
-
-    <section class="bg-dark padded grid">
-        <div class="paddedsmall col-12 text-center">
-            <h2> <span class="featuredcolor-text">features</span> you will love</h2>
-        </div>
-        <div class="paddedsmall col-3_sm-6 xxs-stack">
-            <i class="fas fa-cloud"></i>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam saepe corporis sapiente expedita illum dolorem
-                corrupti quasi ex distinctio quod similique, necessitatibus fuga dignissimos consequuntur asperiores assumenda ipsam
-                impedit!
-            </p>
-        </div>
-        <div class="paddedsmall col-3_sm-6 xxs-stack">
-            <i class="fas fa-cloud"></i>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam saepe corporis sapiente expedita illum dolorem
-                corrupti quasi ex distinctio quod similique, necessitatibus fuga dignissimos consequuntur asperiores assumenda ipsam
-                impedit!
-            </p>
-        </div>
-        <div class="paddedsmall col-3_sm-6 xxs-stack">
-            <i class="fas fa-cloud"></i>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam saepe corporis sapiente expedita illum dolorem
-                corrupti quasi ex distinctio quod similique, necessitatibus fuga dignissimos consequuntur asperiores assumenda ipsam
-                impedit!
-            </p>
-        </div>
-        <div class="paddedsmall col-3_sm-6 xxs-stack">
-            <i class="fas fa-cloud"></i>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam saepe corporis sapiente expedita illum dolorem
-                corrupti quasi ex distinctio quod similique, necessitatibus fuga dignissimos consequuntur asperiores assumenda ipsam
-                impedit!
-            </p>
-        </div>  
-    </section>
-
-<!-- ................. image banner section.................. -->
-
-    <section class="padded grid-middle text-center tall60vh bg-bannerimg">
-        <div class="col-12-middle">
-             <h3>   <span class="text-small font-weight-normal">never underestimate the power of </span> 
-                    <br /> <span class="text-big">a good night <span class="whitecolor-text">sleep</span></span>
-            </h3> 
-        </div>        
-    </section>
 
 <!-- ................. quote section.................. -->
 
-    <section class="paddedlarge grid text-center">
+    <!-- <section class="paddedlarge grid text-center">
           <div class="col-1 text-right">
                 <span class="quote-icon"> “ </span>
           </div>   
@@ -154,25 +124,105 @@
           <div class="col-1 text-left">
             <span class="quote-icon"> ” </span>
           </div>     
+    </section> -->
+
+
+<!-- ...................instagram gallery........... -->
+
+<section class="padded text-center">
+
+    <h2> @gaellegarbani </h2>
+    
+      <div class="insta-gallery grid-center padded-1">
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-1.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-1.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-7.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-7.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-3.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-3.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-4.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-4.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-5.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-5.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-6.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-6.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-2.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-2.jpg')"></div>
+        </a>
+    
+        <a class="col-3_sm-6_xs-12 fancybox" href="/images/wellness-8.jpg" data-fancybox="gallery">
+          <div class="bg-image square" style="background-image:url('/images/wellness-8.jpg')"></div>
+        </a>
+    
+      </div>
+    
     </section>
 
 <!-- .........................footer.................. -->
 
-    <footer class="bg-dark padded grid-spaceBetween">
-        <div class="col-4-bottom">
-            <h2> let's 
-                <br /> <span class="featuredcolor-text">connect</span> 
-            </h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eius, assumenda neque cum ullam odit? Sint aliquid,
-                repellendus optio quidem culpa fugiat libero consectetur vitae, aut ex iure, sunt repudiandae?</p>
-        </div>
-        <div class="col-5-bottom">
-            <p> <strong>call</strong>: <a href="tel:#">+181423259897</a> </p>
-            <p> <strong>email</strong>: <a href="mailto#">hello@thesleep.co</a> </p>
-            <p> <strong>store</strong>: <a href="#"> 66 sleep street, chicago, USA</a> </p>
-            <p> <strong>instagram</strong>: <a href="https://www.instagram/thesleepco"></a> @thesleepco </p>
-        </div>
-    </footer>
+   
+<footer class="grid-top-spaceBetween padded">
+    <!-- column -->
+  <!--   <div class="col-3_sm-12 padded-1">
+      <h2 class="logo"> Logo </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="col-1 sm-hidden"> empty filler </div> -->
+  
+    <!-- column -->
+    <div class="col-3_sm-4_xs-12 padded-1">
+      <h4 class="caps"> Explore </h4>
+      <nav>
+        <a href="#"> Home </a>
+        <a href="#"> Collection </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+      </nav>
+    </div>
+  
+    <!-- column -->
+    <div class="col-5_sm-4_xs-12 padded-1">
+       <h4 class="caps"> join us </h4>
+       <p>Receive the latest & greatest news, product launches, giveaways and much more!</p>
+  <!--     <form action="https://formspree.io/hello@company.com" method="POST"> -->
+      <form>
+         <input type="email" name="_replyto" id="_replyto" placeholder="Enter your email addres" />
+         <button type="submit"> SUBMIT </button>
+  <!--       <input type="submit" value="Send" class="button"> -->
+      </form>
+    </div>
+  
+    <!-- column -->
+     <!-- <div class="col-1 sm-hidden"> </div>  -->
+    <div class="col-4-right_sm-4_xs-12 padded-1">
+        <h4 class="caps"> Gaelle Garbani </h4>
+        <p class="text-left">Inspired by nature eco-conscious collection. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+       <nav class="inline socials">
+        <a href="#">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </nav>
+    </div>
+  </footer>
 
 
 </body>
