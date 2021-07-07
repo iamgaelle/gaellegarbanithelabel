@@ -174,10 +174,6 @@ a:hover {
     background-position: center;
   }
   
-  .square {
-    padding-bottom: 100%;
-  }
-  
   .insta-gallery .bg-image {
     border: 2px solid white;
   }
@@ -242,11 +238,12 @@ a:hover{
 
 .text-small   {font-size: 1.5rem;}
 .text-medium  {
-    font-size: 2rem;
-    line-height: 1.1;}
+               font-size: 2rem;
+               line-height: 1.1;
+              }
 .text-big     {font-size: 4.5rem;}
 
-.caps { text-transform: uppercase;}
+.caps         { text-transform: uppercase;}
 
 /* Typography more specific elements */
 
@@ -272,13 +269,9 @@ header {
     padding: 1.5% 5%;
 }
 
-header h3 {
-    font-size: 5rem;
-    line-height: 1;
-}
 
 .logo {
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.3rem;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -350,6 +343,7 @@ footer .fab {
 
 .shopbutton {
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
     color: inherit;
     border: 1px solid inherit;
     padding: 0.5rem, 1rem;
