@@ -2,7 +2,10 @@
 /* colors: 
 grey: #6C7A89 395261
 Navy: #192B37 
-turquoise: #00afb9 */
+turquoise: #00afb9 - 72d4d4 
+light peach #fff7f3*/
+
+
 
 
 /* PHOTOS:
@@ -38,11 +41,11 @@ html {
 a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid;
+    border: none;
 }
 
 a:hover {
-    color: #00afb9;
+    color: #72d4d4;
 }
 
 
@@ -50,7 +53,7 @@ a:hover {
 
 /* PADDING ULITLITY CLASSES */
 
-.padded         { padding: 5%;}
+.padded         { padding: 6%;}
 .paddedsmall    { padding: 2.5%;}
 .paddedlarge    { padding: 10%;}
 
@@ -149,13 +152,19 @@ a:hover {
 
 
 .bg-sarong1 {
-    background-image: url('https://source.unsplash.com/A3QXXEfcA1U');
+    background-image: url('assets/sarong-beach.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .bg-img2 {
-    background-image: url('/assets/the-sleep-co-pug.jpg');
+    background-image: url('/assets/sunset-yoga.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img3 {
+    background-image: url('/assets/bali-ricefields.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -193,17 +202,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: 300;
 }
-h2 {font-size: 2.2rem;}
-h3 {font-size: 1.8rem;}
-h4 {font-size: 1.5rem;}
+h2 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    }
+
+h3 {font-size: 1.6rem;}
+
+h4 {font-size: 1.3rem;}
 
 p {
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -267,6 +283,10 @@ a:hover{
 
 header {
     padding: 1.5% 5%;
+    padding-top: 0;
+    background-color: white;
+    width: 100%;
+    position: fixed;
 }
 
 
@@ -274,6 +294,7 @@ header {
     font-weight: 300;
     letter-spacing: 0.3rem;
     margin-bottom: 0;
+    margin-top: 1rem;
     padding-bottom: 0;
 }
 
@@ -291,6 +312,11 @@ header nav a {
     margin-bottom:0;
 }
 
+
+footer {
+    background-color: #fff7f3;
+}
+
 footer nav a {
     border: none;
     display:block;
@@ -298,9 +324,10 @@ footer nav a {
     font-size: 0.9rem;
   }
 
-footer h4 {
-    font-size: 1.3rem;
+footer h3 {
+    font-size: 1.2rem;
     letter-spacing: 0.3rem;
+    font-weight: 300;
   }
 
 footer .fab {
@@ -355,8 +382,11 @@ I copied the above from our image gallery session but did nothing
 
 /* ........................card styling........... */
 
-.card h3 {
-    margin-top: 1rem;
+.card h4 {
+    margin-top: 0rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 /* .......................symbols feature section styles................. */
@@ -377,7 +407,7 @@ I copied the above from our image gallery session but did nothing
 
 form input, 
 form textarea {
-  width: 80%;
+  width: 100%;
   display: block;
   margin: 0.3rem 0;
   /*  NOTE: applied 2 values and 0 for left and right so it is all aligned in the left  */
@@ -391,7 +421,7 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: #00afb9;
+  border-color: #72d4d4;
 }
 
 /* textarea {
@@ -408,14 +438,15 @@ form textarea:focus {
 } */
 
 form button {
+  background-color:#72d4d4;
   /* background-color:#6C7A89; */
   color: white;
   border: none;
   padding: 0.5rem 1.5rem;
   letter-spacing: 0.1em;
-  /* margin: 0.5rem 0; */
+  margin: 1rem 0;
   appearance: none;
-  margin-top: 0;
+
 }
 
 
@@ -524,7 +555,9 @@ NOTE: divide 400 / 16 as 1 em=16px*/
       max-width: 50%;
     }
   
-    
+    footer {
+        text-align: center;
+    }
 
 
 }
