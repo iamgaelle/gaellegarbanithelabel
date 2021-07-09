@@ -374,10 +374,12 @@ I copied the above from our image gallery session but did nothing
 .shopbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    color: inherit;
-    border: 1px solid inherit;
-    padding: 0.5rem, 1rem;
+    color: #72d4d4;
+    border: 1px solid #72d4d4;
+    padding: 0.8rem, 1rem;
     display: inline-block;
+    flex-basis: 50%;
+    max-width: 50%;
 }
 
 /* ........................card styling........... */
