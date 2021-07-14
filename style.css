@@ -33,6 +33,10 @@ section {
 
 /* ........... universal styles ........ */
 
+[class*=grid-], [class*=grid_], [class~=grid] {
+    margin: 0;
+}
+
 
 html {
     border: none;
@@ -48,13 +52,16 @@ a:hover {
     color: #72d4d4;
 }
 
+img {
+    max-width: 100%;
+}
 
 /* ............................. universal styles and utility class..................... */
 
 /* PADDING ULITLITY CLASSES */
 
-.padded         { padding: 6%;}
-.paddedsmall    { padding: 2.5%;}
+.padded         { padding: 5%;}
+.paddedsmall    { padding: 2.2%;}
 .paddedlarge    { padding: 10%;}
 
 .padded-05 { padding: 0.5rem; }
@@ -90,6 +97,8 @@ a:hover {
 .margin-b { margin-bottom: 5%; }
 .margin-l { margin-left: 5%; }
 .margin-r { margin-right: 5%; }
+
+.margin-b-05 { margin-bottom: 0.5rem; }
 
 .margin-t-1 { margin-top: 1rem; }
 .margin-b-1 { margin-bottom: 1rem; }
@@ -202,13 +211,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: 300;
+    margin-bottom: 1.5rem;
 }
 h2 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: 300;
@@ -287,16 +297,63 @@ header {
     background-color: white;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+
 }
+
+/* selecting anything with a class of col indside our header */
+header [class*=col] {
+    padding: 0;
+  }
+
+
+  .hamburger-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-weight: 200;
+    font-size: 2.4rem;
+    line-height: 0.7;
+    margin-top: -0.7rem;
+    position: fixed;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 2;
+    
+    
+  }
+  
+  .hamburger-button.active {
+    color: #00afb9;
+  }
+  
+  .mobile-menu {
+    background-color: #00afb9;
+    padding: 5%;
+    display: none;
+  }
+  
+  .mobile-menu a {
+    padding: 5vh 5%;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
 
 
 .logo {
     font-weight: 300;
     letter-spacing: 0.3rem;
-    margin-bottom: 0;
-    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0.5rem;
     padding-bottom: 0;
+    max-width: 300px;
+    display: block;
+    margin: auto;
 }
+
+.logoleft {padding: 1rem 0;}
 
 header nav a {
     text-decoration: none;
@@ -307,9 +364,15 @@ header nav a {
     margin-bottom:0;
 }
 
- header .fas {
+header .fas {
     font-size: 1.2rem;
     margin-bottom:0;
+}
+
+
+.cart {
+    position: absolute;
+    right: 0.5rem;
 }
 
 
@@ -374,12 +437,17 @@ I copied the above from our image gallery session but did nothing
 .shopbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    color: #72d4d4;
-    border: 1px solid #72d4d4;
-    padding: 0.8rem, 1rem;
+    color: inherit;
+    border-bottom: 1px solid #395261;
+    padding: 0.5rem;
     display: inline-block;
-    flex-basis: 50%;
-    max-width: 50%;
+    margin-bottom: 1rem;
+}
+
+a:hover.shopbutton{
+    color: #00afb9;
+    border-bottom: 1px solid #00afb9;
+    transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
 /* ........................card styling........... */
@@ -469,7 +537,7 @@ form button {
 
   body {
     border: 2px solid green; 
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     /* QUESTION: can't see diff with above padding */
 }
 
@@ -486,7 +554,7 @@ form button {
 
     body {
         border: 2px solid blue; 
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     html { font-size: 14px;}
@@ -515,6 +583,10 @@ form button {
 
     .logo h2 {font-size: 2rem;}
     header h3 {font-size: 10.5vw;}
+
+    footer div {
+        margin-bottom: 1rem;
+    }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -524,7 +596,7 @@ form button {
 
     body {
         border: 2px solid lightblue; 
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     .show-xs { display: block; }
@@ -537,6 +609,13 @@ form button {
 
      h2 {font-size: 2rem;}   
 
+     footer {
+        text-align: center;
+    }
+    footer p {
+        text-align: center;
+    }
+
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -547,7 +626,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
 
     body {
         border: 2px solid orange; 
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
     html { font-size: 12px;}
 
@@ -557,9 +636,6 @@ NOTE: divide 400 / 16 as 1 em=16px*/
       max-width: 50%;
     }
   
-    footer {
-        text-align: center;
-    }
 
 
 }
