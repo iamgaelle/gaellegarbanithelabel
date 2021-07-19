@@ -504,6 +504,7 @@ background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
+min-height: 50vh;
 }
 
 .bg-imgslider2 {
@@ -511,6 +512,7 @@ background-image: url('https://source.unsplash.com/eXHeq48Z-Q4');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
+min-height: 80vh;
 }
 
 .bg-imgslider3 {
@@ -518,6 +520,7 @@ background-image: url('https://source.unsplash.com/IZ01rjX0XQA');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
+min-height: 80vh;
 }
 
 .bg-imgslider4 {
@@ -525,6 +528,7 @@ background-image: url('https://source.unsplash.com/CTivHyiTbFw');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
+min-height: 80vh;
 }
 
 
