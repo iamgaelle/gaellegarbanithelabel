@@ -431,6 +431,108 @@ footer .fab {
 I copied the above from our image gallery session but did nothing
 
    */
+
+
+
+/* ......slick slider styling...... */
+
+
+/* ......Slider.... */
+
+
+.slider-container {
+    padding: 5%;
+
+}
+
+.slider-item {
+    padding: 0.3rem;
+  display: none;
+}
+
+.slider-item:first-child {
+display: block; 	
+}
+
+/* .slider-item:nth-child(odd) {
+    border: 2px solid teal;
+}
+*/
+.slick-prev:before {
+  content: '←';
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(90,90,90);
+}
+
+.slick-dots {
+     bottom: 10px;
+     left: 0; /* This align the dots perfectly to the center, without this the padding on the parent affects the centering of the dots, do not delete */
+}
+
+.slick-dots li,
+.slick-dots li button {
+     width: 10px;
+}
+
+.slick-dots li button::before {
+     font-size: 12px;
+     color: teal;
+}
+
+.slick-dots li.slick-active button::before {
+     color: teal;
+}
+
+
+/*background img for slider styles..... */
+.bg-imgslider1 {
+background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+background-color: lightblue;
+background-size: cover;
+background-position: center;
+}
+
+.bg-imgslider2 {
+background-image: url('https://source.unsplash.com/eXHeq48Z-Q4');
+background-color: lightblue;
+background-size: cover;
+background-position: center;
+}
+
+.bg-imgslider3 {
+background-image: url('https://source.unsplash.com/IZ01rjX0XQA');
+background-color: lightblue;
+background-size: cover;
+background-position: center;
+}
+
+.bg-imgslider4 {
+background-image: url('https://source.unsplash.com/CTivHyiTbFw');
+background-color: lightblue;
+background-size: cover;
+background-position: center;
+}
+
+
+.landscape {
+padding-bottom: 66%;
+}
+
+
 /* ............button styles............ */
 
 
@@ -454,6 +556,7 @@ a:hover.shopbutton{
 
 .card h4 {
     margin-top: 0rem;
+    margin-bottom: 0.1rem;
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -520,7 +623,7 @@ form button {
 }
 
 
-/* .......RESPONSIVE UTILITY CLASSES........ */
+/* ...............RESPONSIVE UTILITY CLASSES........ */
 
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
