@@ -1,7 +1,7 @@
 // initialise the hamburger
 $(".hamburger-button").click(function(){
     $(".mobile-menu").slideToggle();
-    $(this).toggleClass(active);
+    $(this).toggleClass("active");
   });
 
 

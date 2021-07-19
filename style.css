@@ -313,12 +313,12 @@ header [class*=col] {
     display: inline-block;
     padding: 0 0.5rem;
     font-weight: 200;
-    font-size: 2.4rem;
+    font-size: 9.5vw;
     line-height: 0.7;
-    margin-top: -0.7rem;
+    /* margin-top: -0.7rem; */
     position: fixed;
     right: 1rem;
-    top: 2.5rem;
+    top: 0.8rem;
     z-index: 2;
     
     
@@ -504,7 +504,7 @@ background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
-min-height: 50vh;
+min-height: 80vh;
 }
 
 .bg-imgslider2 {
