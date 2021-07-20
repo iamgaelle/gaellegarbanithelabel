@@ -331,8 +331,14 @@ header [class*=col] {
   
   .mobile-menu {
     background-color: #00afb9;
-    padding: 5%;
+    padding: 2% 5%;
     display: none;
+    position: fixed;
+    right: 0rem;
+    left: 0rem;
+    top: 9vw;
+    z-index: 2;
+
   }
   
   .mobile-menu a {
