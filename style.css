@@ -207,7 +207,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 h1 {
@@ -289,7 +289,7 @@ a:hover{
 
 
 
-/* ..........................header and footer styles.................. */
+/* ..........................header styles.................. */
 
 header {
     padding: 1.5% 5%;
@@ -309,44 +309,6 @@ header [class*=col] {
   }
 
 
-  .hamburger-button {
-    cursor: pointer;
-    display: inline-block;
-    padding: 0 0.5rem;
-    font-weight: 200;
-    font-size: 9.5vw;
-    line-height: 0.7;
-    /* margin-top: -0.7rem; */
-    position: fixed;
-    right: 1rem;
-    top: 0.8rem;
-    z-index: 2;
-    
-    
-  }
-  
-  .hamburger-button.active {
-    color: #00afb9;
-  }
-  
-  .mobile-menu {
-    background-color: #00afb9;
-    padding: 2% 5%;
-    display: none;
-    position: fixed;
-    right: 0rem;
-    left: 0rem;
-    top: 9vw;
-    z-index: 2;
-
-  }
-  
-  .mobile-menu a {
-    padding: 5vh 5%;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
 
 
 .logo {
@@ -364,6 +326,9 @@ header [class*=col] {
 
 header nav a {
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
     border: none;
     color: inherit;
     display: inline-block;
@@ -382,6 +347,61 @@ header .fas {
     right: 0.5rem;
 }
 
+/* .............hamburger stylings............. */
+.hamburger-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-weight: 200;
+    font-size: 6.2vw;
+    line-height: 0.7;
+    /* margin-top: -0.7rem; */
+    position: fixed;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 2;
+  }
+
+  .hamburger-button-left {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-weight: 200;
+    font-size: 6.2vw;
+    line-height: 0.7;
+    /* margin-top: -0.7rem; */
+    position: fixed;
+    left: 1rem;
+    top: 2.5rem;
+    z-index: 2;
+  }
+  
+  .hamburger-button.active {
+    color: #00afb9;
+  }
+  
+  .mobile-menu {
+    background-color: #00afb9;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 5%;
+    display: none;
+    position: fixed;
+    right: 0rem;
+    left: 0rem;
+    top: 9vw;
+    z-index: 2;
+  }
+  
+  .mobile-menu a {
+    padding: 5vh 5%;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+
+/* ..........................ooter styles.................. */
 
 footer {
     background-color: #fff7f3;
@@ -429,6 +449,22 @@ footer .fab {
     background-attachment: fixed;
   }
  
+
+/* ..............about introduciton....... */
+
+.about-intro {
+    background-color: #fff7f3;
+    color: inherit;
+    min-height: 30vh;
+}
+
+.about-intro p {
+    letter-spacing: 0.2;
+    line-height: 1.8;
+    font-size: 1.3rem;
+    /* text-transform: uppercase; */
+}
+
 /*.........sarong gallery styling.....  */
 /* 
 .gallery [class*="col-"] {
@@ -554,7 +590,7 @@ padding-bottom: 66%;
     border-bottom: 1px solid #395261;
     padding: 0.5rem;
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 a:hover.shopbutton{
@@ -730,6 +766,13 @@ form button {
         text-align: center;
     }
 
+    .hamburger-button {
+        padding: 0 0.5rem;
+        font-size: 6.5vw;
+        right: 1rem;
+        top: 2rem;
+    }
+    
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -750,7 +793,12 @@ NOTE: divide 400 / 16 as 1 em=16px*/
       max-width: 50%;
     }
   
-
+    .hamburger-button {
+        padding: 0 0.5rem;
+        font-size: 6.8vw;
+        right: 1rem;
+        top: 2.2rem;
+    }
 
 }
 
