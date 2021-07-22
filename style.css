@@ -61,7 +61,7 @@ img {
 /* PADDING ULITLITY CLASSES */
 
 .padded         { padding: 5%;}
-.paddedsmall    { padding: 2.2%;}
+.paddedsmall    { padding: 2%;}
 .paddedlarge    { padding: 10%;}
 
 .padded-05 { padding: 0.5rem; }
@@ -329,6 +329,7 @@ header nav a {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
+    font-size: 14px;
     border: none;
     color: inherit;
     display: inline-block;
@@ -345,6 +346,12 @@ header .fas {
 .cart {
     position: absolute;
     right: 0.5rem;
+}
+
+.cartright {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.8rem;
 }
 
 /* .............hamburger stylings............. */
@@ -379,6 +386,10 @@ header .fas {
   .hamburger-button.active {
     color: #00afb9;
   }
+
+  .hamburger-button-left.active {
+    color: #00afb9;
+  }
   
   .mobile-menu {
     background-color: #00afb9;
@@ -396,12 +407,13 @@ header .fas {
   .mobile-menu a {
     padding: 5vh 5%;
     text-decoration: none;
+    text-transform: uppercase;
     color: inherit;
     display: block;
   }
 
 
-/* ..........................ooter styles.................. */
+/* ..........................footer styles.................. */
 
 footer {
     background-color: #fff7f3;
@@ -450,7 +462,7 @@ footer .fab {
   }
  
 
-/* ..............about introduciton....... */
+/* ..............about introduction....... */
 
 .about-intro {
     background-color: #fff7f3;
@@ -484,7 +496,7 @@ I copied the above from our image gallery session but did nothing
 
 
 .slider-container {
-    padding: 5%;
+    padding: 0.5%;
 
 }
 
@@ -586,6 +598,8 @@ padding-bottom: 66%;
 .shopbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
     color: inherit;
     border-bottom: 1px solid #395261;
     padding: 0.5rem;
@@ -663,7 +677,7 @@ form button {
   color: white;
   border: none;
   padding: 0.5rem 1.5rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   margin: 1rem 0;
   appearance: none;
 
@@ -737,6 +751,13 @@ form button {
     footer div {
         margin-bottom: 1rem;
     }
+
+    .hamburger-button-left {
+        padding: 0 0.5rem;
+        font-size: 5.3vw;
+        left: 1rem;
+        top: 1.9rem;
+    }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -757,9 +778,9 @@ form button {
         line-height: 1.1;
         }
 
-     h2 {font-size: 2rem;}   
+    h2 {font-size: 2rem;}   
 
-     footer {
+    footer {
         text-align: center;
     }
     footer p {
@@ -768,9 +789,19 @@ form button {
 
     .hamburger-button {
         padding: 0 0.5rem;
-        font-size: 6.5vw;
+        font-size: 5.3vw;
         right: 1rem;
+        top: 2.1rem;
+    }
+
+    .hamburger-button-left {
+        padding: 0 0.5rem;
+        font-size: 6.5vw;
+        left: 1rem;
         top: 2rem;
+    }
+    .slick-dots li button:before {
+        font-size: 3px;
     }
     
 }
@@ -787,6 +818,11 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     }
     html { font-size: 12px;}
 
+    h1 {font-size: 1.5rem;}   
+
+    img {
+        max-width: 63%;
+    }
     /* QUESTION: Don't understand the below */
     .xxs-stack { 
       flex-basis: 100%; 
@@ -800,6 +836,16 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         top: 2.2rem;
     }
 
+    .hamburger-button-left {
+        padding: 0 0.5rem;
+        font-size: 6.8vw;
+        left: 1rem;
+        top: 2.2rem;
+    }
+
+    .slick-dots li button:before {
+        font-size: 3px;
+    }
 }
 
 

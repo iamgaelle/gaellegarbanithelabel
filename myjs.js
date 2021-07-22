@@ -1,5 +1,11 @@
-// initialise the hamburger
+// initialise the hamburger - right option
 $(".hamburger-button").click(function(){
+    $(".mobile-menu").slideToggle();
+    $(this).toggleClass("active");
+  });
+
+  // initialise the hamburger - left option
+$(".hamburger-button-left").click(function(){
     $(".mobile-menu").slideToggle();
     $(this).toggleClass("active");
   });
