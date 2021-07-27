@@ -492,13 +492,13 @@ I copied the above from our image gallery session but did nothing
 
 
 .slider-container {
-    padding: 0.5%;
+    padding: 0;
 
 }
 
 .slider-item {
-    padding: 0.3rem;
-  display: none;
+    padding: 0;
+    display: none;
 }
 
 .slider-item:first-child {
@@ -532,6 +532,10 @@ display: block;
 .slick-dots {
      bottom: 10px;
      left: 0; /* This align the dots perfectly to the center, without this the padding on the parent affects the centering of the dots, do not delete */
+     /* width: initial; */
+     /* bottom: 25px; */
+     /* left: initial; */
+     /* right: 25px; */
 }
 
 .slick-dots li,
@@ -589,15 +593,32 @@ background-position: center;
     font-weight: 300;
     font-size: 14px;
     color: inherit;
-    border-bottom: 1px solid #395261;
     padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
 }
+.underline {
+    position: relative;
+}
+.underline::after{
+    content: ' ';
+    position:absolute;
+    width:90%;
+    border-bottom: 1px solid #395261;
+    bottom:3px;
+    left: 5%;
+    transition:1s;
+   
+  }
+  .underline:hover::after {
+    transition:1s;
+    border-bottom: 1px solid #00afb9;
+    width:0%;
+    left:0;
+  }
 
 a:hover.shopbutton{
     color: #00afb9;
-    border-bottom: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
@@ -670,7 +691,7 @@ form button {
   appearance: none;
 }
 
-/* a:hover.shopbutton{
+/* form button:hover{
     color: #00afb9;
     border-bottom: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
