@@ -1,9 +1,12 @@
 
 /* colors: 
-grey: #6C7A89 395261
-Navy: #192B37 
-turquoise: #00afb9 - 72d4d4 
-light peach #fff7f3*/
+    - grey: #6C7A89 395261
+    - Navy: #192B37 
+    - turquoise: #00afb9 - 72d4d4 
+    - light peach #fff7f3
+    - beige - F8F6F4
+    - pink - FFA995*/
+
 
 
 
@@ -42,15 +45,6 @@ html {
     border: none;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-    border: none;
-}
-
-a:hover {
-    color: #72d4d4;
-}
 
 img {
     max-width: 100%;
@@ -127,6 +121,8 @@ img {
 .tall50vh       {min-height: 50vh;}
 .tall40vh       {min-height: 40vh;}
 
+
+
 /* BACKGROUND COLOR AND IMAGES CLASSES */
 
 .bg-dark {
@@ -145,7 +141,7 @@ img {
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
-
+/* .sliderimg     { } */
 
 /* Individual image styles */
 
@@ -184,7 +180,7 @@ img {
     background-position: 50% 53%;
 }
 
-/* ..............instagram gallery style.................. */
+/* images for instagram gallery style */
 
 .bg-image {
     background-color: rgb(235,235,235);
@@ -322,7 +318,7 @@ header [class*=col] {
     margin: auto;
 }
 
-.logoleft {padding: 1rem 0;}
+/* .logoleft {padding: 1rem 0;} */
 
 header nav a {
     text-decoration: none;
@@ -342,11 +338,10 @@ header .fas {
     margin-bottom:0;
 }
 
-
-.cart {
+/* .cart {
     position: absolute;
     right: 0.5rem;
-}
+} */
 
 .cartright {
     position: absolute;
@@ -355,6 +350,7 @@ header .fas {
 }
 
 /* .............hamburger stylings............. */
+
 .hamburger-button {
     cursor: pointer;
     display: inline-block;
@@ -436,6 +432,8 @@ footer .fab {
       font-size: 1.1rem;
   }
 
+  
+
 
 /*  .......footer social..... */
 
@@ -491,8 +489,6 @@ I copied the above from our image gallery session but did nothing
 
 /* ......slick slider styling...... */
 
-
-/* ......Slider.... */
 
 
 .slider-container {
@@ -554,12 +550,18 @@ display: block;
 
 
 /*background img for slider styles..... */
+
+.bg-sliderimg{
+    /* padding-bottom: 50%; */
+    min-height: 100vh;
+    }
+    
+
 .bg-imgslider1 {
 background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
-min-height: 80vh;
 }
 
 .bg-imgslider2 {
@@ -567,7 +569,6 @@ background-image: url('https://source.unsplash.com/eXHeq48Z-Q4');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
-min-height: 80vh;
 }
 
 .bg-imgslider3 {
@@ -575,21 +576,8 @@ background-image: url('https://source.unsplash.com/IZ01rjX0XQA');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
-min-height: 80vh;
 }
 
-.bg-imgslider4 {
-background-image: url('https://source.unsplash.com/CTivHyiTbFw');
-background-color: lightblue;
-background-size: cover;
-background-position: center;
-min-height: 80vh;
-}
-
-
-.landscape {
-padding-bottom: 66%;
-}
 
 
 /* ............button styles............ */
@@ -680,9 +668,13 @@ form button {
   letter-spacing: 0.1rem;
   margin: 1rem 0;
   appearance: none;
-
 }
 
+/* a:hover.shopbutton{
+    color: #00afb9;
+    border-bottom: 1px solid #00afb9;
+    transition: color .2s ease-in-out, opacity .2s ease-in-out;
+} */
 
 /* ...............RESPONSIVE UTILITY CLASSES........ */
 
@@ -778,14 +770,12 @@ form button {
         line-height: 1.1;
         }
 
-    h2 {font-size: 2rem;}   
+    .logoimg  { max-width: 70%; }
 
-    footer {
-        text-align: center;
-    }
-    footer p {
-        text-align: center;
-    }
+    h2        { font-size: 2rem; }   
+
+    footer    { text-align: center; }
+    footer p  { text-align: center; }
 
     .hamburger-button {
         padding: 0 0.5rem;
@@ -798,7 +788,7 @@ form button {
         padding: 0 0.5rem;
         font-size: 6.5vw;
         left: 1rem;
-        top: 2rem;
+        top: 1.7rem;
     }
     .slick-dots li button:before {
         font-size: 3px;
@@ -823,6 +813,11 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     img {
         max-width: 63%;
     }
+
+    .logoimg {
+        max-width: 200px;
+    }
+
     /* QUESTION: Don't understand the below */
     .xxs-stack { 
       flex-basis: 100%; 
