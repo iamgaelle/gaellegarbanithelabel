@@ -112,9 +112,24 @@ img {
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
+
+/* POSITIONS */
+
+.absolute { position:absolute;}
+.relative { position:relative;}
+
+.shop-sarongs {
+    position:absolute; 
+    top: -5%;
+}
+.shop-kimonos {
+    position:absolute; 
+    top: -10%;
+}
+
 /* MIN HEIGHT ClASSES */
 
-.tall100vh       {min-height: 100vh;}
+.tall100vh      {min-height: 100vh;}
 .tall80vh       {min-height: 80vh;}
 .tall70vh       {min-height: 70vh;}
 .tall60vh       {min-height: 60vh;}
@@ -289,12 +304,11 @@ a:hover{
 
 header {
     padding: 1.5% 5%;
-    padding-top: 0;
     background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
+    /* left: 0; */
     z-index: 9;
 
 }
@@ -346,7 +360,7 @@ header .fas {
 .cartright {
     position: absolute;
     right: 0.5rem;
-    top: 1.8rem;
+    top: 1.2rem;
 }
 
 /* .............hamburger stylings............. */
@@ -792,12 +806,12 @@ form button {
         margin-bottom: 1rem;
     }
 
-    .hamburger-button-left {
+    /* .hamburger-button-left {
         padding: 0 0.5rem;
         font-size: 5.3vw;
         left: 1rem;
         top: 1.9rem;
-    }
+    } */
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -825,21 +839,19 @@ form button {
     footer    { text-align: center; }
     footer p  { text-align: center; }
 
-    .hamburger-button {
-        padding: 0 0.5rem;
-        font-size: 5.3vw;
-        right: 1rem;
-        top: 2.1rem;
-    }
-
     .hamburger-button-left {
         padding: 0 0.5rem;
-        font-size: 6.5vw;
+        font-size: 6vw;
         left: 1rem;
-        top: 1.7rem;
+        top: 1.2rem;
     }
     .slick-dots li button:before {
         font-size: 3px;
+    }
+
+    .shop-sarongs {
+        position:absolute; 
+        top: -3%;
     }
     
 }
@@ -871,19 +883,12 @@ NOTE: divide 400 / 16 as 1 em=16px*/
       flex-basis: 100%; 
       max-width: 50%;
     }
-  
-    .hamburger-button {
-        padding: 0 0.5rem;
-        font-size: 6.8vw;
-        right: 1rem;
-        top: 2.2rem;
-    }
 
     .hamburger-button-left {
         padding: 0 0.5rem;
         font-size: 6.8vw;
         left: 1rem;
-        top: 1.7rem;
+        top: 1.4rem;
     }
 
     .slick-dots li button:before {

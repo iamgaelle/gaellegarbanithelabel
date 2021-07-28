@@ -69,44 +69,41 @@
 
   <!-- .....................HEADER: Logo and nav center option................... -->
      
-<header class="paddedsmall">
-
-  <div class="text-center margin-b-05">
-      <a class="logo" href="/index.html">
-          <img src="/LOGO/gg-logo-13.svg">
-      </a>
-  </div>
-
-  <div class="text-center hide-xs padded-b-0">
-      <nav>
-          <a href="/index.html"> Home </a>
-          <a href="/shop.html"> Shop </a>
-          <a href="/collection.html"> Collection </a>
-          <a href="/about.html"> About </a>
-          <a class="cart" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-      </nav>
-  </div>
-
-  <div class="text-right show-xs padded-b-0">
-      <nav>
-          <a class="cartright" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-      </nav>
-  </div>
-  <div>
-      <a class="hamburger-button-left show-xs"> &#9776; </a>
+  <header>
+    <div class="text-center margin-b-05">
+        <a class="logo" href="/index.html">
+            <img class="logoimg" src="/LOGO/gg-logo-13.svg">
+        </a>
     </div>
-    
-</header>
 
-<div class="mobile-menu"> 
-  <nav>
-      <a href="/index.html"> Home </a>
-      <a href="/shop.html"> Shop </a>
-      <a href="/collection.html"> Collection </a>
-      <a href="/about.html"> About us </a>
-  </nav> 
-</div>  
+    <div class="text-center hide-xs padded-b-0">
+        <nav>
+            <a href="/index.html"> Home </a>
+            <a href="/shop.html"> Shop </a>
+            <a href="/collection.html"> Collection </a>
+            <a href="/about.html"> About </a>
+            <a class="cart" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
+        </nav>
+    </div>
 
+    <div class="text-right show-xs padded-b-0">
+        <nav>
+            <a class="cartright" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
+        </nav>
+    </div>
+    <div>
+        <a class="hamburger-button-left show-xs"> &#9776; </a>
+      </div>
+  </header> 
+
+  <div class="mobile-menu"> 
+    <nav class="margin-t-1">
+        <a href="/index.html"> Home </a>
+        <a href="/shop.html"> Shop </a>
+        <a href="/collection.html"> Collection </a>
+        <a href="/about.html"> About us </a>
+    </nav> 
+  </div>  
 
 <!-- .....................slick slider gallery............ -->
 
@@ -114,11 +111,11 @@
 <div class="slider-container grid">
     <div class="slider-item col-12-middle">
       <div class="bg-imgslider1 bg-sliderimg"></div>
-      <a class="sliderbutton" href="/shop.html#sarongs">Shop</a>
+      <!-- <a class="sliderbutton" href="/shop.html#sarongs">Shop</a> -->
     </div>
     <div class="slider-item col-12-middle">
        <div class="bg-imgslider2 bg-sliderimg"> </div>
-       <a class="sliderbutton" href="/shop.html#kimonos">Shop</a>
+       <!-- <a class="sliderbutton" href="/shop.html#kimonos">Shop</a> -->
     </div>
     <div class="slider-item col-12-middle">
        <div class="bg-imgslider3 bg-sliderimg"> </div>
@@ -128,10 +125,10 @@
 
 <!-- ....................gallery shop sarong section........... -->
 
-<section id="sarongs" class=" text-center padded">
-    <h1 class="text-center">
-        Sarongs
-    </h1>
+<section class="relative text-center padded">
+
+    <div class="shop-sarongs" id="sarongs"> </div>
+    <h1 class="text-center padded">Sarongs</h1>
   
  
 <!-- ..............cards section.................. -->
@@ -187,10 +184,10 @@
 
 <!-- ........gallery shop kimonons  section........... -->
 
-<section id="kimonos" class=" text-center padded padded-t-0">
-    <h1 class="text-center">
-        Kimonos
-    </h1>
+<section class="relative text-center padded">
+
+    <div class="shop-kimonos" id="kimonos"> </div>
+    <h1 class="text-center padded">Kimonos</h1>
  
 <!-- ..............cards section.................. -->
 <div class="grid-center">
