@@ -92,6 +92,7 @@ img {
 .margin-l { margin-left: 5%; }
 .margin-r { margin-right: 5%; }
 
+.margin-t-05 { margin-top: 0.5rem; }
 .margin-b-05 { margin-bottom: 0.5rem; }
 
 .margin-t-1 { margin-top: 1rem; }
@@ -120,11 +121,11 @@ img {
 
 .shop-sarongs {
     position:absolute; 
-    top: -5%;
+    top: -7%;
 }
 .shop-kimonos {
     position:absolute; 
-    top: -10%;
+    top: -17%;
 }
 
 /* MIN HEIGHT ClASSES */
@@ -226,7 +227,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: 300;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 h2 {
     font-size: 1.8rem;
@@ -466,7 +467,6 @@ footer .fab {
     color: white;
     background-size: cover;
     background-position: top;
-    min-height: 90vh;
   }
 
 .fixed {
