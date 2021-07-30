@@ -114,6 +114,15 @@ img {
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
 
+/* MIN HEIGHT ClASSES */
+
+.tall100vh      {min-height: 100vh;}
+.tall80vh       {min-height: 80vh;}
+.tall70vh       {min-height: 70vh;}
+.tall60vh       {min-height: 60vh;}
+.tall50vh       {min-height: 50vh;}
+.tall40vh       {min-height: 40vh;}
+
 /* POSITIONS */
 
 .absolute { position:absolute;}
@@ -128,15 +137,10 @@ img {
     top: -17%;
 }
 
-/* MIN HEIGHT ClASSES */
-
-.tall100vh      {min-height: 100vh;}
-.tall80vh       {min-height: 80vh;}
-.tall70vh       {min-height: 70vh;}
-.tall60vh       {min-height: 60vh;}
-.tall50vh       {min-height: 50vh;}
-.tall40vh       {min-height: 40vh;}
-
+.sarong-1 {
+    position:absolute; 
+    top: -17%;
+}
 
 
 /* BACKGROUND COLOR AND IMAGES CLASSES */
@@ -163,7 +167,7 @@ img {
 
 
 .bg-img {
-    background-image: url('/assets/the-sleep-co-lamp.jpg');
+    background-image: url('/assets/bali-ricefields.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* min-height: 10rem; */
@@ -191,7 +195,7 @@ img {
 }
 
 .bg-bannerimg {
-    background-image: url('/assets/the-sleep-co-yellow.jpg');
+    background-image: url('/assets/bali-ricefields.jpg');
     background-size: cover;
     background-position: 50% 53%;
 }
@@ -544,12 +548,13 @@ display: block;
 }
 
 .slick-dots {
-     bottom: 10px;
-     left: 0; /* This align the dots perfectly to the center, without this the padding on the parent affects the centering of the dots, do not delete */
-     /* width: initial; */
-     /* bottom: 25px; */
-     /* left: initial; */
-     /* right: 25px; */
+     /* bottom: 10px; */
+     /* left: 0;  */
+     /* This align the dots perfectly to the center, without this the padding on the parent affects the centering of the dots, do not delete */
+     width: initial;
+     bottom: 25px;
+     left: initial;
+     right: 25px;
 }
 
 .slick-dots li,
@@ -699,7 +704,8 @@ a:hover.shopbutton{
 }
 
 
-.sliderbutton {
+.sliderbutton,
+.addbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
@@ -711,7 +717,8 @@ a:hover.shopbutton{
     border: 1px solid #395261;
 }
 
-a:hover.sliderbutton{
+a:hover.sliderbutton, 
+a:hover.addbutton{
     color: #00afb9;
     border: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;

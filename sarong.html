@@ -3,9 +3,12 @@
 <!-- this is the head of our html where we add extra resource and metadata. this is where all the info that is not displayed on screen is mentioned like gridlex, googlefont... -->
 <head>
 <!-- Need to add a title. this text  will appear in SE as well as in the tab of the browser -->
-    <title> Shop Gaelle Garbani The Label </title>
+    <title> Gaelle Garbani The Label </title>
 
 <!-- NOTE: add metadata ref on top of our CSS link so they don't overwrite our own stylesheet-->
+
+<!-- javascript -->
+<script type="text/javascript" src="myjs.js"></script>
 
 <!-- Viewport meta for responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,110 +38,70 @@
 <!-- .....................HEADER: Logo and nav center option................... -->
      
 <header>
-  <div class="text-center margin-b-05">
-      <a class="logo" href="/index.html">
-          <img class="logoimg" src="/LOGO/gg-logo-13.svg">
-      </a>
-  </div>
-
-  <div class="text-center hide-xs padded-b-0">
-      <nav>
-          <a href="/index.html"> Home </a>
-          <a href="/shop.html"> Shop </a>
-          <a href="/collection.html"> Collection </a>
-          <a href="/about.html"> About </a>
-          <a class="cart" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-      </nav>
-  </div>
-
-  <div class="text-right show-xs padded-b-0">
-      <nav>
-          <a class="cartright" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-      </nav>
-  </div>
-  <div>
-      <a class="hamburger-button-left show-xs"> &#9776; </a>
+    <div class="text-center margin-b-05">
+        <a class="logo" href="/index.html">
+            <img class="logoimg" src="/LOGO/gg-logo-13.svg">
+        </a>
     </div>
-</header>
 
-<div class="mobile-menu "> 
-  <nav class="margin-t-1">
-      <a href="/index.html"> Home </a>
-      <a href="/shop.html"> Shop </a>
-      <a href="/collection.html"> Collection </a>
-      <a href="/about.html"> About us </a>
-  </nav> 
-</div>  
-
-  
-<!-- ............hero bannner..................... -->
-
-<section class="hero-banner grid-center fixed tall100vh"> 
-    <div class="col-8_sm-12-middle text-center">
-      <h2> eco-conscious wearable <br> piece of art </h2>
-    </div> 
-  </section>
-
-
-<!-- ........gallery sarong section........... -->
-
-<section class=" text-center padded">
-    <h1 class="text-center">
-        collection
-    </h1>
-    
-<!-- img cards section -->
-
-<div class="grid-middle paddedsmall">
-    <div class="col-6 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 portrait"> </div>
-            <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
+    <div class="text-center hide-xs padded-b-0">
+        <nav>
+            <a href="/index.html"> Home </a>
+            <a href="/shop.html"> Shop </a>
+            <a href="/collection.html"> Collection </a>
+            <a href="/about.html"> About </a>
+            <a class="cart" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
+        </nav>
     </div>
-    <div class="col-6 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 portrait"> </div>
-            <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
+
+    <div class="text-right show-xs padded-b-0">
+        <nav>
+            <a class="cartright" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
+        </nav>
     </div>
-    <div class="col-12 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 landscape"> </div>
-            <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
-    </div> 
-    <div class="col-6 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 portrait"> </div>
-           <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
+    <div>
+        <a class="hamburger-button-left show-xs"> &#9776; </a>
+      </div>
+
+  </header>
+
+  <div class="mobile-menu"> 
+    <nav class="margin-t-1">
+        <a href="/index.html"> Home </a>
+        <a href="/shop.html"> Shop </a>
+        <a href="/collection.html"> Collection </a>
+        <a href="/about.html"> About us </a>
+    </nav> 
+  </div>  
+
+<!-- .....................SARONG section.............. -->
+
+<section class="relative padded grid">
+
+    <div class="sarong-1" id="sarong1"> </div>
+
+    <div class="col-6 grid padded">
+
+        <div class="col-12 bg-sarong1 portrait paddedsmall"></div>
+        <div class="col-12 grid paddedsmall">
+            <div class="col-3 bg-sarong1 square paddedsmall"></div>
+            <div class="col-3 bg-sarong1 square paddedsmall"></div>
+            <div class="col-3 bg-sarong1 square paddedsmall"></div>
+            <div class="col-3 bg-sarong1 square paddedsmall"></div>
+        </div>
     </div>
-    <div class="col-6 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 portrait"> </div>
-            <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
-    </div> 
-    <div class="col-12 paddedsmall">
-        <div class="card">
-            <div class="bg-sarong1 portrait"> </div>
-            <!-- <div class="padded-1">
-                <h4> little heading </h4>
-            </div> -->
-        </div> 
-    </div> 
-</div>
+
+    <div class="col-6 padded">
+        <h2>Melasti sarong</h2>
+        <p>Price</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fuga. Eligendi, placeat ex! Illum quam ullam optio enim! Sint quos molestias tempora eveniet et! Corporis eius inventore maiores beatae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fuga. Eligendi, placeat ex! Illum quam ullam optio enim! Sint quos molestias tempora eveniet et! Corporis eius inventore maiores beatae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quam fuga. Eligendi, placeat ex! Illum quam ullam optio enim! Sint quos molestias tempora eveniet et! Corporis eius inventore maiores beatae.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a class="addbutton" href="#">Add to cart</a>
+    </div>
 
 </section>
 
@@ -153,35 +116,35 @@
       <div class="insta-gallery grid-center padded-1">
     
         <a class="col-3_xs-6 fancybox" href="/assets/bali-ricefields.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6  fancybox" href="/assets/sunset-yoga.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/sunset-yoga.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/sunset-yoga.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6 fancybox" href="/assets/sarong-beach.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6 fancybox" href="/assets/bali-ricefields.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6  fancybox" href="/assets/sunset-yoga.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/sunset-yoga.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/sunset-yoga.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6 fancybox" href="/assets/sarong-beach.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6 fancybox" href="/assets/bali-ricefields.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/bali-ricefields.jpg')"></div>
         </a>
-    
+      
         <a class="col-3_xs-6 fancybox" href="/assets/sarong-beach.jpg" data-fancybox="gallery">
-          <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
+            <div class="bg-image square" style="background-image:url('/assets/sarong-beach.jpg')"></div>
         </a>
     
       </div>
@@ -191,17 +154,10 @@
 <!-- .........................footer.................. -->
 
    
-
 <footer class="grid-top-spaceBetween padded">
-    <!-- column -->
-  <!--   <div class="col-3_sm-12 padded-1">
-      <h2 class="logo"> Logo </h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
-    <div class="col-1 sm-hidden"> empty filler </div> -->
   
     <!-- column -->
-    <div class="col-2_sm-4_xs-12 padded-05">
+    <div class="col-2_sm-6_xs-12 padded-05">
       <h3 class="caps"> Explore </h3>
       <nav>
         <a href="/index.html"> Home </a>
@@ -212,10 +168,11 @@
     </div>
   
     <!-- column -->
-    <div class="col-3_sm-4_xs-12 padded-05">
+    <div class="col-3_sm-6_xs-12 padded-05">
        <h3 class="caps"> join us </h3>
        <p>Receive the latest & greatest news, product launches, giveaways and much more!</p>
-  <!--     <form action="https://formspree.io/hello@company.com" method="POST"> -->
+  
+       <!--     <form action="https://formspree.io/hello@company.com" method="POST"> -->
       <form>
          <input type="email" name="_replyto" id="_replyto" placeholder="Your email address" />
          <button type="submit"> SUBMIT </button>
@@ -241,7 +198,6 @@
       </nav>
     </div>
   </footer>
-
 
   <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
