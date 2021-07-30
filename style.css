@@ -860,6 +860,9 @@ form button {
         position:absolute; 
         top: -3%;
     }
+
+    .flex-flip-sm { flex-direction: column-reverse; }
+
     
 }
 
