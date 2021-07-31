@@ -85,8 +85,6 @@ img {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-bottom: 0; }
 
-.header-fix { padding-top: 5rem;}
-
 /* MARGIN ULITLITY CLASSES */
 
 .margin-t { margin-top: 5%; }
@@ -126,6 +124,8 @@ img {
 .tall40vh       {min-height: 40vh;}
 
 /* POSITIONS */
+
+.header-fix { padding-top: 7rem;}
 
 .absolute { position:absolute;}
 .relative { position:relative;}
@@ -278,6 +278,7 @@ a:hover{
 .whitecolor-text    {color: white;}
 
 .font-weight-normal {font-weight: normal;}
+.font-weight-300 {font-weight: 300;}
 .font-weight-light  {font-weight: 200;}
 .font-weight-xbold  {font-weight: 800;}
 
@@ -708,12 +709,12 @@ a:hover.shopbutton{
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
-.sliderbutton {
-    /* below is to fix position using absolute/relative method */
-    /* position: absolute;
+   /* below is to fix position using absolute/relative method */
+/* .sliderbutton {
+    position: absolute;
     top: 60%;
-    left: calc(50% - 3rem); */
-}
+    left: calc(50% - 3rem);
+} */
 
 .sliderbutton,
 .addbutton {
