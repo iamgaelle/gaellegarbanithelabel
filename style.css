@@ -85,6 +85,8 @@ img {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-bottom: 0; }
 
+.header-fix { padding-top: 5rem;}
+
 /* MARGIN ULITLITY CLASSES */
 
 .margin-t { margin-top: 5%; }
@@ -161,6 +163,7 @@ img {
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
+
 /* .sliderimg     { } */
 
 /* Individual image styles */
@@ -537,6 +540,7 @@ display: block;
 
 .slick-prev {
   left: 25px;
+  z-index:5;
 }
 
 .slick-next::before, .slick-prev::before {
@@ -577,6 +581,7 @@ display: block;
 .bg-sliderimg{
     /* padding-bottom: 50%; */
     min-height: 100vh;
+    position: relative;
     }
     
 
@@ -703,6 +708,12 @@ a:hover.shopbutton{
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
+.sliderbutton {
+    /* below is to fix position using absolute/relative method */
+    /* position: absolute;
+    top: 60%;
+    left: calc(50% - 3rem); */
+}
 
 .sliderbutton,
 .addbutton {
@@ -710,8 +721,7 @@ a:hover.shopbutton{
     letter-spacing: 0.1rem;
     font-weight: 300;
     font-size: 14px;
-    color: inherit;
-    padding: 0.5rem;
+    color: inherit;    padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
     border: 1px solid #395261;
