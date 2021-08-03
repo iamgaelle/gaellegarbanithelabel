@@ -85,6 +85,10 @@ img {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-bottom: 0; }
 
+.insta-padding [class*=col-], [class*=col_], [class~=col] {
+    padding: 0 -0.5rem 1rem;
+}
+
 /* MARGIN ULITLITY CLASSES */
 
 .margin-t { margin-top: 5%; }
