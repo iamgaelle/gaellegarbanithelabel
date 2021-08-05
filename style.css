@@ -189,6 +189,15 @@ img {
     background-position: center;
 }
 
+/*  ....background imaages style..... */
+.bg-img1 {
+    background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+ 
 .bg-img2 {
     background-image: url('/assets/sunset-yoga.jpg');
     background-size: cover;
@@ -200,6 +209,14 @@ img {
     background-size: cover;
     background-position: center;
 }
+
+  
+.bg-img4 {
+    background-image: url('https://source.unsplash.com/CTivHyiTbFw');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
 
 .bg-bannerimg {
     background-image: url('/assets/bali-ricefields.jpg');
