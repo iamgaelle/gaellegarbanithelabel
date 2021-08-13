@@ -8,12 +8,8 @@
     - pink - FFA995*/
 
 
-
-
-
 /* PHOTOS:
 A3QXXEfcA1U
-
 */
 
 /* included fonts */
@@ -66,7 +62,7 @@ img {
     max-width: 100%;
 }
 
-/* ............................. universal styles and utility class..................... */
+/* ............................. utility class..................... */
 
 /* PADDING ULITLITY CLASSES */
 
@@ -312,6 +308,11 @@ a {
 
 a:hover{
     color: #00afb9;
+}
+
+.lightgreyhover:hover{
+    color: inherit;
+    opacity: .75;
 }
 
 .text-left      { text-align: left ;}
@@ -741,15 +742,15 @@ form textarea:focus {
 .underline::after{
     content: ' ';
     position:absolute;
-    width:90%;
+    width:85%;
     border-bottom: 1px solid #395261;
     bottom:3px;
     left: 5%;
-    transition:1s;
+    transition:0.3s;
    }
 
   .underline:hover::after {
-    transition:1s;
+    transition:0.5s;
     border-bottom: 1px solid #00afb9;
     width:0%;
     left:0;
@@ -925,7 +926,7 @@ form button {
 
     .flex-flip-sm { flex-direction: column-reverse; }
 
-    
+    .header-fix { padding-top: 4rem;}
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
