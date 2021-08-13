@@ -70,6 +70,7 @@ img {
 .paddedsmall    { padding: 2%;}
 .paddedlarge    { padding: 10%;}
 
+.padded-03 { padding: 0.3rem; }
 .padded-05 { padding: 0.5rem; }
 .padded-1  { padding: 1rem; }
 .padded-2  { padding: 2rem; }
@@ -95,7 +96,7 @@ img {
 .padded-t-0 { padding-top: 0; }
 .padded-b-0 { padding-bottom: 0; }
 .padded-l-0 { padding-left: 0; }
-.padded-r-0 { padding-bottom: 0; }
+.padded-r-0 { padding-right: 0; }
 
 /* .insta-padding [class*=col-], [class*=col_], [class~=col] {
     padding: 0 0.1rem 1rem;
