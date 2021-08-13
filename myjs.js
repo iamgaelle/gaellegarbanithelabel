@@ -56,7 +56,7 @@ $(document).ready(function() {
       slidesToScroll: 4,
       asNavFor: '.slider-for',
       dots: false,
-      centerMode: true,
+      centerMode: false,
       focusOnSelect: true
     });
 

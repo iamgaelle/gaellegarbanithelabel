@@ -16,6 +16,22 @@ A3QXXEfcA1U
 
 */
 
+/* included fonts */
+
+@font-face {
+    font-family: CaliforniaPalms;
+    src: url(/fonts/CaliforniaPalms_SerifRegular.otf);
+    font-weight: light;
+  }
+  @font-face {
+    font-family: CaliforniaPalms;
+    src: url(/fonts/CaliforniaPalms_Script.otf);
+    font-weight: normal;
+  }
+
+
+
+
 /* ........... universal styles default settings........ */
 * {
     padding: 0;
@@ -189,7 +205,7 @@ img {
     background-position: center;
 }
 
-/*  ....background imaages style..... */
+/*  ....background images style..... */
 .bg-img1 {
     background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
     background-color: lightblue;
@@ -202,6 +218,7 @@ img {
     background-image: url('/assets/sunset-yoga.jpg');
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .bg-img3 {
@@ -224,6 +241,12 @@ img {
     background-position: 50% 53%;
 }
 
+.hidden-image:hover{ opacity:0 }
+
+.hoverimage[class*="col-"] {
+    padding: 0;
+  }
+
 /* images for instagram gallery style */
 
 .bg-image {
@@ -232,9 +255,11 @@ img {
     background-position: center;
   }
   
-  .insta-gallery .bg-image {
+.insta-gallery .bg-image {
     border: 2px solid white;
   }
+
+
 
 
 /* TYPOGRAPHY UTILITY CLASSES */
@@ -327,6 +352,11 @@ a:hover{
     font-size: 1.2rem;
     color: rgb (120,125,128);
 }
+
+.californiafont-light {
+    font-family: CaliforniaPalms;
+    font-weight: light;
+  }
 
 
 
@@ -540,7 +570,7 @@ I copied the above from our image gallery session but did nothing
 }
 
 .slider-item {
-    padding: 0;
+    /* padding: 0; */
     display: none;
 }
 
@@ -602,7 +632,7 @@ display: block;
 
 .bg-sliderimg{
     /* padding-bottom: 50%; */
-    min-height: 100vh;
+    min-height: calc(100vh - 7.5rem);
     position: relative;
     }
     
