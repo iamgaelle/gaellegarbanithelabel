@@ -106,6 +106,10 @@ img {
     padding: 0 0.1rem 0.1rem;
 }
 
+.bannersliderpadding {
+    padding: 0;
+}
+
 /* MARGIN ULITLITY CLASSES */
 
 .margin-t { margin-top: 5%; }
@@ -638,7 +642,7 @@ display: block;
 
 .bg-sliderimg{
     /* padding-bottom: 50%; */
-    min-height: calc(100vh - 7.5rem);
+    min-height: calc(100vh - 7rem);
     position: relative;
     }
     
@@ -754,7 +758,7 @@ form textarea:focus {
     transition:0.3s;
    }
 
-  .underline:hover::after {
+.underline:hover::after {
     transition:0.5s;
     border-bottom: 1px solid #00afb9;
     width:0%;
@@ -764,6 +768,17 @@ form textarea:focus {
 a:hover.shopbutton{
     color: #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+
+.backbutton {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
+    color: inherit;
+    font-style: italic;
 }
 
    /* below is to fix position using absolute/relative method */
@@ -787,6 +802,7 @@ a:hover.shopbutton{
 
 a:hover.sliderbutton, 
 a:hover.addbutton{
+    background-color: rgba(255,255,255,0.5);
     color: #00afb9;
     border: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
