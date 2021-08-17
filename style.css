@@ -195,7 +195,7 @@ img {
 
 
 .bg-img {
-    background-image: url('/assets/bali-ricefields.jpg');
+    background-image: url('/images/bali-ricefields.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* min-height: 10rem; */
@@ -205,7 +205,7 @@ img {
 
 
 .bg-sarong1 {
-    background-image: url('assets/sarong-beach.jpg');
+    background-image: url('images/sarong-beach.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -220,14 +220,14 @@ img {
   }
  
 .bg-img2 {
-    background-image: url('/assets/sunset-yoga.jpg');
+    background-image: url('/images/sunset-yoga.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
 }
 
 .bg-img3 {
-    background-image: url('/assets/bali-ricefields.jpg');
+    background-image: url('/images/bali-ricefields.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -241,7 +241,7 @@ img {
   }
 
 .bg-bannerimg {
-    background-image: url('/assets/bali-ricefields.jpg');
+    background-image: url('/images/bali-ricefields.jpg');
     background-size: cover;
     background-position: 50% 53%;
 }
