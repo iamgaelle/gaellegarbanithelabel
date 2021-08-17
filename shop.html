@@ -1,119 +1,11 @@
-<!DOCTYPE html>
-<html>
-<!-- this is the head of our html where we add extra resource and metadata. this is where all the info that is not displayed on screen is mentioned like gridlex, googlefont... -->
-<head>
-<!-- Need to add a title. this text  will appear in SE as well as in the tab of the browser -->
-    <title> Shop Gaelle Garbani The Label </title>
+---
+layout: default
+---
 
-<!-- NOTE: add metadata ref on top of our CSS link so they don't overwrite our own stylesheet-->
-
-
-<!-- Viewport meta for responsive -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- this is our grid stylesheet  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
-
-<!-- this is our googlefont stylesheet (catamaran 200,400,500, 800) -->
-<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-
-<!-- this is our fontawsome icons fonts -->
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-<!--- Slick CSS stylesheet --->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<!--- Slick theme that handles the way everything slides. Optional but very helpful --->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-<!-- this is our css stylesheet connection instruction: link + what + where -->
-    <link rel="stylesheet" href="/style.css" />
-</head>
-
-<!-- In the body, this is where all the content that will show on website -->
-
-<body>
-
-
-
-<!-- .....................HEADER: Logo left and nav right option................... -->
+<!-- ....................header: Logo and nav center option................... -->
      
- 
-<!-- <header class="grid-middle paddedsmall padded-b-0 margin-b-0">
-    <div class="col-4_sm-6 text-leff margin-b-1">
-        <a class="logoleft" href="/index.html">
-            <img src="/LOGO/gg-logo-13.svg">
-        </a>
-    </div>
 
-    <nav class=" col-8 text-right hide-sm padded-b-0">
-        <a href="/index.html"> Home </a>
-        <a href="/shop.html"> Shop </a>
-        <a href="/collection.html"> Collection </a>
-        <a href="/about.html"> About </a>
-        <a href="/shop.html"> <i class="fas fa-shopping-bag"></i> </a> 
-    </nav>
- 
-    <div class="col-7 text-right">
-        <a class="hamburger-button show-sm"> &#9776; </a>
-      </div>
-</header>
-
-<div class="mobile-menu"> 
-    <nav>
-        <a href="/index.html"> Home </a>
-        <a href="/shop.html"> Shop </a>
-        <a href="/collection.html"> Collection </a>
-        <a href="/about.html"> About </a>
-    </nav> 
-  </div> -->
-  
-
-  <!-- .....................HEADER: Logo and nav center option................... -->
-     
-  <header>
-    <div class="text-center margin-b-05">
-        <a class="logo" href="/index.html">
-            <img class="logoimg" src="/LOGO/gg-logo-13.svg">
-        </a>
-    </div>
-
-    <div class="text-center hide-xs padded-b-0">
-        <nav>
-            <a href="/index.html"> Home </a>
-            <a href="/shop.html"> Shop </a>
-            <a href="/collection.html"> Collection </a>
-            <a href="/about.html"> About </a>
-            <a class="cart" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-        </nav>
-    </div>
-
-    <div class="text-right show-xs padded-b-0">
-        <nav>
-            <a class="cartright" href="/about.html"> <i class="fas fa-shopping-bag"></i> </a> 
-        </nav>
-    </div>
-    <div>
-        <a class="hamburger-button-left show-xs"> &#9776; </a>
-      </div>
-  </header> 
-
-  <div class="mobile-menu"> 
-    <nav class="margin-t-1">
-        <a href="/index.html"> Home </a>
-        <a href="/shop.html"> Shop </a>
-        <a href="/collection.html"> Collection </a>
-        <a href="/about.html"> About us </a>
-    </nav> 
-  </div>  
-
-<!-- .....................slick slider gallery............ -->
+<!-- ...................slick slider gallery............ -->
 
 <section class="header-fix">
 <div class="slider-container grid">
@@ -135,7 +27,7 @@
  </div>
 </section>
 
-<!-- ....................gallery shop sarong section........... -->
+<!-- ..................gallery shop sarong section........... -->
 
 <section class="relative text-center padded">
 
@@ -203,7 +95,7 @@
 
 </section>
 
-<!-- ........gallery shop kimonons  section........... -->
+<!-- ..................gallery shop kimonons section........... -->
 
 <section class="relative text-center padded padded-t-0">
 
@@ -283,74 +175,10 @@
   
   </section>
 
-<!-- .........................footer.................. -->
+<!-- .......................footer.................. -->
 
-   
-
-<footer class="grid-top-spaceBetween padded">
-  
-  <!-- column -->
-  <div class="col-2_sm-6_xs-12 padded-05">
-    <h3 class="caps"> Explore </h3>
-    <nav>
-        <a href="/index.html"> Home </a>
-        <a href="/shop.html"> Shop </a>
-        <a href="/collection.html"> Collection </a>
-        <a href="/about.html"> About </a>
-    </nav>
-  </div>
-
-  <!-- column -->
-  <div class="col-3_sm-6_xs-12 padded-05">
-     <h3 class="caps"> join us </h3>
-     <p>Receive the latest & greatest news, product launches, giveaways and much more!</p>
-
-     <!--     <form action="https://formspree.io/hello@company.com" method="POST"> -->
-    <form>
-       <input type="email" name="_replyto" id="_replyto" placeholder="Your email address" />
-       <button type="submit"> SUBMIT </button>
-<!--       <input type="submit" value="Send" class="button"> -->
-    </form>
-  </div>
-
-  <!-- column -->
-   <!-- <div class="col-1 sm-hidden"> </div>  -->
-  <div class="col-5-right_sm-12 padded-05">
-      <h3 class="caps"> Gaelle Garbani </h3>
-      <p>Inspired by Nature eco-conscious collection made using plant-based fabrics and green methods of digital printing.</p>
-     <nav class="inline socials">
-      <a href="#">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-pinterest"></i>
-      </a>
-    </nav>
-  </div>
-</footer>
+<!-- .......................scripts...................... -->
 
 
 
 
-
-
-
-
-
-<!-- jquery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- jquery slick slider script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-<!-- javascript -->
-<script type="text/javascript" src="myjs.js"></script>
-
-
-</body>
-
-</html>
