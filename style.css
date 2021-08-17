@@ -893,6 +893,8 @@ form button {
     .logo h2 {font-size: 2rem;}
     header h3 {font-size: 10.5vw;}
 
+    .flex-flip-sm { flex-direction: column-reverse; }
+
     footer div {
         margin-bottom: 1rem;
     }
@@ -945,7 +947,6 @@ form button {
         top: -3%;
     }
 
-    .flex-flip-sm { flex-direction: column-reverse; }
 
     .header-fix { padding-top: 4rem;}
 }
@@ -990,8 +991,3 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     }
 }
 
-
-/* QUESTION: 
-1. why cloud icons had to set as block and our quotes as inline-block since there are both inline elements that needed to be aligned?
-2. why when applied text-medium to the div of the h3 quote the format would not apply to the quote text?
-3. it looks like the space between the input, textarea and button is not even, I tried to inspect but I struggled to interpret what is going on */
