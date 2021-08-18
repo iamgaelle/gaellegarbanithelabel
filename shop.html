@@ -1,5 +1,31 @@
 ---
 layout: default
+products-sarong:
+ - heading: Menjagan Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+ - heading: Melasti Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+ - heading: Menjagan Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+ - heading: Menjagan Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+ - heading: Menjagan Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+ - heading: Menjagan Sarong
+   price: €60
+   product_image: /images/sarong-beach.jpg
+products-kimono:
+ - heading: Karang Kimono
+   price: €170
+   product_image: /images/sarong-beach.jpg
+ - heading: Bilaboa Kimono
+   price: €170
+   product_image: /images/sarong-beach.jpg
 ---
 
 <!-- ....................header: Logo and nav center option................... -->
@@ -36,40 +62,20 @@ layout: default
   
 <!-- ..............cards section.................. -->
 <div class="grid-center">
+{% for item in page.products-sarong %}
     <div class="col-4_sm-6">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
+          <div class="portrait" style="background-image: url('{{item.product_image}}')"> </div>
           <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
+            <h4>{{item.heading}}</h4> 
+            <p>{{item.price}}</p>  
           </div> 
         </a>
       </div> 
     </div>
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div> 
-    <div class="col-4_sm-6">
+  {% endfor %}
+    <!-- <div class="col-4_sm-6">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
           <div class="bg-sarong1 portrait"> </div>
@@ -91,6 +97,28 @@ layout: default
         </a>
       </div> 
     </div> 
+    <div class="col-4_sm-6">
+      <div class="card">
+        <a class="lightgreyhover" href="/sarong.html#sarong1">
+          <div class="bg-sarong1 portrait"> </div>
+          <div class="padded-1">
+              <h4>Menjagan sarong</h4> 
+              <p>€60</p>  
+          </div> 
+        </a>
+      </div> 
+    </div>
+    <div class="col-4_sm-6">
+      <div class="card">
+        <a class="lightgreyhover" href="/sarong.html#sarong1">
+          <div class="bg-sarong1 portrait"> </div>
+          <div class="padded-1">
+              <h4>Menjagan sarong</h4> 
+              <p>€60</p>  
+          </div> 
+        </a>
+      </div> 
+    </div>  -->
 </div>
 
 </section>
