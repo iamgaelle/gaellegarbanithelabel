@@ -1,6 +1,6 @@
 
 /* colors: 
-    - grey: #6C7A89 395261
+    - grey: #6C7A89 main: #395261 /rgb(57,82,97)
     - Navy: #192B37 
     - turquoise: #00afb9 - 72d4d4 
     - light peach #fff7f3
@@ -170,7 +170,7 @@ img {
 }
 
 
-/* BACKGROUND COLOR AND IMAGES CLASSES */
+/* ..................BACKGROUND COLOR AND IMAGES CLASSES................ */
 
 .bg-dark {
     background-color: #192B37;
@@ -192,7 +192,6 @@ img {
 /* .sliderimg     { } */
 
 /* Individual image styles */
-
 
 .bg-img {
     background-image: url('/images/bali-ricefields.jpg');
@@ -267,7 +266,7 @@ img {
 
 
 
-/* TYPOGRAPHY UTILITY CLASSES */
+/* ...................TYPOGRAPHY UTILITY CLASSES..................... */
 
 body {
     border: none;
@@ -432,6 +431,49 @@ header .fas {
     right: 0.5rem;
     top: 1.2rem;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* .dropdown-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
+    border: none;
+    color: inherit;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom:0;
+}  */
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: -0.1rem;
+    display: none;
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    min-width: 6rem;
+    border-top: 2px solid rgba(57,82,97,0.5);
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    text-transform: capitalize;
+}
+
+
+
 
 /* .............hamburger stylings............. */
 
