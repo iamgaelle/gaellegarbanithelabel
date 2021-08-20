@@ -437,6 +437,11 @@ header .fas {
     display: inline-block;
 }
 
+.dropdown .fas {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
 /* .dropdown-title {
     text-decoration: none;
     text-transform: uppercase;
@@ -452,14 +457,14 @@ header .fas {
 
 .dropdown-content {
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: -0.1rem;
     display: none;
     background-color: white;
     z-index: 2;
     text-align: left;
     min-width: 6rem;
-    border-top: 2px solid rgba(57,82,97,0.5);
+    border-top: 2.5px solid rgba(57,82,97,0.5);
    
 }
 
@@ -558,7 +563,9 @@ footer .fab {
       font-size: 1.1rem;
   }
 
-  
+footer .californiafont-light {
+    letter-spacing: 0.1rem;
+}  
 
 
 /*  .......footer social..... */
