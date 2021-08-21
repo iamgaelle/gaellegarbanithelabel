@@ -375,9 +375,9 @@ header {
     padding: 1.5% 5%;
     background-color: white;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
-    /* left: 0; */
+    left: 0;
     z-index: 9;
 
 }
@@ -386,8 +386,6 @@ header {
 header [class*=col] {
     padding: 0;
   }
-
-
 
 
 .logo {
@@ -421,10 +419,7 @@ header .fas {
     margin-bottom:0;
 }
 
-/* .cart {
-    position: absolute;
-    right: 0.5rem;
-} */
+
 
 .cartright {
     position: absolute;
@@ -464,7 +459,8 @@ header .fas {
     z-index: 2;
     text-align: left;
     min-width: 6rem;
-    border-top: 2.5px solid rgba(57,82,97,0.5);
+    padding-top: 5%;
+    /* border-top: 2.5px solid rgba(57,82,97,0.5); */
    
 }
 
@@ -475,6 +471,12 @@ header .fas {
 .dropdown-content a {
     display: block;
     text-transform: capitalize;
+}
+
+header hr {
+    border: none;
+    border-top: 2.5px solid rgba(57,82,97,0.5);
+    padding-top: 2%;
 }
 
 
