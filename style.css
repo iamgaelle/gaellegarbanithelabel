@@ -437,7 +437,7 @@ header .fas {
     font-size: 0.8rem;
 }
 
-/* .dropdown-title {
+.dropdown-title {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -447,8 +447,9 @@ header .fas {
     color: inherit;
     display: inline-block;
     padding: 0.5rem;
+    padding-right: 0;
     margin-bottom:0;
-}  */
+} 
 
 .dropdown-content {
     position: absolute;
@@ -459,7 +460,7 @@ header .fas {
     z-index: 2;
     text-align: left;
     min-width: 6rem;
-    padding-top: 25%;
+    padding-top: 1.5vw;
     /* border-top: 2.5px solid rgba(57,82,97,0.5); */
    
 }
