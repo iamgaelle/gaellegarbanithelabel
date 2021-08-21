@@ -372,7 +372,7 @@ a:hover{
 /* ..........................header styles.................. */
 
 header {
-    padding: 1.5% 5%;
+    padding: 1.5vh 5%;
     background-color: white;
     width: 100%;
     position: sticky;
