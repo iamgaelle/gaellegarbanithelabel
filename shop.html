@@ -7,10 +7,10 @@ products-sarong:
  - heading: Melasti Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
- - heading: Menjagan Sarong
+ - heading: Uluwatu Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
- - heading: Menjagan Sarong
+ - heading: Lembongan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
  - heading: Menjagan Sarong
@@ -62,6 +62,7 @@ products-kimono:
   
 <!-- ..............cards section.................. -->
 <div class="grid-center">
+
 {% for item in page.products-sarong %}
     <div class="col-4_sm-6">
       <div class="card">
@@ -75,50 +76,7 @@ products-kimono:
       </div> 
     </div>
   {% endfor %}
-    <!-- <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div> 
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Menjagan sarong</h4> 
-              <p>€60</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>  -->
+    
 </div>
 
 </section>
@@ -131,29 +89,19 @@ products-kimono:
     <h1 class="text-center padded">Kimonos</h1>
  
 <!-- ..............cards section.................. -->
-<div class="grid-center">
+{% for item in page.products-kimonos %}
     <div class="col-4_sm-6">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
+          <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
           <div class="padded-1">
-              <h4>Karang Kimono</h4> 
-              <p>€170</p>  
+            <h4>{{item.heading}}</h4> 
+            <p>{{item.price}}</p>  
           </div> 
         </a>
       </div> 
     </div>
-    <div class="col-4_sm-6">
-      <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
-          <div class="bg-sarong1 portrait"> </div>
-          <div class="padded-1">
-              <h4>Biloba Kimono</h4> 
-              <p>€170</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>
+  {% endfor %}
 
 </section>
 

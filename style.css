@@ -452,14 +452,14 @@ header .fas {
 
 .dropdown-content {
     position: absolute;
-    top: 120%;
+    top: 98%;
     left: -0.1rem;
     display: none;
     background-color: white;
     z-index: 2;
     text-align: left;
     min-width: 6rem;
-    padding-top: 5%;
+    padding-top: 25%;
     /* border-top: 2.5px solid rgba(57,82,97,0.5); */
    
 }
@@ -476,7 +476,6 @@ header .fas {
 header hr {
     border: none;
     border-top: 2.5px solid rgba(57,82,97,0.5);
-    padding-top: 2%;
 }
 
 
@@ -608,6 +607,13 @@ footer .californiafont-light {
     font-size: 1.3rem;
     /* text-transform: uppercase; */
 }
+
+
+.about-intro p.californiafont-light {
+    font-size: 3.5rem;
+    line-height: 0.8;
+}
+
 
 /*.........sarong gallery styling.....  */
 /* 
@@ -907,6 +913,10 @@ form button {
   .md-tall80 {min-height: 80vh;}
 }
 
+.dropdown-content {
+    padding-top: 18%;
+}
+
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
 
@@ -948,6 +958,10 @@ form button {
 
     footer div {
         margin-bottom: 1rem;
+    }
+
+    .dropdown-content {
+        padding-top: 13%;
     }
 
     /* .hamburger-button-left {
