@@ -1,7 +1,6 @@
 
 /* colors: 
     - grey: #6C7A89 main: #395261 /rgb(57,82,97)
-    - Navy: #192B37 
     - turquoise: #00afb9 - 72d4d4 
     - light peach #fff7f3
     - beige - F8F6F4
@@ -329,7 +328,7 @@ a:hover{
 
 
 .featuredcolor-text {color: #00afb9;}
-.featureddark-text  {color: #192B37}
+.featureddark-text  {color: #395261}
 .whitecolor-text    {color: white;}
 
 .font-weight-normal {font-weight: normal;}
@@ -460,7 +459,7 @@ header .fas {
     z-index: 2;
     text-align: left;
     min-width: 6rem;
-    padding-top: 1.5vw;
+    padding-top: 0.5vw;
     /* border-top: 2.5px solid rgba(57,82,97,0.5); */
    
 }
@@ -592,7 +591,26 @@ footer .californiafont-light {
 .fixed {
     background-attachment: fixed;
   }
- 
+
+.bg-overlay {
+    position: relative;
+}
+
+.bg-overlay::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.hero-banner h2 {
+    color: white;
+    font-weight: 300;
+    /* font-size: 4rem; */
+} 
 
 /* ..............about introduction....... */
 
@@ -906,17 +924,18 @@ form button {
     border: 2px solid green; 
     /* padding: 0.5rem; */
     /* QUESTION: can't see diff with above padding */
+    }
+
+  .show-md          { display: block; }
+  .hide-md          { display: none;  }
+
+  .md-tall80        {min-height: 80vh;}
+
+  .dropdown-content {padding-top: 8%;}
+
 }
 
-  .show-md { display: block; }
-  .hide-md { display: none;  }
 
-  .md-tall80 {min-height: 80vh;}
-}
-
-.dropdown-content {
-    padding-top: 18%;
-}
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
@@ -962,7 +981,7 @@ form button {
     }
 
     .dropdown-content {
-        padding-top: 13%;
+        padding-top: 7%;
     }
 
     /* .hamburger-button-left {
