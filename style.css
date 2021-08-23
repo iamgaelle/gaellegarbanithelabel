@@ -186,6 +186,7 @@ img {
 .landscape     { padding-bottom: 66%;  }
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
+.portrait-small      { padding-bottom: 110%; }
 .square        { padding-bottom: 100%; }
 
 /* .sliderimg     { } */
@@ -433,9 +434,10 @@ header .fas {
 
 .dropdown .fas {
     display: inline-block;
+    color:rgba(57,82,97,0.5);
     font-size: 0.8rem;
     rotate: -90deg;
-    transition: rotate 2s;
+    transition: rotate 0.5s;
 }
 
 .dropdown-title {
@@ -448,7 +450,7 @@ header .fas {
     color: inherit;
     display: inline-block;
     padding: 0.5rem;
-    padding-right: 0;
+    padding-right: 0.3rem;
     margin-bottom:0;
 } 
 
@@ -471,7 +473,7 @@ header .fas {
 }
 .dropdown:hover .fas { 
     color: #00afb9;
-    rotate: -90deg;
+    rotate: 0deg;
 }
 
 .dropdown-content a {
