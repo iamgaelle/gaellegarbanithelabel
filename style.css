@@ -276,7 +276,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     line-height: 1.2;
 }
 
@@ -346,6 +346,12 @@ a:hover{
 .text-big     {font-size: 4.5rem;}
 
 .caps         { text-transform: uppercase;}
+
+.subtle { 
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
 
 /* Typography more specific elements */
 
@@ -564,7 +570,7 @@ footer nav a {
   }
 
 footer h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 0.3rem;
     font-weight: 300;
   }
@@ -576,6 +582,12 @@ footer .fab {
 footer .californiafont-light {
     letter-spacing: 0.1rem;
 }  
+
+/* .copyright {
+    background-color: rgba(57,82,97,0.5);
+    color: white;
+    width: 100%;
+} */
 
 
 /*  .......footer social..... */
@@ -989,7 +1001,7 @@ form button {
     .flex-flip-sm { flex-direction: column-reverse; }
 
     footer div {
-        margin-bottom: 1rem;
+        margin-bottom: 1.6rem;
     }
 
     .dropdown-content {
