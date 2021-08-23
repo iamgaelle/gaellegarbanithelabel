@@ -65,8 +65,9 @@ img {
 
 /* PADDING ULITLITY CLASSES */
 
-.padded         { padding: 5%;}
+.paddedxsmall    { padding: 1%;}
 .paddedsmall    { padding: 2%;}
+.padded         { padding: 5%;}
 .paddedlarge    { padding: 10%;}
 
 .padded-03 { padding: 0.3rem; }
@@ -641,6 +642,9 @@ footer .californiafont-light {
     line-height: 0.8;
 }
 
+.typed-cursor {
+    display: none;
+  }
 
 /*.........sarong gallery styling.....  */
 /* 
