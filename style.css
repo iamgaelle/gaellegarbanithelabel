@@ -598,6 +598,8 @@ footer .californiafont-light {
   }
   
 
+
+
 /* ..............hero banner styling.......... */
 
 
@@ -817,22 +819,27 @@ form textarea:focus {
   border-color: #72d4d4;
 }
 
-/* textarea {
-  min-height: 20vh;
-  margin-bottom: 0.5rem;
-} */
 
-/* NOTE: labels are are inline elements so need to be set as block elements so it can accept the vertical margin and padding  */
-/* form label {
-  margin-top: 1rem;
-  display: block;
-  color: #6C7A89;
-  font-weight: bold;
-} */
+/*.........newsletter section...... */
 
+.newsletter {
+    background-color: #fff7f3;
+    color: inherit;
+    min-height: 30vh;
+    align-content: center;
+}
 
+.newsletter h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+}
 
-
+.newsletter form input {
+    width: 40%;
+    /* align-content: center; */
+    display: inline-block;
+}
 /* ............button styles............ */
 
 
