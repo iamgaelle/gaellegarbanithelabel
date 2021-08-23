@@ -434,6 +434,8 @@ header .fas {
 .dropdown .fas {
     display: inline-block;
     font-size: 0.8rem;
+    rotate: -90deg;
+    transition: rotate 2s;
 }
 
 .dropdown-title {
@@ -467,6 +469,10 @@ header .fas {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.dropdown:hover .fas { 
+    color: #00afb9;
+    rotate: -90deg;
+}
 
 .dropdown-content a {
     display: block;
@@ -475,7 +481,7 @@ header .fas {
 
 header hr {
     border: none;
-    border-top: 2.5px solid rgba(57,82,97,0.5);
+    border-top: 2px solid rgba(57,82,97,0.5);
 }
 
 
@@ -603,7 +609,7 @@ footer .californiafont-light {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
 }
 
 .hero-banner h2 {

@@ -1,6 +1,6 @@
 ---
 layout: default
-products-sarong:
+products-sarongs:
  - heading: Menjagan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
@@ -19,7 +19,7 @@ products-sarong:
  - heading: Menjagan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
-products-kimono:
+products-kimonos:
  - heading: Karang Kimono
    price: €170
    product_image: /images/sarong-beach.jpg
@@ -63,7 +63,7 @@ products-kimono:
 <!-- ..............cards section.................. -->
 <div class="grid-center">
 
-{% for item in page.products-sarong %}
+{% for item in page.products-sarongs %}
     <div class="col-4_sm-6">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
@@ -90,7 +90,7 @@ products-kimono:
  
 <!-- ..............cards section.................. -->
 {% for item in page.products-kimonos %}
-    <div class="col-4_sm-6">
+    <div class="col-2_sm-6">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
           <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
