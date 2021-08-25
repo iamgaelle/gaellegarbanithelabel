@@ -81,6 +81,20 @@ $(document).ready(function() {
 	typeSpeed: 10
 });
     
+// for dropdown descriptions - product pages
+var allPanels = $('.accordion > p').hide();
+
+	$('.accordion > h4').click(function() {
+		allPanels.slideUp();
+
+    $(this).filter('.open').removeClass('open').addClass('closing')
+    $('.accordion > h4 ').removeClass('open');
+    $(this).not(".closing").addClass('open').next().slideDown();
+    $('.accordion > h4').removeClass('closing');
+    
+    return false;
+	});
+
 
 
   });

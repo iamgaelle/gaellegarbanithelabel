@@ -4,7 +4,13 @@
     - turquoise: #00afb9 - 72d4d4 
     - light peach #fff7f3
     - beige - F8F6F4
-    - pink - FFA995*/
+    - pink - FFA995
+    color inspo: 
+    - mule #c3b9b9
+    - darker mule #c3baba
+    - darker / greyish mule #7b7575*/
+    
+    
 
 
 /* PHOTOS:
@@ -23,8 +29,6 @@ A3QXXEfcA1U
     src: url(/fonts/CaliforniaPalms_Script.otf);
     font-weight: normal;
   }
-
-
 
 
 /* ........... universal styles default settings........ */
@@ -173,24 +177,25 @@ img {
 /* ..................BACKGROUND COLOR AND IMAGES CLASSES................ */
 
 .bg-dark {
-    background-color: #192B37;
+    background-color: #395261;
     color: white;
 }
 
-.bg-light {
+.bg-turquoise {
     background-color: #00afb9;
 }
-.bg-lightblue {
-    background-color:rgb(209, 233, 243);
+
+.bg-light {
+    background-color: #fff7f3;
 }
 
-.landscape     { padding-bottom: 66%;  }
-.portrait-tall { padding-bottom: 175%; }
-.portrait      { padding-bottom: 125%; }
-.portrait-small      { padding-bottom: 110%; }
-.square        { padding-bottom: 100%; }
 
-/* .sliderimg     { } */
+.landscape      { padding-bottom: 66%;  }
+.portrait-tall  { padding-bottom: 175%; }
+.portrait       { padding-bottom: 125%; }
+.portrait-small { padding-bottom: 110%; }
+.square         { padding-bottom: 100%; }
+
 
 /* Individual image styles */
 
@@ -255,7 +260,7 @@ img {
 /* images for instagram gallery style */
 
 .bg-image {
-    background-color: rgb(235,235,235);
+    background-color: #fff7f3;
     background-size: cover;
     background-position: center;
   }
@@ -583,13 +588,6 @@ footer .californiafont-light {
     letter-spacing: 0.1rem;
 }  
 
-/* .copyright {
-    background-color: rgba(57,82,97,0.5);
-    color: white;
-    width: 100%;
-} */
-
-
 /*  .......footer social..... */
 
 .inline a {
@@ -597,7 +595,6 @@ footer .californiafont-light {
     padding: 0.5rem;
   }
   
-
 
 
 /* ..............hero banner styling.......... */
@@ -660,20 +657,8 @@ footer .californiafont-light {
     display: none;
   }
 
-/*.........sarong gallery styling.....  */
-/* 
-.gallery [class*="col-"] {
-    padding: 0.5%;
-  }
-
-I copied the above from our image gallery session but did nothing
-
-   */
-
-
 
 /* ......slick slider styling...... */
-
 
 
 .slider-container {
@@ -694,6 +679,7 @@ display: block;
     border: 2px solid teal;
 }
 */
+
 .slick-prev:before {
   content: '←';
 }
@@ -770,9 +756,35 @@ background-size: cover;
 background-position: center;
 }
 
+/*....................Dropdown prodcut description accordion...... */
 
 
-
+.accordion h4{
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    display:block;
+    color: inherit;
+    position: relative;
+    text-decoration: none;
+  }
+  .accordion p {
+    padding: 0.5rem;
+  }
+  
+  /* Icon */
+  .accordion dt::after {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
 
 /* ........................card styling........... */
 
@@ -807,7 +819,6 @@ form textarea {
   margin: 0.3rem 0;
   /*  NOTE: applied 2 values and 0 for left and right so it is all aligned in the left  */
   padding: 0.5rem;
-  /* border: 2px solid rgb(220,220,220); */
   outline: none;
 /* NOTE: by default textarea use default font so need to overwrite with the below, same applies for font size   */
   font-family: inherit;
@@ -840,7 +851,9 @@ form textarea:focus {
     /* align-content: center; */
     display: inline-block;
 }
-/* ............button styles............ */
+
+
+/* ............BUTTON styles............ */
 
 
 .shopbutton {
@@ -921,7 +934,7 @@ form button {
     /* background-color:#6C7A89; */
     color: white;
     border: none;
-    padding: 0.5rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     letter-spacing: 0.1rem;
     margin: 1rem 0;
     appearance: none;
