@@ -756,7 +756,24 @@ background-size: cover;
 background-position: center;
 }
 
-/*....................Dropdown prodcut description accordion...... */
+/* ...................Prduct page styling */
+
+/* div h5 .product {
+    font-size: 1rem;
+} */
+/* .product div h5 {
+    font-size: 1rem;
+} */
+
+.product h5 {
+    font-size: 1rem;
+}
+
+.product h4 {
+    margin-top: 0.1rem;
+}
+
+/*....................Dropdown product description accordion...... */
 
 
 .accordion h4{

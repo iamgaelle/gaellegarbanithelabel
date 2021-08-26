@@ -46,34 +46,39 @@ layout: default
     </div>
 
     <div class="col-6_sm-12 padded">
+       
         <h2>{{page.heading}}</h2>
         <p>{{page.price}}</p>
-        <h5>Size: {{page.size}}</h5>
+        <h5 class="product">Size: {{page.size}}</h5>
         <h5>Color: {{page.color}}</h5>
         <h5>Quantitaty</h5>
+  
         <p>{{page.main-description-p1}}</p>
         <p>{{page.main-description-p2}}</p>
         
-         <h5> Fabric + Print </h5>
-         <p>{{fabric-description-p1}}</p>
-         <p>{{fabric-description-p2}}</p>
-         <p>{{fabric-description-p3}}</p>
-       
-        <h5> Features </h5>
-         <p>{{page.features-description-p1}}</p>
-         <p>{{page.features-description-p2}}</p>
-         <p>{{page.features-description-p3}}</p>
-         <p>{{page.features-description-p4}}</p>
-         <p>{{page.features-description-p5}}</p>
-         <!-- <p>{{page.features-description-p6}}</p>
-         <p>{{page.features-description-p7}}</p> -->
-         <p>{{page.features-description-p8}}</p>
-         
+        <h4 class="product">Fabric + Print </h4>
+        <p>{{page.fabric-description-p1}}</p>
+        <p>{{page.fabric-description-p2}}</p>
+        <p>{{page.fabric-description-p3}}</p>
+        
+        <h4>Features </h4>
+        <p>{{page.features-description-p1}}</p>
+        <p>{{page.features-description-p2}}</p>
+        <p>{{page.features-description-p3}}</p>
+        <p>{{page.features-description-p4}}</p>
+        <p>{{page.features-description-p5}}</p>
+        <p>{{page.features-description-p6}}</p>
+        {% if page.type == "kimono"%}
+        <p>{{page.features-description-p7}}</p>
+        <p>{{page.features-description-p8}}</p>
+        {% endif %}  
         <div class="accordion">
 
             <h4>Size & Fit +</h4>
-            <!-- <p>{{page.size-fit-p1}}</p>
-            <p>Kimono Measurements</p> -->
+            {% if page.type == "kimono"%}
+            <p>{{page.size-fit-p1}}</p>
+            <h5> Kimono Measurements</h5>
+            {% endif %}
             <p>{{page.size-fit-p2}}</p>
             <p>{{page.size-fit-p3}}</p>
 
@@ -84,17 +89,17 @@ layout: default
             <p>{{page.care-p4}}</p>
             <p>{{page.care-p5}}</p>
             <p>{{page.care-p6}}</p>
-           
+            
             <h4>Shipping +</h4>
             <p>{{page.shipping-p1}}</p>
             <p>{{page.shipping-p2}}</p>
             <p>{{page.shipping-p3}}</p>
         
-         </div>
+        </div>
       
          
          <a class="addbutton margin-t-1" href="#">Add to cart</a>
-        <a class="backbutton margin-t-1" href="/shop.html#sarongs">More sarongs</a>
+        <a class="backbutton margin-t-1" href="/shop.html#sarongs">Back to sarongs</a>
     </div>
 
 </section>
