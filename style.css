@@ -97,6 +97,15 @@ img {
 .padded-l-2 { padding-left: 2rem; }
 .padded-r-2 { padding-bottom: 2rem; }
 
+.padded-t-3 {padding-top: 3%;}
+.padded-b-3 {padding-bottom: 3%;}
+.padded-5-3-0 {
+    padding-left: 5%; 
+    padding-right: 5%; 
+    padding-top: 3%;
+    padding-bottom: 0;
+}
+
 .padded-t-0 { padding-top: 0; }
 .padded-b-0 { padding-bottom: 0; }
 .padded-l-0 { padding-left: 0; }
