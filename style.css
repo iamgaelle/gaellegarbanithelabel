@@ -756,17 +756,15 @@ background-size: cover;
 background-position: center;
 }
 
-/* ...................Prduct page styling */
+/* ...................Product page styling.................. */
 
-/* div h5 .product {
-    font-size: 1rem;
-} */
-/* .product div h5 {
-    font-size: 1rem;
-} */
+.product h2 {
+    margin-bottom: 1.9rem;
+}
 
 .product h5 {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 .product h4 {
@@ -857,13 +855,9 @@ form textarea:focus {
     align-content: center;
 }
 
-.newsletter h3 {
-    font-size: 1.1rem;
-    letter-spacing: 0.3rem;
-    font-weight: 300;
-}
 
-/* to fix oldschool line space error - form elements are line elements like words so put space in between */
+
+/* to fix old-school line space error - form elements are line elements like words so put space in between */
 .newsletter form {
     font-size: 0;
 }
@@ -878,7 +872,7 @@ form textarea:focus {
 }
 
 .newsletter form input:focus {
-    border-color: teal;
+    border-color: #00afb9;
     /* color: teal; */
     /* how can I change the color of the text when they type */
 }

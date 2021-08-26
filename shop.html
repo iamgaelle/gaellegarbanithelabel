@@ -4,28 +4,36 @@ products-sarongs:
  - heading: Menjagan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
  - heading: Melasti Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
  - heading: Uluwatu Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
  - heading: Lembongan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
  - heading: Menjagan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
  - heading: Menjagan Sarong
    price: €60
    product_image: /images/sarong-beach.jpg
+   product-item: /sarong.html#sarong1
 products-kimonos:
  - heading: Karang Kimono
    price: €170
    product_image: /images/sarong-beach.jpg
+   product-item: /kimono-1.html
  - heading: Bilaboa Kimono
    price: €170
    product_image: /images/sarong-beach.jpg
+   product-item: //kimono-1.html
 ---
 
 <!-- ....................header: Logo and nav center option................... -->
@@ -48,7 +56,7 @@ products-kimonos:
 {% for item in page.products-sarongs %}
     <div class="col-4_sm-6">
       <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
+        <a class="lightgreyhover" href="{{item.product-item}}">
           <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
           <div class="padded-1">
             <h4>{{item.heading}}</h4> 
@@ -76,7 +84,7 @@ products-kimonos:
 {% for item in page.products-kimonos %}
     <div class="col-5">
       <div class="card">
-        <a class="lightgreyhover" href="/sarong.html#sarong1">
+        <a class="lightgreyhover" href="{{item.product-item}}">
           <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
           <div class="padded-1">
             <h4>{{item.heading}}</h4> 

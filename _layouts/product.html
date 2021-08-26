@@ -45,18 +45,19 @@ layout: default
        
     </div>
 
-    <div class="col-6_sm-12 padded">
+    <div class="col-6_sm-12 padded product">
        
         <h2>{{page.heading}}</h2>
-        <p>{{page.price}}</p>
-        <h5 class="product">Size: {{page.size}}</h5>
-        <h5>Color: {{page.color}}</h5>
-        <h5>Quantitaty</h5>
+        <h4>{{page.price}}</h4>
+        <h5><b>Size: </b> {{page.size}}</h5>
+        <h5><b>Color: </b> {{page.color}}</h5>
+        <h5><b>Quantitaty: </b></h5>
+        <p class="subtle">Limited Stock – Handmade in Small Batches</p>
   
         <p>{{page.main-description-p1}}</p>
         <p>{{page.main-description-p2}}</p>
         
-        <h4 class="product">Fabric + Print </h4>
+        <h4>Fabric + Print </h4>
         <p>{{page.fabric-description-p1}}</p>
         <p>{{page.fabric-description-p2}}</p>
         <p>{{page.fabric-description-p3}}</p>
@@ -105,6 +106,9 @@ layout: default
 </section>
 
 
+<!-- ...................newsletter............ -->
+
+{% include newsletter.html %}
 
 <!-- ...................instagram gallery........... -->
 

@@ -67,8 +67,10 @@ $(document).ready(function() {
  var typed = new Typed('#typed', {
   stringsElement: '#typed-strings',
 	loop: true,
-  loopCount: 2,
-	typeSpeed: 50
+  loopCount: 1,
+  // backSpeed: 0,
+  // backDelay: 500,
+	typeSpeed: 100
 });
     
 // for dropdown descriptions - product pages
