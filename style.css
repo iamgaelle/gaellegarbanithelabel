@@ -852,19 +852,30 @@ form textarea:focus {
 }
 
 .newsletter form input {
-    width: 40%;
+    width: 30%;
     margin: 0;
     display: inline-block; 
     border: 1px solid rgba(57,82,97,0.5);
     border-right: 0 solid;
+    border-radius: 10px 0 0 10px;
+}
+
+.newsletter form input:focus {
+    border-color: teal;
+    /* color: teal; */
+    /* how can I change the color of the text when they type */
 }
 
 .newsletter button, .newsletter input {
     margin:0;
-    padding: o.5rem;
+    padding: 0.5rem;
     font-size: 0.9rem;
     font-family: "Lato", sans-serif;
-}  
+} 
+
+.newsletter form button {
+    border-radius: 0 10px 10px 0;
+}
 
 /* ............BUTTON styles............ */
 

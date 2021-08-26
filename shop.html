@@ -71,8 +71,10 @@ products-kimonos:
     <h1 class="text-center padded">Kimonos</h1>
  
 <!-- ..............cards section.................. -->
+<div class="grid-center">
+
 {% for item in page.products-kimonos %}
-    <div class="col-2_sm-6">
+    <div class="col-5">
       <div class="card">
         <a class="lightgreyhover" href="/sarong.html#sarong1">
           <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
@@ -84,6 +86,7 @@ products-kimonos:
       </div> 
     </div>
   {% endfor %}
+</div>
 
 </section>
 
