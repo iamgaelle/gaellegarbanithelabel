@@ -61,16 +61,6 @@ $(document).ready(function() {
     });
 
 
-// This is the instagram gallery
-      $('[data-fancybox="gallery"]').fancybox({
-        protect: true,
-        keyboard: true,
-        arrows: true,
-        infobar: false,
-        buttons: [
-        "close"
-        ],
-      });
     
  // This creates a new typing animation in vanilla javascript 
 
@@ -95,7 +85,16 @@ var allPanels = $('.accordion > p').hide();
     return false;
 	});
 
-
+// This is the instagram gallery
+$('[data-fancybox="gallery"]').fancybox({
+  protect: true,
+  keyboard: true,
+  arrows: true,
+  infobar: false,
+  buttons: [
+  "close"
+  ],
+});
 
   });
   
