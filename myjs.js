@@ -67,8 +67,8 @@ $(document).ready(function() {
  var typed = new Typed('#typed', {
   stringsElement: '#typed-strings',
 	loop: true,
-  loopCount: Infinity,
-	typeSpeed: 10
+  loopCount: 2,
+	typeSpeed: 50
 });
     
 // for dropdown descriptions - product pages
@@ -86,15 +86,15 @@ var allPanels = $('.accordion > p').hide();
 	});
 
 // This is the instagram gallery
-$('[data-fancybox="gallery"]').fancybox({
-  protect: true,
-  keyboard: true,
-  arrows: true,
-  infobar: false,
-  buttons: [
-  "close"
-  ],
-});
+  $('[data-fancybox="gallery"]').fancybox({
+    protect: true,
+    keyboard: true,
+    arrows: true,
+    infobar: false,
+    buttons: [
+    "close"
+    ],
+  });
 
   });
   

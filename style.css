@@ -846,12 +846,25 @@ form textarea:focus {
     font-weight: 300;
 }
 
-.newsletter form input {
-    width: 40%;
-    /* align-content: center; */
-    display: inline-block;
+/* to fix oldschool line space error - form elements are line elements like words so put space in between */
+.newsletter form {
+    font-size: 0;
 }
 
+.newsletter form input {
+    width: 40%;
+    margin: 0;
+    display: inline-block; 
+    border: 1px solid rgba(57,82,97,0.5);
+    border-right: 0 solid;
+}
+
+.newsletter button, .newsletter input {
+    margin:0;
+    padding: o.5rem;
+    font-size: 0.9rem;
+    font-family: "Lato", sans-serif;
+}  
 
 /* ............BUTTON styles............ */
 
