@@ -103,12 +103,25 @@ layout: default
         
         </div>
       
-         
-         <a class="addbutton margin-t-1" href="#">Add to cart</a>
-        <a class="backbutton margin-t-1" href="/shop.html#sarongs">Back to sarongs</a>
+       
+         <!-- <a class="addbutton margin-t-1" href="#">Add to cart</a>
+         {% if page.type == "kimono" %}
+         <a class="backbutton margin-t-1" href="/shop.html#sarongs">More Kimonos</a>
+         {% elseif page.type == "sarong" %}
+         <a class="backbutton margin-t-1" href="/shop.html#sarongs">More Sarongs</a>
+        {% endif %} -->
+
+        <a class="addbutton margin-t-1" href="#">Add to cart</a>
+
+        <a class="backbutton margin-t-1" href="/shop.html#sarongs">More {{page.button-more}}</a>
+
+      
+  
+
     </div>
 
 </section>
+
 
 
 <!-- ...................newsletter............ -->

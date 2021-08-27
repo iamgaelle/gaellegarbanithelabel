@@ -204,6 +204,7 @@ img {
 .portrait       { padding-bottom: 125%; }
 .portrait-small { padding-bottom: 110%; }
 .square         { padding-bottom: 100%; }
+.customratio-1 {padding-bottom: 124%; padding-top: 13%;}
 
 
 /* Individual image styles */
