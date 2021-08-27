@@ -63,16 +63,18 @@ layout: default
         <p>{{page.fabric-description-p3}}</p>
         
         <h4>Features </h4>
-        <p>{{page.features-description-p1}}</p>
-        <p>{{page.features-description-p2}}</p>
-        <p>{{page.features-description-p3}}</p>
-        <p>{{page.features-description-p4}}</p>
-        <p>{{page.features-description-p5}}</p>
-        <p>{{page.features-description-p6}}</p>
-        {% if page.type == "kimono" %}
-        <p>{{page.features-description-p7}}</p>
-        <p>{{page.features-description-p8}}</p>
-        {% endif %}  
+        <ul>
+         <li>{{page.features-description-p1}}</li>
+         <li>{{page.features-description-p2}}</li>
+         <li>{{page.features-description-p3}}</li>
+         <li>{{page.features-description-p4}}</li>
+         <li>{{page.features-description-p5}}</li>
+         <li>{{page.features-description-p6}}</li>
+         {% if page.type == "kimono" %}
+         <li>{{page.features-description-p7}}</li>
+         <li>{{page.features-description-p8}}</li>
+         {% endif %}  
+         </ul>
 
         <div class="accordion">
 
@@ -103,14 +105,14 @@ layout: default
         
         </div>
       
-        {%- comment -%}
+        <!-- {%- comment -%} -->
          <!-- <a class="addbutton margin-t-1" href="#">Add to cart</a>
          {% if page.type == "kimono" %}
          <a class="backbutton margin-t-1" href="/shop.html#sarongs">More Kimonos</a>
-         {% elseif page.type == "sarong" %}
+         {% elsif page.type == "sarong" %}
          <a class="backbutton margin-t-1" href="/shop.html#sarongs">More Sarongs</a>
         {% endif %} -->
-        {%- endcomment -%}
+        <!-- {%- endcomment -%} -->
 
         <a class="addbutton margin-t-1" href="#">Add to cart</a>
 
