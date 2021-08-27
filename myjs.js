@@ -87,6 +87,21 @@ var allPanels = $('.accordion > div').hide();
     return false;
 	});
 
+
+// for dropdown descriptions - hb-menu 
+var allPanels = $('.hb-menu-accordion > div').hide();
+
+$('.hb-menu-accordion > a').click(function() {
+  allPanels.slideUp();
+
+  $(this).filter('.open').removeClass('open').addClass('closing')
+  $('.hb-menu-accordion > a ').removeClass('open');
+  $(this).not(".closing").addClass('open').next().slideDown();
+  $('.hb-menu-accordion > a').removeClass('closing');
+  
+  return false;
+});
+
 // This is the instagram gallery
   $('[data-fancybox="gallery"]').fancybox({
     protect: true,

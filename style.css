@@ -521,13 +521,29 @@ header .fas {
     text-transform: capitalize;
 }
 
+/* line under dropdown nav */
 header hr {
     border: none;
     border-top: 2px solid rgba(57,82,97,0.5);
 }
 
+/* hamburger menu dropdown/accordion */
 
+.hb-menu-dropdown .fas {
+    display: inline-block;
+    color:white;
+    font-size: 1.3rem;
+    rotate: -90deg;
+    transition: rotate 0.5s;
+    padding: 0.5rem;
+    padding-top: 0.4rem;
+}
 
+.hb-menu-dropdown:hover .fas { 
+    color: white;
+    rotate: 0deg;
+    opacity: 0.5;
+}
 
 /* .............hamburger stylings............. */
 
@@ -578,9 +594,11 @@ header hr {
     left: 0rem;
     top: 9vw;
     z-index: 2;
+    width: 50%;
+    height: 100% 
   }
   
-  .mobile-menu a {
+  .mobile-menu a, span {
     padding: 5vh 5%;
     text-decoration: none;
     text-transform: uppercase;
@@ -1053,6 +1071,12 @@ form button {
 }
 
 
+
+/* ------- SM Media Query (48em / 768px) --------------- */ 
+/* 
+@media (max-width: 990px) {
+
+} */
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
