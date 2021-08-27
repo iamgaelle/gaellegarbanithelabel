@@ -225,6 +225,14 @@ img {
 }
 
 /*  ....background images style..... */
+
+.bg-img0 {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+
 .bg-img1 {
     background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
     background-color: lightblue;
@@ -492,6 +500,7 @@ header .fas {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown:hover .fas { 
     color: #00afb9;
     rotate: 0deg;
@@ -784,16 +793,24 @@ background-position: center;
 
 
 .accordion h4{
-    padding: 0.25rem;
-    margin: 0.25rem 0;
+    padding: 0.5rem;
+    padding-left: 0;
+    margin: 0.5rem 0;
     display:block;
     color: inherit;
     position: relative;
     text-decoration: none;
   }
-  .accordion p {
-    padding: 0.5rem;
+.accordion p {
+    padding: 0.2rem;
+    padding-left: 0;
+    margin-bottom: 0.3rem;
   }
+
+  
+.accordion p:last-child {
+	margin-bottom: 1rem;
+}
   
   /* Icon */
   .accordion dt::after {

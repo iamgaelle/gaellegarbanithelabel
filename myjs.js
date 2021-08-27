@@ -74,7 +74,7 @@ $(document).ready(function() {
 });
     
 // for dropdown descriptions - product pages
-var allPanels = $('.accordion > p').hide();
+var allPanels = $('.accordion > div').hide();
 
 	$('.accordion > h4').click(function() {
 		allPanels.slideUp();

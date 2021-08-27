@@ -15,31 +15,31 @@ layout: default
 
         <div class="slider-for padded-05">
             <div class="slider-item">
-              <div class="bg-img1 portrait" style="background-image: url('{{page.product_image}}')"> </div>
+              <div class="bg-img0 portrait" style="background-image: url('{{page.product-big1_image}}')"> </div>
             </div>
             <div class="slider-item">
-              <div class="bg-img2 portrait"> </div>
+              <div class="bg-img0 portrait" style="background-image: url('{{page.product-big2_image}}')"> </div>
             </div>
             <div class="slider-item">
-              <div class="bg-img3 portrait"> </div>
+              <div class="bg-img0 portrait" style="background-image: url('{{page.product-big3_image}}')"> </div>
             </div>
             <div class="slider-item">
-              <div class="bg-img4 portrait"> </div>
+              <div class="bg-img0 portrait" style="background-image: url('{{page.product-big4_image}}')"> </div>
             </div>
          </div>
          
          <div class="slider-nav">
             <div class="slider-item padded-05">
-               <div class="bg-img1 portrait"> </div>
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb1_image}}')"> </div>
             </div>
             <div class="slider-item padded-05">
-               <div class="bg-img2 portrait"> </div>
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb2_image}}')"> </div>
             </div>
             <div class="slider-item padded-05">
-               <div class="bg-img3 portrait"> </div>
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb3_image}}')"> </div>
             </div>
             <div class="slider-item padded-05">
-               <div class="bg-img4 portrait"> </div>
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb4_image}}')"> </div>
             </div>
          </div>
        
@@ -77,25 +77,29 @@ layout: default
         <div class="accordion">
 
             <h4>Size & Fit +</h4>
-            {% if page.type == "kimono" %}
-            <p>{{page.size-fit-p1}}</p>
-            <h5> Kimono Measurements</h5>
-            {% endif %}
-            <p>{{page.size-fit-p2}}</p>
-            <p>{{page.size-fit-p3}}</p>
-
+            <div>
+               {% if page.type == "kimono" %}
+               <p>{{page.size-fit-p1}}</p>
+               <h5> Kimono Measurements</h5>
+               {% endif %}
+               <p>{{page.size-fit-p2}}</p>
+               <p>{{page.size-fit-p3}}</p>
+            </div>
             <h4>Care Instructions +</h4>
-            <p>{{page.care-p1}}</p>
-            <p>{{page.care-p2}}</p>
-            <p>{{page.care-p3}}</p>
-            <p>{{page.care-p4}}</p>
-            <p>{{page.care-p5}}</p>
-            <p>{{page.care-p6}}</p>
-            
+            <div>
+               <p>{{page.care-p1}}</p>
+               <p>{{page.care-p2}}</p>
+               <p>{{page.care-p3}}</p>
+               <p>{{page.care-p4}}</p>
+               <p>{{page.care-p5}}</p>
+               <p>{{page.care-p6}}</p>
+            </div>
             <h4>Shipping +</h4>
-            <p>{{page.shipping-p1}}</p>
-            <p>{{page.shipping-p2}}</p>
-            <p>{{page.shipping-p3}}</p>
+            <div>
+               <p>{{page.shipping-p1}}</p>
+               <p>{{page.shipping-p2}}</p>
+               <p>{{page.shipping-p3}}</p>
+            </div>
         
         </div>
       
