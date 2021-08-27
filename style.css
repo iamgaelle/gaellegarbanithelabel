@@ -545,6 +545,10 @@ header hr {
     opacity: 0.5;
 }
 
+.hb-menu-dropdown a {
+    padding-left: 5%;
+}
+
 /* .............hamburger stylings............. */
 
 .hamburger-button {
@@ -594,7 +598,7 @@ header hr {
     left: 0rem;
     top: 9vw;
     z-index: 2;
-    width: 50%;
+    width: 70%;
     height: 100% 
   }
   
@@ -831,6 +835,7 @@ background-position: center;
     position: relative;
     text-decoration: none;
   }
+
 .accordion p {
     padding: 0.2rem;
     padding-left: 0;

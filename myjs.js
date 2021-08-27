@@ -91,13 +91,13 @@ var allPanels = $('.accordion > div').hide();
 // for dropdown descriptions - hb-menu 
 var allPanels = $('.hb-menu-accordion > div').hide();
 
-$('.hb-menu-accordion > a').click(function() {
+$('.hb-menu-accordion > span').click(function() {
   allPanels.slideUp();
 
   $(this).filter('.open').removeClass('open').addClass('closing')
-  $('.hb-menu-accordion > a ').removeClass('open');
+  $('.hb-menu-accordion > span ').removeClass('open');
   $(this).not(".closing").addClass('open').next().slideDown();
-  $('.hb-menu-accordion > a').removeClass('closing');
+  $('.hb-menu-accordion > span').removeClass('closing');
   
   return false;
 });
