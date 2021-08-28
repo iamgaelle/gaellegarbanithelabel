@@ -532,7 +532,7 @@ header hr {
     border-top: 2px solid rgba(57,82,97,0.5);
 }
 
-/* hamburger menu dropdown/accordion */
+/* hamburger-mobile menu dropdown/accordion */
 
 .hb-menu-dropdown .fas {
     display: inline-block;
@@ -553,6 +553,11 @@ header hr {
 
 .hb-menu-dropdown a {
     padding-left: 5%;
+}
+
+.mob-menu-prod-links {
+    padding-left: 5%;
+    opacity: 0.8;
 }
 
 /* .............hamburger stylings............. */
