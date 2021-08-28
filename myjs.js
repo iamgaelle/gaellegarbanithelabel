@@ -89,10 +89,10 @@ var allPanels = $('.accordion > div').hide();
 
 
 // for dropdown descriptions - hb-menu 
-var allPanels = $('.hb-menu-accordion > div').hide();
+var hbMenu = $('.hb-menu-accordion > div').hide();
 
 $('.hb-menu-accordion > span').click(function() {
-  allPanels.slideUp();
+  hbMenu.slideUp();
 
   $(this).filter('.open').removeClass('open').addClass('closing')
   $('.hb-menu-accordion > span ').removeClass('open');
@@ -112,6 +112,8 @@ $('.hb-menu-accordion > span').click(function() {
     "close"
     ],
   });
+
+  alert("booh")
 
   });
   
