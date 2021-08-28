@@ -62,7 +62,7 @@ $('.hb-menu-accordion > span').click(function() {
 	loop: true,
   loopCount: 1,
   // backSpeed: 0,
-  // backDelay: 500,
+  backDelay: 2000,
 	typeSpeed: 100
 });
     

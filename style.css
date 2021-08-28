@@ -183,6 +183,11 @@ img {
 }
 
 
+.sticky{
+    ﻿position:sticky;
+    top:0;
+    }
+
 /* ..................BACKGROUND COLOR AND IMAGES CLASSES................ */
 
 .bg-dark {
