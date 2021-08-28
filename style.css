@@ -174,7 +174,7 @@ img {
 }
 .shop-kimonos {
     position:absolute; 
-    top: -17%;
+    top: -7%;
 }
 
 .sarong-1 {
@@ -537,6 +537,7 @@ header hr {
     transition: rotate 0.5s;
     padding: 0.5rem;
     padding-top: 0.4rem;
+    margin: 0;
 }
 
 .hb-menu-dropdown:hover .fas { 
@@ -825,11 +826,17 @@ background-position: center;
 
 /*....................Dropdown product description accordion...... */
 
+.accordion {
+    max-width:50%;
+    margin:auto;
+    position:relative;
+  }
 
 .accordion h4{
     padding: 0.5rem;
     padding-left: 0;
     margin: 0.5rem 0;
+    margin-top: 1.5rem;
     display:block;
     color: inherit;
     position: relative;
@@ -848,7 +855,8 @@ background-position: center;
 }
   
   /* Icon */
-  .accordion dt::after {
+  .accordion h4::after {
+    content: "+";
     position: absolute;
     top: 0.4rem;
     right: 0.4rem;
@@ -947,6 +955,11 @@ form textarea:focus {
 
 .newsletter form button {
     border-radius: 0 10px 10px 0;
+
+}
+
+.newsletter h4 {
+    min-height: 1.3em;
 }
 
 /* ............BUTTON styles............ */
@@ -1131,6 +1144,16 @@ form button {
     .dropdown-content {
         padding-top: 7%;
     }
+/* 
+    .shop-sarongs {
+        position:absolute; 
+        top: -5%;
+    } */
+
+    .shop-kimonos {
+        position:absolute; 
+        top: -17%;
+    }
 
     .product {padding-bottom: 10%;}
 
@@ -1179,7 +1202,12 @@ form button {
 
     .shop-sarongs {
         position:absolute; 
-        top: -3%;
+        top: -5%;
+    }
+
+    .shop-kimonos {
+        position:absolute; 
+        top: -13%;
     }
 
 
