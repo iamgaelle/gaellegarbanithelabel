@@ -859,6 +859,9 @@ background-position: center;
 .accordion p:last-child {
 	margin-bottom: 1rem;
 }
+.accordion h4:last-child {
+	margin-bottom: 2rem;
+}
   
   /* Icon */
   .accordion h4::after {
