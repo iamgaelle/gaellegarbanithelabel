@@ -413,7 +413,7 @@ a:hover{
 
 
 
-/* ..........................header styles.................. */
+/* ..........................HEADER styles........................ */
 
 header {
     padding: 1.5vh 5%;
@@ -442,7 +442,6 @@ header [class*=col] {
     display: block;
     margin: auto;
 }
-
 /* .logoleft {padding: 1rem 0;} */
 
 header nav a {
@@ -509,7 +508,6 @@ header .fas {
     min-width: 6rem;
     padding-top: 0.5vw;
     /* border-top: 2.5px solid rgba(57,82,97,0.5); */
-   
 }
 
 .dropdown:hover .dropdown-content {
@@ -532,35 +530,8 @@ header hr {
     border-top: 2px solid rgba(57,82,97,0.5);
 }
 
-/* hamburger-mobile menu dropdown/accordion */
 
-.hb-menu-dropdown .fas {
-    display: inline-block;
-    color:white;
-    font-size: 1.3rem;
-    rotate: -90deg;
-    transition: rotate 0.5s;
-    padding: 0.5rem;
-    padding-top: 0.4rem;
-    margin: 0;
-}
-
-.hb-menu-dropdown:hover .fas { 
-    color: white;
-    rotate: 0deg;
-    opacity: 0.5;
-}
-
-.hb-menu-dropdown a {
-    padding-left: 5%;
-}
-
-.mob-menu-prod-links {
-    padding-left: 5%;
-    opacity: 0.8;
-}
-
-/* .............hamburger stylings............. */
+/* ....................Hamburger / Mobile menu stylings............. */
 
 .hamburger-button {
     cursor: pointer;
@@ -589,10 +560,10 @@ header hr {
     top: 2.5rem;
     z-index: 2;
   }
-  
+/*   
   .hamburger-button.active {
     color: #00afb9;
-  }
+  } */
 
   .hamburger-button-left.active {
     color: #00afb9;
@@ -609,18 +580,68 @@ header hr {
     left: 0rem;
     top: 9vw;
     z-index: 2;
-    width: 70%;
+    width: 60%;
     height: 100% 
   }
   
   .mobile-menu a, span {
-    padding: 5vh 5%;
+    padding: 4vh 5%;
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
     display: block;
   }
 
+  .mobile-menu span .fas {
+    margin-bottom:0;
+  }
+
+  .hb-menu-dropdown .fas {
+      margin-bottom:0;
+  }
+
+/* hamburger-mobile menu dropdown/accordion */
+
+.hb-menu-dropdown .fas {
+    display: inline-block;
+    color:white;
+    font-size: 1.3rem;
+    rotate: -90deg;
+    transition: rotate 0.5s;
+    padding: 0.5rem;
+    padding-top: 0.4rem;
+    margin: 0;
+}
+
+.hb-menu-dropdown:hover .fas { 
+    color: white;
+    rotate: 0deg;
+    opacity: 0.5;
+}
+
+
+/* .mob-menu-prod-links div{
+    padding-top: 0;
+    padding-bottom: 0; 
+} */
+
+.mob-menu-prod-links a {
+    padding: 3vh 15%;
+    opacity: 0.7;
+}
+
+.mob-menu-prod-links a:hover {
+    opacity: 1;
+}
+
+
+/* .mob-menu-prod-links a:first-child {
+	margin-top: 0;
+}
+
+.mob-menu-prod-links a:last-child {
+	margin-bottom: 0;
+} */
 
 /* ..........................footer styles.................. */
 
@@ -951,7 +972,7 @@ form textarea:focus {
     display: inline-block; 
     border: 1px solid rgba(57,82,97,0.5);
     border-right: 0 solid;
-    border-radius: 10px 0 0 10px;
+    border-radius: 3px 0 0 3px;
 }
 
 .newsletter form input:focus {
@@ -962,13 +983,15 @@ form textarea:focus {
 
 .newsletter button, .newsletter input {
     margin:0;
-    padding: 0.5rem;
+    margin-top: 0.3rem;
+    padding: 0.6rem;
     font-size: 0.9rem;
     font-family: "Lato", sans-serif;
 } 
 
 .newsletter form button {
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 3px 3px 0;
+    padding: 0.6rem 0.8rem;
 
 }
 

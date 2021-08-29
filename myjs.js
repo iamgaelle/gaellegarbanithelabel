@@ -65,6 +65,15 @@ $('.hb-menu-accordion > span').click(function() {
   backDelay: 2000,
 	typeSpeed: 100
 });
+
+var headertyped = new Typed('#header-typed', {
+stringsElement: '#header-typed-strings',
+loop: true,
+loopCount: 1,
+// backSpeed: 0,
+backDelay: 2000,
+typeSpeed: 100
+});
     
 
 // This is the instagram gallery
