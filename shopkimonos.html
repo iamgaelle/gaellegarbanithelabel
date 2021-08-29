@@ -1,0 +1,70 @@
+---
+layout: default
+slick: false
+products-kimonos:
+ - heading: Karang Kimono
+   price: €170
+   product_image: /images/sarong-beach.jpg
+   product-item: /kimono-1.html
+ - heading: Bilaboa Kimono
+   price: €170
+   product_image: /images/sarong-beach.jpg
+   product-item: //kimono-1.html
+---
+
+<!-- ....................header: Logo and nav center option................... -->
+     
+
+<!-- ..................gallery shop kimonons section........... -->
+
+<section class="relative text-center padded">
+    <div class="shop-kimonos" id="kimonos"> </div>
+    <h1 class="text-center paddedsmall padded-b-3">Kimonos</h1>
+</section>
+
+
+<!--Kimonos bannner & intro description -->
+<section class="hero-banner grid-center fixed tall60vh"> 
+  <div class="col-8_sm-12-middle text-center relative">
+  </div> 
+</section>
+<section class="about-intro padded text-center">
+  <p>
+    Both beautiful and poetic, but also charming and colourful, the beachwear collection is designed with tropical prints and liberty flowers. Discover our new Spring-Summer 2021 beachwear collection: bohemian long dress for the long summer days, kimonos, beach pants and midi shirt dress. Our 2021 collection takes you back through Gauguin’s memories, to fareaway islands.
+  </p>
+</section>
+
+<!-- ..............cards section.................. -->
+<section class="relative text-center padded">
+<div class="grid-center">
+
+{% for item in page.products-kimonos %}
+    <div class="col-5">
+      <div class="card">
+        <a class="lightgreyhover" href="{{item.product-item}}">
+          <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
+          <div class="padded-1">
+            <h4>{{item.heading}}</h4> 
+            <p>{{item.price}}</p>  
+          </div> 
+        </a>
+      </div> 
+    </div>
+  {% endfor %}
+</div>
+
+</section>
+
+<!-- ...................newsletter............ -->
+
+{% include newsletter.html %}
+
+<!-- ...................instagram gallery........... -->
+
+<!-- .......................footer.................. -->
+
+<!-- scripts-->
+
+
+
+
