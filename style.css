@@ -170,17 +170,17 @@ img {
 
 .shop-sarongs {
     position:absolute; 
-    top: -30%;
+    top: -115px;
 }
 .shop-kimonos {
     position:absolute; 
-    top: -7%;
+    top: -115px;
 }
 
-.sarong-1 {
+/* .sarong-1 {
     position:absolute; 
     top: -17%;
-}
+} */
 
 
 .sticky{
@@ -1006,6 +1006,13 @@ form textarea:focus {
     min-height: 1.3em;
 }
 
+/* ............instagram styling........ */
+
+.instahandle{
+    margin-top: 1rem;
+    display: inline-block;
+}  
+
 /* ............BUTTON styles............ */
 
 
@@ -1206,15 +1213,15 @@ form button {
     .dropdown-content {
         padding-top: 7%;
     }
-/* 
+
     .shop-sarongs {
         position:absolute; 
-        top: -5%;
-    } */
+        top: -115px;
+    }
 
     .shop-kimonos {
         position:absolute; 
-        top: -17%;
+        top: -115px;
     }
 
     .product {padding-bottom: 10%;}
@@ -1264,18 +1271,17 @@ form button {
 
     .shop-sarongs {
         position:absolute; 
-        top: -5%;
+        top: -115px;
     }
 
     .shop-kimonos {
         position:absolute; 
-        top: -13%;
+        top: -115px;
     }
 
 
     .header-fix { padding-top: 4rem;}
-
-   
+ 
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
