@@ -584,7 +584,7 @@ header hr {
     height: 100% 
   }
   
-  .mobile-menu a, span {
+  .mobile-menu a {
     padding: 4vh 5%;
     text-decoration: none;
     text-transform: uppercase;
@@ -620,14 +620,19 @@ header hr {
 }
 
 
-/* .mob-menu-prod-links div{
-    padding-top: 0;
-    padding-bottom: 0; 
-} */
+
+.hb-menu-dropdown span{
+    padding: 5%;
+}
 
 .mob-menu-prod-links a {
     padding: 3vh 15%;
     opacity: 0.7;
+}
+
+.mob-menu-prod-links {
+    margin-top: -1vh 0;
+    margin-bottom: -1vh;
 }
 
 .mob-menu-prod-links a:hover {
@@ -1093,6 +1098,24 @@ form button {
       border: 1px solid #00afb9;
       transition: color .2s ease-in-out, opacity .2s ease-in-out;
   }
+
+
+/*..........extra info styling...........  */
+
+/* careinstruction */
+
+.careinstruction-banner {
+        background-color: #77ACA2;
+        background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+        background-size: cover;
+        background-position: top;
+        min-height: 80vh;
+}
+
+.careinfo {
+    background-color: #fff7f3;
+}
+
 
 
 /* ...............RESPONSIVE UTILITY CLASSES........ */
