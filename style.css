@@ -230,6 +230,19 @@ img {
     background-position: center;
 }
 
+.shopsarongimg {
+    background-image: url('/images/sarong-beach.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.shopkimonoimg {
+    background-image: url('/images/sunset-yoga.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 /*  ....background images style..... */
 
 .bg-img0 {
@@ -788,6 +801,7 @@ display: block;
     line-height: 1;
     opacity: .75;
     color: rgb(90,90,90);
+    /* color: red; */
 }
 
 .slick-dots {
@@ -806,15 +820,31 @@ display: block;
      width: 10px;
 }
 
-.slick-dots li button::before {
-     font-size: 12px;
+/* .slick-dots li button::before {
+     content: "∘";
+     font-size: 50px;
      color: white;
-
 }
 
 .slick-dots li.slick-active button::before {
      color: white;
-}
+} */
+
+.slick-dots li button::before {
+    font-size: 7px;
+    color: white;
+    content: " ";
+    height: 7px;
+    width:7px;
+    border:3px solid;
+    border-radius: 100%;
+    }
+
+.slick-dots li.slick-active button::before {
+    color: white;
+    background-color: white;
+    }
+    
 
 
 /*background img for slider styles..... */
@@ -1063,12 +1093,16 @@ a:hover.shopbutton{
     font-style: italic;
 }
 
-   /* below is to fix position using absolute/relative method */
-/* .sliderbutton {
-    position: absolute;
-    top: 60%;
-    left: calc(50% - 3rem);
-} */
+.shopcollectionbutton {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
+    color: inherit;    padding: 0.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    border: 1px solid #395261;
+}
 
 .sliderbutton,
 .addbutton {
@@ -1083,11 +1117,19 @@ a:hover.shopbutton{
 }
 
 a:hover.sliderbutton, 
-a:hover.addbutton{
-    background-color: rgba(255,255,255,0.5);
+a:hover.addbutton
+a:hover.shopcollectionbutton{
+    background-color: white;
     color: #00afb9;
     border: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+ /* below is to fix position using absolute/relative method */
+ .sliderbutton {
+    position: absolute;
+    top: 60%;
+    left: calc(50% - 3rem);
 }
 
 
@@ -1322,7 +1364,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     }
 
     .slick-dots li button:before {
-        font-size: 3px;
+        font-size: 4px;
     }
 }
 
