@@ -818,6 +818,7 @@ display: block;
 .slick-dots li,
 .slick-dots li button {
      width: 10px;
+     margin: 0.5rem;
 }
 
 /* .slick-dots li button::before {
@@ -838,11 +839,13 @@ display: block;
     width:7px;
     border:3px solid;
     border-radius: 100%;
+    opacity: 1;
     }
 
 .slick-dots li.slick-active button::before {
     color: white;
     background-color: white;
+    opacity: 1;
     }
     
 
@@ -1093,18 +1096,22 @@ a:hover.shopbutton{
     font-style: italic;
 }
 
-.shopcollectionbutton {
+.shopcollectionbutton,
+.sliderbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
     font-size: 14px;
-    color: inherit;    padding: 0.5rem;
+    color: white;    
+    padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
-    border: 1px solid #395261;
+    border: 1px solid white;
+    position: absolute;
+    top: 60%;
+    left: calc(50% - 5rem);  
 }
 
-.sliderbutton,
 .addbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -1117,7 +1124,7 @@ a:hover.shopbutton{
 }
 
 a:hover.sliderbutton, 
-a:hover.addbutton
+a:hover.addbutton,
 a:hover.shopcollectionbutton{
     background-color: white;
     color: #00afb9;
@@ -1129,7 +1136,7 @@ a:hover.shopcollectionbutton{
  .sliderbutton {
     position: absolute;
     top: 60%;
-    left: calc(50% - 3rem);
+    left: calc(50% - 5rem);
 }
 
 
