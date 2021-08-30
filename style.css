@@ -798,6 +798,7 @@ display: block;
      bottom: 25px;
      left: initial;
      right: 25px;
+    
 }
 
 .slick-dots li,
@@ -808,6 +809,7 @@ display: block;
 .slick-dots li button::before {
      font-size: 12px;
      color: white;
+
 }
 
 .slick-dots li.slick-active button::before {
