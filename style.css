@@ -1313,6 +1313,8 @@ form button {
 
   .md-tall80        {min-height: 80vh;}
 
+  .md-margin-t-2 { margin-top: 2rem; }
+
   .dropdown-content {padding-top: 8%;}
 
 }
@@ -1475,10 +1477,6 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         top: 1.4rem;
     }
 
-    .slick-dots li button:before {
-        font-size: 4px;
-    }
-
     .mobile-minheight {
         min-height: 50vh;
     }
@@ -1486,6 +1484,20 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     .shopcollectionbutton, .sliderbutton {
         font-size: 12px;
     }
+
+    .slick-dots li button:before {
+        font-size: 4px;
+    }
+
+    .slick-dots li button::before {
+        height: 5px;
+        width: 5px;
+        }
+    .slick-dots {
+        bottom: 15px;
+        right: 15px;
+        }
+
 
 }
 
