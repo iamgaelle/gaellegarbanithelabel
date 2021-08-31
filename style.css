@@ -770,6 +770,19 @@ header hr {
     padding-bottom: 10%;
 } 
 
+.palmtree {
+    min-height: 100%;
+    max-width: 30px;
+    display: block;
+    margin: auto; 
+}
+
+.mobile-menu .palmtree {
+    max-width: 65px;
+    padding-top: 80%;
+  }
+
+
 /* ..........................footer styles.................. */
 
 footer {
