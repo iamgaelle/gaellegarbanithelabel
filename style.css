@@ -215,13 +215,26 @@ img {
 /* Individual image styles */
 
 .bg-img {
-    background-image: url('/images/bali-ricefields.jpg');
+    background-image: url('/images/sarong-menjangan-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* min-height: 10rem; */
     /* QUESTION: Why this overwrite the tall class when applying the col-middle as per in the video? 
     and why when trying the square option the responsive class does work when bg image applied to parent container, but work only if bg image is separate and inside..... not sure what that means?*/
 }
+
+.shopsarongimg {
+    background-image: url('/images/sarong-lembongan-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shopkimonoimg {
+    background-image: url('/images/kimono-karang-pool1.jpg');
+    background-size: cover;
+    background-position: 50% 95%;
+}
+
 
 
 .bg-sarong1 {
@@ -230,20 +243,20 @@ img {
     background-position: center;
 }
 
-.shopsarongimg {
-    background-image: url('/images/sarong-beach.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
-}
-
-.shopkimonoimg {
-    background-image: url('/images/sunset-yoga.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 /*  ....background images style..... */
+
+.bg-bannerimg-sarong {
+    background-image: url('/images/sarong-menjangan-1.jpg');
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.bg-bannerimg-kimono {
+    background-image: url('/images/kimono-karang-butterfly.jpg');
+    background-size: cover;
+    background-position: 50% 5%;
+}
 
 .bg-img0 {
     background-color: lightblue;
@@ -253,7 +266,8 @@ img {
   }
 
 .bg-img1 {
-    background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+    /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
+    background-image: url('/images/melasti-sarong-sunset1.jpg');
     background-color: lightblue;
     background-size: cover;
     background-position: center;
@@ -281,11 +295,68 @@ img {
     background-position: center;
   }
 
-.bg-bannerimg {
-    background-image: url('/images/bali-ricefields.jpg');
+  .bg-imgprod-sarong1 {
+    background-image: url('/images/sarong-menjangan-1.jpg');
+    background-color: lightblue;
     background-size: cover;
-    background-position: 50% 53%;
-}
+    background-position: center;
+  }
+
+  .bg-imgprod-sarong2 {
+    background-image: url('/images/sarong-lembongan-1.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-sarong3 {
+    background-image: url('/images/sarong-melasti-sunset2.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono1 {
+    background-image: url('/images/kimono-karang-butterfly.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono2 {
+    background-image: url('/images/kimono-karang-front.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono3 {
+    background-image: url('/images/kimono-karang-back1.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono4 {
+    background-image: url('/images/kimono-karang-back2.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono5 {
+    background-image: url('/images/kimono-karang-pool1.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-kimono6 {
+    background-image: url('/images/kimono-karang-pool2.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
 
 .hidden-image:hover{ opacity:0 }
 
@@ -598,7 +669,7 @@ header hr {
   }
   
   .mobile-menu a {
-    padding: 4vh 5%;
+    padding: 4.5vh 5%;
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
@@ -634,8 +705,8 @@ header hr {
 
 
 
-.hb-menu-dropdown span{
-    padding: 4vh 5%;
+.mobile-menu span {
+    padding: 4.5vh 5%;
 }
 
 .mob-menu-prod-links a {
@@ -654,14 +725,9 @@ header hr {
     opacity: 1;
 }
 
-
-/* .mob-menu-prod-links a:first-child {
-	margin-top: 0;
-}
-
 .mob-menu-prod-links a:last-child {
 	margin-bottom: 0;
-} */
+} 
 
 /* ..........................footer styles.................. */
 
@@ -704,11 +770,13 @@ footer .californiafont-light {
 
 .hero-banner {
     background-color: #77ACA2;
-    background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+    /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
+    background-image: url('/images/sarong-melasti-sunset1.jpg');
     color: white;
     background-size: cover;
-    background-position: top;
+    background-position: 50% 38%;
   }
+  
 
 .fixed {
     background-attachment: fixed;
@@ -725,7 +793,7 @@ footer .californiafont-light {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.3);
 }
 
 .hero-banner h2 {
@@ -765,7 +833,6 @@ footer .californiafont-light {
 
 .slider-container {
     padding: 0;
-
 }
 
 .slider-item {
@@ -860,21 +927,21 @@ display: block;
     
 
 .bg-imgslider1 {
-background-image: url('https://source.unsplash.com/NbPJ8HM-w8c');
+background-image: url('/images/sarong-melasti-sunset1.jpg');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
 }
 
 .bg-imgslider2 {
-background-image: url('https://source.unsplash.com/eXHeq48Z-Q4');
+background-image: url('/images/kimono-karang-back1.jpg');
 background-color: lightblue;
 background-size: cover;
-background-position: center;
+background-position: 50% 28%;
 }
 
 .bg-imgslider3 {
-background-image: url('https://source.unsplash.com/IZ01rjX0XQA');
+background-image: url('/images/sarong-menjangan-1.jpg');
 background-color: lightblue;
 background-size: cover;
 background-position: center;
@@ -1009,7 +1076,7 @@ form textarea:focus {
 }
 
 .newsletter form input {
-    width: 30%;
+    width: 40%;
     margin: 0;
     display: inline-block; 
     border: 1px solid rgba(57,82,97,0.5);
@@ -1102,7 +1169,8 @@ a:hover.shopbutton{
     letter-spacing: 0.1rem;
     font-weight: 300;
     font-size: 14px;
-    color: white;    
+    color: #395261; 
+    background-color: white;   
     padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
@@ -1128,7 +1196,7 @@ a:hover.addbutton,
 a:hover.shopcollectionbutton{
     background-color: white;
     color: #00afb9;
-    border: 1px solid #00afb9;
+    border: 2px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
@@ -1347,15 +1415,11 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     }
     html { font-size: 12px;}
 
-    h1 {font-size: 1.5rem;}   
+    h1 { font-size: 1.5rem; margin-top: 1rem;}   
 
-    img {
-        max-width: 63%;
-    }
+    img { max-width: 63%;}
 
-    .logoimg {
-        max-width: 200px;
-    }
+    .logoimg {max-width: 200px;}
 
     /* QUESTION: Don't understand the below */
     .xxs-stack { 
@@ -1373,5 +1437,14 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     .slick-dots li button:before {
         font-size: 4px;
     }
+
+    .mobile-minheight {
+        min-height: 50vh;
+    }
+
+    .shopcollectionbutton, .sliderbutton {
+        font-size: 12px;
+    }
+
 }
 
