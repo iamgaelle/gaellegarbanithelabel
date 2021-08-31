@@ -212,7 +212,7 @@ img {
 .customratio-1 {padding-bottom: 124%; padding-top: 13%;}
 
 
-/* Individual image styles */
+/*  ....background images style..... */
 
 .bg-img {
     background-image: url('/images/sarong-menjangan-1.jpg');
@@ -223,19 +223,6 @@ img {
     and why when trying the square option the responsive class does work when bg image applied to parent container, but work only if bg image is separate and inside..... not sure what that means?*/
 }
 
-.shopsarongimg {
-    background-image: url('/images/sarong-lembongan-1.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.shopkimonoimg {
-    background-image: url('/images/kimono-karang-pool1.jpg');
-    background-size: cover;
-    background-position: 50% 95%;
-}
-
-
 
 .bg-sarong1 {
     background-image: url('/images/sarong-beach.jpg');
@@ -243,19 +230,32 @@ img {
     background-position: center;
 }
 
-/*  ....background images style..... */
+
+.shopsarongimg {
+    background-image: url('/images/sarong-lembongan-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shopkimonoimg {
+    background-image: url('/images/kimono-karang-pool-back.jpg');
+    background-size: cover;
+    background-position: 50% 95%;
+}
+
+
 
 .bg-bannerimg-sarong {
     background-image: url('/images/sarong-menjangan-1.jpg');
     background-size: cover;
-    background-position: 50% 0%;
+    background-position: 65% 0%;
     background-repeat: no-repeat;
 }
 
 .bg-bannerimg-kimono {
     background-image: url('/images/kimono-karang-butterfly.jpg');
     background-size: cover;
-    background-position: 50% 5%;
+    background-position: 50% 65%;
 }
 
 .bg-img0 {
@@ -316,6 +316,27 @@ img {
     background-position: center;
   }
 
+  .bg-imgprod-sarong4 {
+    background-image: url('/images/sarong-melasti-sunset3.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-sarong5 {
+    background-image: url('/images/sarong-melasti-orange.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-imgprod-sarong6 {
+    background-image: url('/images/sarong-uluwatu-purple.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+  
   .bg-imgprod-kimono1 {
     background-image: url('/images/kimono-karang-butterfly.jpg');
     background-color: lightblue;
@@ -345,14 +366,29 @@ img {
   }
 
   .bg-imgprod-kimono5 {
-    background-image: url('/images/kimono-karang-pool1.jpg');
+    background-image: url('/images/kimono-karang-pool-back.jpg');
     background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono6 {
-    background-image: url('/images/kimono-karang-pool2.jpg');
+    background-image: url('/images/kimono-karang-pool-front.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .bg-imgprod-kimono7 {
+    background-image: url('/images/kimono-biloba-pool-back1.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-position: 50% 90%;
+  }
+
+  .bg-imgprod-kimono8 {
+    background-image: url('/images/kimono-bilabo-pool-back2.jpg');
     background-color: lightblue;
     background-size: cover;
     background-position: center;
