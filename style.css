@@ -1090,7 +1090,23 @@ background-position: center;
     font-size: 2.8rem;
 }
 
-
+.palmtree-collection {
+    min-height: 100%;
+    max-width: 60px;
+    display: block;
+    /* margin: auto; */
+    margin-top: -5rem;
+    margin-left: 5rem; 
+}
+.palmtree-newsletter {
+    min-height: 100%;
+    max-width: 100px;
+    display: block;
+    /* margin: auto; */
+    margin-top: -4rem;
+    margin-left: 5rem; 
+    margin-bottom: -6rem;
+}
 
 /* .........................contact form styling................ */
 
@@ -1330,6 +1346,16 @@ form button {
 
   .dropdown-content {padding-top: 8%;}
 
+  .palmtree-newsletter {
+    min-height: 100%;
+    max-width: 80px;
+    display: block;
+    /* margin: auto; */
+    margin-top: -4rem;
+    margin-left: 3rem; 
+    margin-bottom: -6rem;
+}
+
 }
 
 
@@ -1407,6 +1433,17 @@ form button {
         left: 1rem;
         top: 1.9rem;
     } */
+
+    .palmtree-newsletter {
+        min-height: 100%;
+        max-width: 70px;
+        display: block;
+        /* margin: auto; */
+        margin-top: -3rem;
+        margin-left: 1.5rem; 
+        margin-bottom: -6rem;
+    }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -1456,7 +1493,8 @@ form button {
 
 
     .header-fix { padding-top: 4rem;}
- 
+
+
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -1510,6 +1548,27 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         bottom: 15px;
         right: 15px;
         }
+
+    .palmtree-collection {
+            min-height: 100%;
+            max-width: 50px;
+            display: block;
+            /* margin: auto; */
+            margin-top: -2.5rem;
+            margin-left: 1rem; 
+            margin-bottom: -6rem;
+        }
+
+    .palmtree-newsletter {
+            min-height: 100%;
+            max-width: 50px;
+            display: block;
+            /* margin: auto; */
+            margin-top: -2rem;
+            margin-left: 1rem; 
+            margin-bottom: -6rem;
+        }
+     
 
 
 }
