@@ -119,7 +119,7 @@ img {
     padding: 0 0.1rem 0.1rem;
 }
 
-.bannersliderpadding {
+.bannerzeropadding {
     padding: 0;
 }
 
@@ -271,9 +271,10 @@ img {
     width: 100%;
   }
 
+
 .bg-img1 {
     /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
-    background-image: url('/images/melasti-sarong-sunset1.jpg');
+    background-image: url('/images/sarong-melasti-sunset1.jpg');
     background-color: #fff7f3;
     background-size: cover;
     background-position: center;
