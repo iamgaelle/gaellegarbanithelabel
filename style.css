@@ -229,6 +229,7 @@ img {
     background-color: #fff7f3;
     background-image: url('/images/sarong-beach.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 
@@ -1003,24 +1004,24 @@ display: block;
     
 
 .bg-imgslider1 {
-background-image: url('/images/sarong-melasti-sunset1.jpg');
-background-color: lightblue;
-background-size: cover;
-background-position: center;
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-sunset1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-imgslider2 {
-background-image: url('/images/kimono-karang-back1.jpg');
-background-color: lightblue;
-background-size: cover;
-background-position: 50% 28%;
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-karang-back1.jpg');
+    background-size: cover;
+    background-position: 50% 28%;
 }
 
 .bg-imgslider3 {
-background-image: url('/images/sarong-menjangan-1.jpg');
-background-color: lightblue;
-background-size: cover;
-background-position: center;
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-menjangan-1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* ...................Product page styling.................. */
