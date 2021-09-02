@@ -35,26 +35,6 @@ products-kimonos:
 
 <!-- ..............cards section.................. -->
 
-<section class="relative text-center padded">
-<div class="grid-center">
-
-{% for item in page.products-kimonos %}
-    <div class="col-5 paddedsmall">
-      <div class="card">
-        <a class="lightgreyhover" href="{{item.product-item}}">
-          <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
-          <div class="padded-1">
-            <h4>{{item.heading}}</h4> 
-            <p>{{item.price}}</p>  
-          </div> 
-        </a>
-      </div> 
-    </div>
-  {% endfor %}
-</div>
-
-</section>
-
 <section class="text-center paddedsmall">
   <div class="grid-center padded-t-2">
   
@@ -74,7 +54,6 @@ products-kimonos:
   </div>
   
   </section>
-
 
 <!-- ...................newsletter............ -->
 
