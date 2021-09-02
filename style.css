@@ -155,6 +155,7 @@ img {
 /* MIN HEIGHT ClASSES */
 
 .tall100vh      {min-height: 100vh;}
+.tall90vh       {min-height: 90vh;}
 .tall80vh       {min-height: 80vh;}
 .tall70vh       {min-height: 70vh;}
 .tall60vh       {min-height: 60vh;}
