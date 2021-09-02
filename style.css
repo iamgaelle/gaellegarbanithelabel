@@ -276,6 +276,7 @@ img {
     /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
     background-image: url('/images/sarong-melasti-sunset1.jpg');
     background-color: #fff7f3;
+    color: white;
     background-size: cover;
     background-position: center;
     width: 100%;
