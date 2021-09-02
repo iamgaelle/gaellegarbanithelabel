@@ -215,6 +215,7 @@ img {
 /*  ....background images style..... */
 
 .bg-img {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-menjangan-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -225,19 +226,21 @@ img {
 
 
 .bg-sarong1 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-beach.jpg');
-    background-size: cover;
     background-position: center;
 }
 
 
 .shopsarongimg {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-lembongan-1.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .shopkimonoimg {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-pool-back.jpg');
     background-size: cover;
     background-position: 50% 95%;
@@ -246,6 +249,7 @@ img {
 
 
 .bg-bannerimg-sarong {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-menjangan-1.jpg');
     background-size: cover;
     background-position: 65% 0%;
@@ -253,13 +257,14 @@ img {
 }
 
 .bg-bannerimg-kimono {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-butterfly.jpg');
     background-size: cover;
     background-position: 50% 65%;
 }
 
 .bg-img0 {
-    background-color: lightblue;
+    background-color: #fff7f3;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -268,13 +273,14 @@ img {
 .bg-img1 {
     /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
     background-image: url('/images/melasti-sarong-sunset1.jpg');
-    background-color: lightblue;
+    background-color: #fff7f3;
     background-size: cover;
     background-position: center;
     width: 100%;
   }
  
 .bg-img2 {
+    background-color: #fff7f3;
     background-image: url('/images/sunset-yoga.jpg');
     background-size: cover;
     background-position: center;
@@ -282,6 +288,7 @@ img {
 }
 
 .bg-img3 {
+    background-color: #fff7f3;
     background-image: url('/images/bali-ricefields.jpg');
     background-size: cover;
     background-position: center;
@@ -289,8 +296,8 @@ img {
 
   
 .bg-img4 {
+    background-color: #fff7f3;
     background-image: url('https://source.unsplash.com/CTivHyiTbFw');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
@@ -303,93 +310,93 @@ img {
   }
 
   .bg-imgprod-sarong2 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-lembongan-1.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-sarong3 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-melasti-sunset2.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-sarong4 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-melasti-sunset3.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-sarong5 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-melasti-orange.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-sarong6 {
+    background-color: #fff7f3;
     background-image: url('/images/sarong-uluwatu-purple.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
   
   .bg-imgprod-kimono1 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-butterfly.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono2 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-front.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono3 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-back1.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono4 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-back2.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono5 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-pool-back.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
   .bg-imgprod-kimono6 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-karang-pool-front.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
 
 
   .bg-imgprod-kimono7 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-biloba-pool-back1.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: 50% 90%;
   }
 
   .bg-imgprod-kimono8 {
+    background-color: #fff7f3;
     background-image: url('/images/kimono-bilabo-pool-back2.jpg');
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
   }
@@ -855,6 +862,12 @@ footer .californiafont-light {
     font-weight: 300;
     /* font-size: 4rem; */
 } 
+
+/* testing banner for mobile */
+
+.hero-banner-mobile {
+    padding: 0;
+}
 
 /* ..............about introduction....... */
 
@@ -1624,25 +1637,13 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             margin-bottom: -6rem;
         }
 
-        .hero-banner {
-            background-color: #77ACA2;
-            background-image: url('/images/sarong-melasti-sunset1.jpg');
-            background-size: cover;
-            background-position: center;
-            min-height: 50vh;
-          }
-          
-        .fixed {
-            background-attachment: none;
-          }
-
-        .xs-mob-margin {
-              padding-top: 5rem;
-              padding-bottom: 4rem;
-              line-height: 3;
-          } 
-     
-
+       
+    /* .xs-mob-margin {
+            padding-top: 5rem;
+            padding-bottom: 4rem;
+            line-height: 3;
+        }  */
+    
 
 }
 
