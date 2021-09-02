@@ -1623,6 +1623,18 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             margin-left: 1rem; 
             margin-bottom: -6rem;
         }
+
+        .hero-banner {
+            background-color: #77ACA2;
+            background-image: url('/images/sarong-melasti-sunset1.jpg');
+            background-size: cover;
+            background-position: 50% 50%;
+          }
+          
+        
+        .fixed {
+            background-attachment: none;
+          }
      
 
 
