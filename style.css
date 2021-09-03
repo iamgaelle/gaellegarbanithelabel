@@ -186,9 +186,13 @@ img {
 
 .sticky{
     position:sticky;
-    top:0;
+    top: 107px;
     }
 
+    .screen-max-width {
+    max-width: 1300px;
+    margin: auto;
+    }
 /* ..................BACKGROUND COLOR AND IMAGES CLASSES................ */
 
 .bg-dark {
@@ -926,6 +930,11 @@ footer .californiafont-light {
 .slider-item:first-child {
 display: block; 	
 }
+
+.slider-item:not(.slick-current){
+    opacity: 0.5;
+}
+
 
 /* .slider-item:nth-child(odd) {
     border: 2px solid teal;
