@@ -4,7 +4,7 @@
 $(document).ready(function() {
 
 
-  // initialise the hamburger - left option
+  // initialise palmtree menu
   $(".mob-menu-palmtree").click(function(){
     $(".mobile-menu").slideToggle();
     $(this).toggleClass("active");
