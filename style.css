@@ -1653,15 +1653,19 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             margin-bottom: -6rem;
         }
 
-        .palmtree-absolute {
-            position: absolute;
-            right:10%;
-            z-index: 10;
-            min-height: 100%;
-            width: 55px;
-            display: block; 
-            margin-top: -40px;
-        }
+    .palmtree-absolute {
+        position: absolute;
+        right:10%;
+        z-index: 10;
+        min-height: 100%;
+        width: 55px;
+        display: block; 
+        margin-top: -40px;
+    }
+
+    footer .palmtree{
+        margin-top: -13px;
+    }
 
        
     .about-intro p.californiafont-light {
