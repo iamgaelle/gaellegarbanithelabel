@@ -902,11 +902,11 @@ footer .californiafont-light {
   }
 
   .palmtree-absolute {
-      /* position: absolute; */
-      right:50%;
+      position: absolute;
+      right:10%;
       z-index: 10;
       min-height: 100%;
-      max-width: 80px;
+      width: 80px;
       display: block; 
   }
 
