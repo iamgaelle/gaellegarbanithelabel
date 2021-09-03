@@ -4,6 +4,12 @@
 $(document).ready(function() {
 
 
+  // initialise the hamburger - left option
+  $(".mob-menu-palmtree").click(function(){
+    $(".mobile-menu").slideToggle();
+    $(this).toggleClass("active");
+  });
+
 // initialise the hamburger - right option
   $(".hamburger-button").click(function(){
       $(".mobile-menu").slideToggle();

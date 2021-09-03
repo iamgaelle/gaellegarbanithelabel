@@ -699,6 +699,12 @@ header hr {
   .hamburger-button-left.active {
     color: #00afb9;
   }
+
+  /* .mob-menu-palmtree.active {
+    color: white;
+  } */
+
+
   
   .mobile-menu {
     background-color: #00afb9;
