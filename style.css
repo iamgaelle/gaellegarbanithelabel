@@ -1635,7 +1635,7 @@ form button {
     .palmtree-abs-prod {
         right: 7%;
         width: 75px;
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
 }
@@ -1729,7 +1729,12 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             line-height: 1.1;
             min-height: 115px;
         } 
-    
+        .palmtree-abs-prod {
+            right: 5%;
+            width: 55px;
+            margin-top: 80px;
+        }
+
 
 }
 
