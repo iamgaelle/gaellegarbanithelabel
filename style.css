@@ -756,8 +756,6 @@ header hr {
     opacity: 0.5;
 }
 
-
-
 .mobile-menu span {
     padding: 4.5vh 5%;
     display: inline-block;
@@ -770,11 +768,6 @@ header hr {
     margin-bottom: -1.5vh;
 }
 
-/* .mob-menu-prod-links {
-    margin-top: -1vh 0;
-    margin-bottom: -1vh;
-} */
-
 .mob-menu-prod-links a:hover {
     opacity: 1;
 }
@@ -784,7 +777,7 @@ header hr {
 } 
 
 .mob-menu-prod-links a:last-child {
-    padding-bottom: 10%;
+    padding-bottom: 2rem;
 } 
 
 .palmtree {
