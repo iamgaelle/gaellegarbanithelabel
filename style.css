@@ -1645,7 +1645,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             padding-top: 1rem;
             padding-bottom: 1rem;
             line-height: 1.1;
-            /* min-height: 143px; */
+            min-height: 115px;
         } 
     
 
