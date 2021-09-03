@@ -1578,10 +1578,24 @@ form button {
         margin-bottom: -6rem;
     }
 
-    footer .palmtree{
+    .about-intro p.californiafont-light {
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
+        line-height: 1.1;
+        min-height: 107px;
+        margin-bottom: 0;
+    } 
+
+  
+    .palmtree-absolute {
+        position: absolute;
+        right:10%;
+        z-index: 10;
+        min-height: 100%;
+        width: 80px;
+        display: block; 
         margin-top: -30px;
     }
-
 
 }
 
@@ -1665,10 +1679,6 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         width: 55px;
         display: block; 
         margin-top: -40px;
-    }
-
-    footer .palmtree{
-        margin-top: -13px;
     }
 
        
