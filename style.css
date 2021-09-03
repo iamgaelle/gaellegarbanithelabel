@@ -1642,8 +1642,8 @@ NOTE: divide 400 / 16 as 1 em=16px*/
 
        
     .about-intro p.californiafont-light {
-            padding-top: 1.5rem;
-            padding-bottom: 1.5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             line-height: 1.1;
             /* min-height: 143px; */
         } 
