@@ -16,17 +16,17 @@ $(document).ready(function() {
   //     $(this).toggleClass("active");
   //   });
 
-    // initialise the hamburger - left option
-  $(".hamburger-button-left").click(function(){
-      $(".mobile-menu").slideToggle();
-      $(this).toggleClass("active");
-    });
-
-   // initialise the hamburger - left option
-   $(".hb-menu-dropdown a").click(function(){
+  // initialise the hamburger - left option
+$(".hamburger-button-left").click(function(){
     $(".mobile-menu").slideToggle();
     $(this).toggleClass("active");
   });
+
+  // initialise the mobile menu dropdwown
+//   $(".hb-menu-dropdown a").click(function(){
+//   $(".mobile-menu").slideToggle();
+//   $(this).toggleClass("active");
+// });
 
 
 // for dropdown descriptions - product pages

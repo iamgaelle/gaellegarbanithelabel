@@ -493,9 +493,12 @@ a:hover{
     color: #00afb9;
 }
 
+ .lightgreyhover:hover *{
+    opacity: .75;
+} 
+
 .lightgreyhover:hover{
     color: inherit;
-    opacity: .75;
 }
 
 .text-left      { text-align: left ;}
@@ -749,8 +752,8 @@ header hr {
     display: inline-block;
     color:white;
     font-size: 1.3rem;
-    rotate: -90deg;
-    transition: rotate 0.5s;
+    /* rotate: -90deg;
+    transition: rotate 0.5s; */
     padding: 0.5rem;
     padding-top: 0.4rem;
     margin: 0;
@@ -758,7 +761,7 @@ header hr {
 
 .hb-menu-dropdown:hover .fas { 
     color: white;
-    rotate: 0deg;
+    /* rotate: 0deg; */
     opacity: 0.5;
 }
 
