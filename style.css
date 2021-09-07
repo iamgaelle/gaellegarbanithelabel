@@ -1605,6 +1605,11 @@ form button {
         top: -115px;
     }
 
+    .moresarongs {
+        position:absolute; 
+        top: -70%;
+    }
+
     .header-fix { padding-top: 4rem;}
 
     .sm-padded-t-2 { padding-top: 2rem; }
