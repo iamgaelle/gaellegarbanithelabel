@@ -493,13 +493,24 @@ a:hover{
     color: #00afb9;
 }
 
- .lightgreyhover:hover *{
-    opacity: .75;
+
+.lightgreyhover:hover *{
+    opacity: .85;
 } 
 
 .lightgreyhover:hover{
     color: inherit;
 }
+
+.lightgreyhover:hover .bg-img {
+    transform: scale(1.03,1.03);
+    transition: all .8s ease;
+}
+
+.image-wrap {
+    overflow:hidden;
+}
+
 
 .text-left      { text-align: left ;}
 .text-center    { text-align: center ;}
