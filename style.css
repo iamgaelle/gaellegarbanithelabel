@@ -180,6 +180,11 @@ img {
     top: -115px;
 }
 
+.moresarongs {
+    position:absolute; 
+    top: -70%;
+}
+
 /* .sarong-1 {
     position:absolute; 
     top: -17%;
@@ -1603,11 +1608,6 @@ form button {
     .shop-kimonos {
         position:absolute; 
         top: -115px;
-    }
-
-    .moresarongs {
-        position:absolute; 
-        top: -70%;
     }
 
     .header-fix { padding-top: 4rem;}
