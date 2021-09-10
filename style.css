@@ -193,7 +193,7 @@ img {
     top: -100px;
     height:16px;
     width:100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* .sarong-1 {
@@ -1815,10 +1815,16 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         top: -50px;
         height:16px;
         width:100%;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     }
     
-
+    .morekimonos {
+        position:absolute; 
+        top: -50px;
+        height:16px;
+        width:100%;
+        /* border: 1px solid grey; */
+    }
 
 }
 
