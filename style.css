@@ -188,6 +188,14 @@ img {
     /* border: 1px solid grey; */
 }
 
+.morekimonos {
+    position:absolute; 
+    top: -100px;
+    height:16px;
+    width:100%;
+    border: 1px solid grey;
+}
+
 /* .sarong-1 {
     position:absolute; 
     top: -17%;
