@@ -37,7 +37,7 @@ products-kimonos:
   </div>    
 </div>
 
-<section class="about-intro padded text-center margin-b-2">
+<section class="about-intro padded text-center">
   <p>Portraying Mother Nature’s Beauty with hand-drawn illustrations and embodying femininity, our kimono collection is made of a sustainable super light and flowy fabric with a silky touch that will make the modern free spirited women feel snuggled with a soulfoul piece of art. 
   </p>
 </section>
@@ -51,11 +51,11 @@ products-kimonos:
   <div class="grid-center padded-t-2">
   
   {% for item in page.products-kimonos %}
-      <div class="paddedsmall col-5_sm-6">
+      <div class="paddedsmall col-4_sm-6">
         <div class="card">
           <a class="lightgreyhover" href="{{item.product-item}}">
             <div class="image-wrap">
-              <div class="portrait-small bg-img" style="background-image: url('{{item.product_image}}')"> </div>
+              <div class="portrait bg-img" style="background-image: url('{{item.product_image}}')"> </div>
             </div>
             <div class="padded-1">
               <h4>{{item.heading}}</h4> 
