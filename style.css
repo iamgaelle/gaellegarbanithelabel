@@ -1334,7 +1334,7 @@ a:hover.shopbutton{
     left: calc(50% - 5rem);  
 }
 
-.addbutton {
+/* .addbutton {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
@@ -1343,10 +1343,45 @@ a:hover.shopbutton{
     display: inline-block;
     margin-bottom: 1.5rem;
     border: 1px solid #395261;
+} */
+
+.addbutton2 {
+    background-color:#72d4d4;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #72d4d4; 
+    padding: 0.6rem 0.8rem;
+    display: inline-block;
+}
+
+.learnmorebutton {
+    background-color:white;
+    color: #72d4d4;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #72d4d4; 
+    padding: 0.6rem 0.8rem;
+    display: inline-block;
+}
+
+
+/* a:hover.addbutton, */
+a:hover.addbutton2,
+a:hover.learnmorebutton{
+    background-color: white;
+    color: #00afb9;
+    border: 1px solid #00afb9;
+    transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
 a:hover.sliderbutton, 
-a:hover.addbutton,
 a:hover.shopcollectionbutton{
     background-color: white;
     color: #00afb9;
@@ -1380,6 +1415,8 @@ form button {
       border: 1px solid #00afb9;
       transition: color .2s ease-in-out, opacity .2s ease-in-out;
   }
+
+
 
 
 /*..........extra info styling...........  */
