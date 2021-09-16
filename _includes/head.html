@@ -1,6 +1,7 @@
 <!-- HEAD -->
 
 <!-- meatadata for favicons -->
+
 <!-- <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
@@ -35,6 +36,17 @@
 
 <!-- to block search engines while testing -->
 <meta name="robots" content="noindex">
+
+<!--------------------- SEO Metadata ----------------------->
+<title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title> 
+<meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+<meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
+
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+    <meta name="robots" content="index, follow">
+{% endif %}
 
 
 <!-- this is our grid stylesheet  -->
