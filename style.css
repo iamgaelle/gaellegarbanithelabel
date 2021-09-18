@@ -196,6 +196,14 @@ img {
     /* border: 1px solid grey; */
 }
 
+.sustainability {
+    position:absolute; 
+    top: -130px;
+    /* height:16px;
+    width:100%;
+    border: 1px solid grey; */
+}
+
 /* .sarong-1 {
     position:absolute; 
     top: -17%;
@@ -213,6 +221,18 @@ img {
     }
 /* ..................BACKGROUND COLOR AND IMAGES CLASSES................ */
 
+ /* images shape */
+
+.shape-teardrop {
+    border-radius: 20rem;
+    border-bottom-right-radius: 0;
+}
+
+.shape-window {
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem; 
+}
+
 .bg-dark {
     background-color: #395261;
     color: white;
@@ -224,6 +244,10 @@ img {
 
 .bg-light {
     background-color: #fff7f3;
+}
+
+.bg-featured {
+    background-color: #FFD0C0;
 }
 
 
@@ -1331,7 +1355,8 @@ a:hover.shopbutton{
     border: 1px solid white;
     position: absolute;
     top: 60%;
-    left: calc(50% - 5rem);  
+    left: calc(50% - 5rem);
+    border-radius: 3px 3px 3px 3px;  
 }
 
 /* .addbutton {
@@ -1339,49 +1364,60 @@ a:hover.shopbutton{
     letter-spacing: 0.1rem;
     font-weight: 300;
     font-size: 14px;
-    color: inherit;    padding: 0.5rem;
+    color: inherit;    
+    padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
     border: 1px solid #395261;
 } */
 
 .addbutton2 {
-    background-color:#72d4d4;
+    background-color: #00afb9;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
-    font-size: 14px;
-    border-radius: 3px 3px 3px 3px;
-    border: 1px solid #72d4d4; 
-    padding: 0.6rem 0.8rem;
+    font-size: 14px;   
+    /* padding: 0.5rem; */
     display: inline-block;
+    /* margin-bottom: 1.5rem; */
+    border: 1px solid #00afb9;
+    border-radius: 3px 3px 3px 3px;
+    padding: 0.6rem 0.8rem;
 }
 
 .learnmorebutton {
-    background-color:white;
-    color: #72d4d4;
+    background-color: white;
+    color: #00afb9;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 300;
-    font-size: 14px;
-    border-radius: 3px 3px 3px 3px;
-    border: 1px solid #72d4d4; 
-    padding: 0.6rem 0.8rem;
+    font-size: 14px;   
+    /* padding: 0.5rem; */
     display: inline-block;
+    /* margin-bottom: 1.5rem; */
+    border: 1px solid #00afb9;
+    border-radius: 3px 3px 3px 3px;
+    padding: 0.6rem 0.8rem;
 }
 
-
-/* a:hover.addbutton, */
-a:hover.addbutton2,
-a:hover.learnmorebutton{
+a:hover.addbutton2{
     background-color: white;
     color: #00afb9;
     border: 1px solid #00afb9;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
+a:hover.learnmorebutton{
+    background-color: white;
+    color: #00afb9;
+    font-weight: 400;
+    border: 1px solid #00afb9;
+    transition: color .2s ease-in-out, opacity .2s ease-in-out;
+}
+
 a:hover.sliderbutton, 
+/* a:hover.addbutton, */
 a:hover.shopcollectionbutton{
     background-color: white;
     color: #00afb9;
@@ -1415,8 +1451,6 @@ form button {
       border: 1px solid #00afb9;
       transition: color .2s ease-in-out, opacity .2s ease-in-out;
   }
-
-
 
 
 /*..........extra info styling...........  */
@@ -1748,6 +1782,14 @@ form button {
         margin-top: 80px;
     }
 
+    .sustainability {
+        position:absolute; 
+        top: -80px;
+        /* height:16px;
+        width:100%;
+        border: 1px solid grey; */
+    }
+
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -1861,6 +1903,18 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         height:16px;
         width:100%;
         /* border: 1px solid grey; */
+    }
+
+    .sustainability {
+        position:absolute; 
+        top: -50px;
+        /* height:16px;
+        width:100%;
+        border: 1px solid grey; */
+    }
+
+    .shape-teardrop { 
+        max-width: 90%;
     }
 
 }
