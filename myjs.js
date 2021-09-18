@@ -83,15 +83,15 @@ typeSpeed: 100
     
 
 // This is the instagram gallery
-  $('[data-fancybox="gallery"]').fancybox({
-    protect: true,
-    keyboard: true,
-    arrows: true,
-    infobar: false,
-    buttons: [
-    "close"
-    ],
-  });
+  // $('[data-fancybox="gallery"]').fancybox({
+  //   protect: true,
+  //   keyboard: true,
+  //   arrows: true,
+  //   infobar: false,
+  //   buttons: [
+  //   "close"
+  //   ],
+  // });
 
   alert("booh")
 
