@@ -93,7 +93,7 @@ typeSpeed: 100
   //   ],
   // });
 
-  alert("booh")
+  // alert("booh")
 
   });
   
