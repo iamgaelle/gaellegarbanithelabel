@@ -1,23 +1,23 @@
-seo: 
+seo:
   site_name: Gaelle Garbani
   title: Default SEO Title
-  description: 
-  keywords: 
-  social_image: 
-  author: 
-  favicon_image: 
-social: 
-  instagram_url: 'https://www.instagram.com/gaellegarbani/'
-  facebook_url: 'https://www.facebook.com/Gaelle-Garbani-105713318521709'
-  twitter_username: 
-design: 
+  description:
+  keywords:
+  social_image:
+  author:
+  favicon_image:
+social:
+  instagram_url: https://www.instagram.com/gaellegarbani/
+  facebook_url: https://www.facebook.com/Gaelle-Garbani-105713318521709
+  twitter_username:
+design:
   dark-text_color: '#395261'
-  medium-text_color: 'rgb(57,82,97)'
-  light-text_color: '#f7f5f3'
+  medium-text_color: '#ff937d'
+  light-text_color: '#fff7f3'
   featured-text_color: '#00afb9'
   dark_color: '#395261'
-  medium_color: '#FFA995'
-  light_color: '#f7f5f3'
+  medium_color: '#ffa995'
+  light_color: '#ffe7e2'
   v-light_color: '#fff7f3'
   featured_color: '#00afb9'
-  accent_color: 'rgb(167, 74, 74)'
+  accent_color: '#72d4d4'
