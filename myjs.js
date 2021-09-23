@@ -43,20 +43,6 @@ var allPanels = $('.accordion > div').hide();
     return false;
 	});
 
-   // accordion h4::after 
-  // var allPanels = $('.accordion > div').hide();
-
-	// $('.accordion > h4::after').click(function() {
-	// 	allPanels.slideUp();
-
-  //   $(this).filter('.open').removeClass('open').addClass('closing')
-  //   $('.accordion > h4::after ').removeClass('open');
-  //   $(this).not(".closing").addClass('open').next().slideDown();
-  //   $('.accordion > h4::after').removeClass('closing');
-    
-  //   return false;
-	// });
-
  
 
 // for dropdown descriptions - hb-menu 
@@ -108,7 +94,7 @@ typeSpeed: 100
   //   ],
   // });
 
-  // alert("booh")
+
 
   });
   

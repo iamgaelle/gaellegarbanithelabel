@@ -1210,7 +1210,7 @@ hr.short.text-center {
     position: absolute;
     right:7%;
     z-index: 10;
-    min-height: 100%;
+    /* min-height: 100%; */
     width: 80px;
     display: block; 
     margin-top: 22px;
