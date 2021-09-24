@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<!-- this is the head of our html where we add extra resource and metadata. this is where all the info that is not displayed on screen is mentioned like gridlex, googlefont... -->
+<head>
+
+{% include head.html %}
+
+</head>
+
+<!-- In the body, this is where all the content that will show on website -->
+
+<body>
+
+<!-- .....................HEADER: Logo and nav center option................... -->
+   
+<header>
+    <div class="text-center margin-b-05">
+        <a class="logo" href="/">
+            <img class="logoimg" src="/LOGO/gg-logo-13.svg">
+        </a>
+    </div>
+    </header>
+
+<!--  ....................CONTENT -->
+
+{{ content }}
+
+
+<!-- ...................instagram gallery........... -->
+
+{% include instagram.html %}
+
+<!-- .........................footer.................. -->
+
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed text script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- jquery slick slider script -->
+{% if page.slick == true %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="slick.js"></script>
+{% endif %} 
+
+
+
+<!-- javascript -->
+
+<script type="text/javascript" src="myjs.js"></script>
+
+</body>
+
+</html>
