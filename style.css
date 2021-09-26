@@ -1204,6 +1204,7 @@ hr.short.text-center {
     min-height: 100%;
     width: 90px;
     display: block; 
+    margin-top: -55px;
 }
 
 .palmtree-abs-prod {
@@ -1717,7 +1718,7 @@ form button {
         min-height: 100%;
         width: 80px;
         display: block; 
-        margin-top: -20px;
+        margin-top: -50px;
     }
 
     .palmtree-abs-prod {
