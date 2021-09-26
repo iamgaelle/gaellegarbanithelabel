@@ -1210,7 +1210,7 @@ hr.short.text-center {
     position: absolute;
     right:7%;
     z-index: 10;
-    /* min-height: 100%; */
+    min-height: 100%;
     width: 80px;
     display: block; 
     margin-top: 22px;
@@ -1568,11 +1568,10 @@ form button {
 
 @media (max-width: 64em) {
 
-  body {
+  /* body {
     border: 2px solid green; 
-    /* padding: 0.5rem; */
-    /* QUESTION: can't see diff with above padding */
-    }
+    padding: 0.5rem;
+    } */
 
   .show-md          { display: block; }
   .hide-md          { display: none;  }
@@ -1626,10 +1625,10 @@ form button {
 
 @media (max-width: 48em) {
 
-    body {
+    /* body {
         border: 2px solid blue; 
-        /* padding: 0.5rem; */
-    }
+        padding: 0.5rem;
+    } */
 
     html { font-size: 14px;}
     p, li { font-size: 1.1rem;}
@@ -1734,10 +1733,10 @@ form button {
 
 @media (max-width: 36em) {
 
-    body {
+    /* body {
         border: 2px solid lightblue; 
-        /* padding: 0.5rem; */
-    }
+        padding: 0.5rem;
+    } */
 
     .show-xs { display: block; }
     .hide-xs { display: none;  }
@@ -1839,13 +1838,21 @@ NOTE: divide 400 / 16 as 1 em=16px*/
 
 @media (max-width: 25em) {
 
-    body {
+    /* body {
         border: 2px solid orange; 
-        /* padding: 0.5rem; */
-    }
+        padding: 0.5rem;
+    } */
+
     html { font-size: 12px;}
 
-    h1 { font-size: 1.5rem; margin-top: 1rem;}   
+    h1 { 
+        font-size: 1.5rem; 
+        margin-top: 1rem;
+    }   
+
+    .hero-banner h2 {
+        margin-bottom: 1rem;
+    }
 
     img { max-width: 63%;}
 
