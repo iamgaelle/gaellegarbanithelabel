@@ -561,9 +561,10 @@ a:hover{
 .featureddark-text  {color: #395261}
 .whitecolor-text    {color: white;}
 
+.font-weight-light  {font-weight: 200;}
 .font-weight-normal {font-weight: normal;}
 .font-weight-300 {font-weight: 300;}
-.font-weight-light  {font-weight: 200;}
+.font-weight-bold {font-weight:700}
 .font-weight-xbold  {font-weight: 800;}
 
 .text-small   {font-size: 1.5rem;}
