@@ -306,9 +306,9 @@ img {
 
 .bg-bannerimg-kimono {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-ombak-back-pool-banner.jpg');
+    background-image: url('/images/kimono-ombak-banner-test1.jpg');
     background-size: cover;
-    background-position: 50% 65%;
+    background-position: 50% 45%;
 }
 
 .bg-img0 {
