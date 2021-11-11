@@ -298,15 +298,15 @@ img {
 
 .bg-bannerimg-sarong {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-menjangan-beach-2.jpg');
+    background-image: url('/images/sarong-menjangan-beach-2-banner.jpg');
     background-size: cover;
-    background-position: 1% 0%;
+    background-position: 99% 0%;
     background-repeat: no-repeat;
 }
 
 .bg-bannerimg-kimono {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-karang-butterfly.jpg');
+    background-image: url('/images/kimono-ombak-back-villa-banner.jpg');
     background-size: cover;
     background-position: 50% 65%;
 }
