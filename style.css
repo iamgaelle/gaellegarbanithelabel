@@ -353,104 +353,203 @@ img {
     background-position: center;
   }
 
-  .bg-imgprod-sarong1 {
+  .collection-image-1 {
     background-image: url('/images/sarong-menjangan-beach-1.jpg');
-    background-color: lightblue;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .bg-imgprod-sarong2 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-menjangan-beach-3.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-sarong3 {
+  .collection-image-2 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-lembongan-beach-2.jpg');
+    background-image: url('/images/sarong-melasti-turquoise-beach-bandeau-2.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-sarong4 {
+  .collection-image-3 {
     background-color: #fff7f3;
     background-image: url('/images/sarong-lembongan-beach-dress-back.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-sarong5 {
+  .collection-image-4 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-melasti-orange.jpg');
+    background-image: url('/images/sarong-lembongan-beach-1.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-sarong6 {
+  .collection-image-5 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-uluwatu-purple.jpg');
+    background-image: url('/images/sarong-melasti-turquoise-beach-pirate-1.jpg');
     background-size: cover;
     background-position: center;
   }
-  
-  .bg-imgprod-kimono1 {
+
+  .collection-image-6 {
+    background-image: url('/images/sarong-menjangan-beach-3.jpg');
+    background-color: #fff7f3;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-7 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-turquoise-beach-bandeau-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-8 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-lembongan-beach-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-9 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-10 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-uluwatu-villa-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-11 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-orange-dress-back-villa.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-12 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-13 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-uluwatu-resort-3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-14 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-turquoise-resort-cape-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-15 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-16 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-lembongan-beach-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-17 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-orange-villa-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-18 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-turquoise-beach-bandeau-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-19 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-lembongan-beach-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-20 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-21 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-turquoise-beach-bandeau-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-22 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-lembongan-beach-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-23 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-24 {
     background-color: #fff7f3;
     background-image: url('/images/kimono-karang-front-resort.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-kimono2 {
+  .collection-image-25 {
     background-color: #fff7f3;
     background-image: url('/images/kimono-karang-front-tiedup.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-kimono3 {
+  .collection-image-26 {
     background-color: #fff7f3;
     background-image: url('/images/kimono-ombak-front-villa-2.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-kimono4 {
+  .collection-image-27 {
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-karang-side-resort.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .collection-image-28 {
     background-color: #fff7f3;
     background-image: url('/images/kimono-ombak-back-villa.jpg');
     background-size: cover;
     background-position: center;
   }
 
-  .bg-imgprod-kimono5 {
-    background-color: #fff7f3;
-    background-image: url('/images/kimono-karang-pool-back.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-
-  .bg-imgprod-kimono6 {
-    background-color: #fff7f3;
-    background-image: url('/images/kimono-karang-pool-front.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-
-
-  .bg-imgprod-kimono7 {
-    background-color: #fff7f3;
-    background-image: url('/images/kimono-biloba-pool-back1.jpg');
-    background-size: cover;
-    background-position: 50% 90%;
-  }
-
-  .bg-imgprod-kimono8 {
-    background-color: #fff7f3;
-    background-image: url('/images/kimono-bilabo-pool-back2.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+  
 
 .hidden-image:hover{ opacity:0 }
 
