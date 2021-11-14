@@ -274,7 +274,7 @@ img {
 
 .bg-sarong1 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-beach.jpg');
+    background-image: url('/images/sarong-menjangan-beach-3.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -1069,14 +1069,14 @@ display: block;
 
 .bg-imgslider1 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-melasti-sunset1.jpg');
+    background-image: url('/images/sarong-menjangan-beach-2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .bg-imgslider2 {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-karang-back1.jpg');
+    background-image: url('/images/kimono-karang-banner-test2.jpg');
     background-size: cover;
     background-position: 50% 28%;
 }
