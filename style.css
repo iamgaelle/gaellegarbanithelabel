@@ -82,7 +82,7 @@ img {
 .padded-t  { padding-top: 5%; }
 .padded-b  { padding-bottom: 5%; }
 .padded-l  { padding-left: 5%; }
-.padded-r  { padding-bottom: 5%; }
+.padded-r  { padding-right: 5%; }
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
