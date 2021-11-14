@@ -353,6 +353,69 @@ img {
     background-position: center;
   }
 
+.sarong-img1 {
+    /* background-image: url('https://source.unsplash.com/NbPJ8HM-w8c'); */
+    background-image: url('/images/sarong-menjangan-beach-1.jpg');
+    background-color: #fff7f3;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+ 
+.sarong-img2 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-menjangan-beach-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.sarong-img3 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  
+.sarong-img4 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-suluban-villa-6.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.kimono-img1 {
+    background-image: url('/images/kimono-ombak-front-villa-2.jpg');
+    background-color: #fff7f3;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+ 
+.kimono-img2 {
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-ombak-back-villa.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.kimono-img3 {
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-karang-side-resort.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+  
+.kimono-img4 {
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-karang-front-resort.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
   .collection-image-1 {
     background-image: url('/images/sarong-menjangan-beach-1.jpg');
     background-color: #fff7f3;
