@@ -481,7 +481,7 @@ img {
 
   .collection-image-10 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-melasti-orange-dress-pool-2.jpg');
+    background-image: url('/images/sarong-uluwatu-villa-2-2.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -530,16 +530,17 @@ img {
 
   .collection-image-17 {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-melasti-orange-villa-4.jpg');
+    background-image: url('/images/sarong-melasti-orange-villa-4-2.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
   }
 
   .collection-image-18 {
     background-color: #fff7f3;
     background-image: url('/images/kimono-ombak-back-villa.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom
+    ;
   }
 
   .collection-image-19 {
@@ -593,7 +594,7 @@ img {
 
   .collection-image-26 {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-pantaimerah-2.jpg');
+    background-image: url('/images/kimono-pantaimerah-resort-2.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -601,7 +602,7 @@ img {
 
   .collection-image-28 {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-pantaimerah-3.jpg');
+    background-image: url('/images/kimono-pantaimerah-resort-3.jpg');
     background-size: cover;
     background-position: center;
   }
