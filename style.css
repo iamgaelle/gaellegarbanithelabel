@@ -283,16 +283,30 @@ img {
 
 .shopsarongimg {
     background-color: #fff7f3;
-    background-image: url('/images/sarong-lembongan-1.jpg');
+    background-image: url('/images/sarong-menjangan-beach-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shopsarongimg2 {
+    background-color: #fff7f3;
+    background-image: url('/images/sarong-melasti-turquoise-resort-cape-2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .shopkimonoimg {
     background-color: #fff7f3;
-    background-image: url('/images/kimono-karang-pool-back.jpg');
+    background-image: url('/images/kimono-ombak-front-villa-2.jpg');
     background-size: cover;
-    background-position: 50% 95%;
+    background-position: 50% 60%;
+}
+
+.shopkimonoimg2 {
+    background-color: #fff7f3;
+    background-image: url('/images/kimono-karang-side-resort.jpg');
+    background-size: cover;
+    background-position: 50% 60%;
 }
 
 
