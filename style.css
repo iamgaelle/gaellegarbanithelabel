@@ -1581,14 +1581,14 @@ a:hover.shopbutton{
     letter-spacing: 0.1rem;
     font-weight: 300;
     font-size: 14px;
-    color: #395261; 
-    background-color: white;   
+    color: white; 
+    background-color: #00afb9;   
     padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1.5rem;
-    border: 1px solid white;
+    border: 1px solid #00afb9;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: calc(50% - 5rem);
     border-radius: 3px 3px 3px 3px;  
 }
@@ -1653,9 +1653,9 @@ a:hover.learnmorebutton{
 a:hover.sliderbutton, 
 /* a:hover.addbutton, */
 a:hover.shopcollectionbutton{
-    background-color: white;
-    color: #00afb9;
-    border: 2px solid #00afb9;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
     transition: color .2s ease-in-out, opacity .2s ease-in-out;
 }
 
