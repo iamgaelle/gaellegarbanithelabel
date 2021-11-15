@@ -17,14 +17,13 @@ title: Product -
    <div class="col-5_md-6_sm-12 padded-05 margin-b-2 padded-r">
 
       <div class="sticky">
+
          <div class="slider-for padded-05">
 
             {% for item in page.pictures %}
-
                <div class="slider-item">
                <div class="bg-img0 portrait" style="background-image: url('{{item.image}}')"> </div>
                </div>
-
             {% endfor %}
 
                <!-- <div class="slider-item">
@@ -37,30 +36,29 @@ title: Product -
                <div class="bg-img0 portrait" style="background-image: url('{{page.product-big4_image}}')"> </div>
                </div> -->
 
-            </div>
+         </div>
             
-            <div class="slider-nav">
+         <div class="slider-nav">
 
+            {% for item in page.pictures %}
+            <div class="slider-item padded-05">
+               <div class="bg-img0 portrait" style="background-image: url('{{item.image}}')"> </div>
+            </div>
+            {% endfor %}
 
-               {% for item in page.pictures %}
+            <!-- <div class="slider-item padded-05">
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb2_image}}')"> </div>
+            </div>
+            <div class="slider-item padded-05">
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb3_image}}')"> </div>
+            </div>
+            <div class="slider-item padded-05">
+               <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb4_image}}')"> </div>
+            </div> -->
+         </div> 
 
-               <div class="slider-item padded-05">
+         <a class="backbutton margin-l-05 margin-t-1" href="/shop{{page.button-more}}#more{{page.button-more}}">Back to all {{page.button-more}}</a>
 
-                  <div class="bg-img0 portrait" style="background-image: url('{{item.image}}')"> </div>
-               </div>
-
-               {% endfor %}
-
-               <!-- <div class="slider-item padded-05">
-                  <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb2_image}}')"> </div>
-               </div>
-               <div class="slider-item padded-05">
-                  <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb3_image}}')"> </div>
-               </div>
-               <div class="slider-item padded-05">
-                  <div class="bg-img0 portrait" style="background-image: url('{{page.product-thumb4_image}}')"> </div>
-               </div> -->
-            </div> 
       </div>
 
    </div>
