@@ -897,6 +897,14 @@ a:hover{
 
 
 
+/* .vertical-text {
+transform: rotate(270deg);
+display: inline-block;
+margin-left: 6vw;
+position: absolute;
+transform-origin: bottom right 0;
+} */
+
 .vertical-text-1 {
     transform: rotate(270deg);
     display: inline-block;
@@ -908,24 +916,24 @@ a:hover{
 .vertical-text-2 {
 transform: rotate(270deg);
 display: inline-block;
-margin-left: -11vw;
-position: absolute;
+/* margin-left: -11vw;
+position: absolute; */
 transform-origin: bottom right 0;
 }
 
 .vertical-text-3 {
 transform: rotate(270deg);
 display: inline-block;
-margin-left: 5vw;
-position: absolute;
+/* margin-left: 5vw;
+position: absolute; */
 transform-origin: bottom right 0;
 }
 
 .vertical-text-4 {
 transform: rotate(270deg);
 display: inline-block;
-margin-left: -13vw;
-position: absolute;
+/* margin-left: -13vw;
+position: absolute; */
 transform-origin: bottom right 0;
 }
   
@@ -2190,6 +2198,42 @@ form button {
         border: 1px solid grey; */
     }
 
+    .vertical-text-1 {
+        margin-left: -8vw;
+        margin-top: -0vw;
+        position: absolute;
+        transform-origin: bottom right 0;
+        font-size: 10px;
+        letter-spacing: 0.2rem;
+    }
+    
+    .vertical-text-2 {
+    margin-left: -18vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    }
+    
+    .vertical-text-3 {
+    margin-left: -15vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    }
+    
+    .vertical-text-4 {
+    margin-left: -24vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+    }
+
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */ 
@@ -2322,9 +2366,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         line-height: 0.8;
     }
 
-    .vertical-text-1xs {
-        transform: rotate(270deg);
-        display: inline-block;
+    .vertical-text-1 {
         margin-left: -10vw;
         margin-top: -1vw;
         position: absolute;
@@ -2333,9 +2375,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
         letter-spacing: 0.2rem;
     }
     
-    .vertical-text-2xs {
-    transform: rotate(270deg);
-    display: inline-block;
+    .vertical-text-2 {
     margin-left: -23vw;
     margin-top: -1vw;
     position: absolute;
@@ -2344,9 +2384,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     letter-spacing: 0.2rem;
     }
     
-    .vertical-text-3xs {
-    transform: rotate(270deg);
-    display: inline-block;
+    .vertical-text-3 {
     margin-left: -20vw;
     margin-top: -2vw;
     position: absolute;
@@ -2355,9 +2393,7 @@ NOTE: divide 400 / 16 as 1 em=16px*/
     letter-spacing: 0.2rem;
     }
     
-    .vertical-text-4xs {
-    transform: rotate(270deg);
-    display: inline-block;
+    .vertical-text-4 {
     margin-left: -28vw;
     margin-top: -1vw;
     position: absolute;
