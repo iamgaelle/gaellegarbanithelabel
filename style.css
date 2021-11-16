@@ -1311,18 +1311,15 @@ footer .californiafont-light {
     } */
 
 .howtostylepadding [class*="grid-"][class*="col-"], 
-    [class*="grid-"][class*="col_"], 
-    [class*="grid-"][class~="col"], 
-    [class*="grid_"][class*="col-"], 
-    [class*="grid_"][class*="col_"], 
-    [class*="grid_"][class~="col"], 
-    [class~="grid"][class*="col-"], 
-    [class~="grid"][class*="col_"], 
-    [class~="grid"][class~="col"] {
-        
-    padding-bottom:1rem;
-    /* padding-top:1rem; */
-    
+                [class*="grid-"][class*="col_"], 
+                [class*="grid-"][class~="col"], 
+                [class*="grid_"][class*="col-"], 
+                [class*="grid_"][class*="col_"], 
+                [class*="grid_"][class~="col"], 
+                [class~="grid"][class*="col-"], 
+                [class~="grid"][class*="col_"], 
+                [class~="grid"][class~="col"] {
+    padding-bottom: 2rem;  
     }
   
 
