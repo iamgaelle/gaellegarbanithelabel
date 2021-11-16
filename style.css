@@ -462,7 +462,7 @@ background-position: center;
 
 .howtostylesarongs-image-5 {
 background-color: #fff7f3;
-background-image: url('/images/sarong-lembongan-beach-dress-front.jpg');
+background-image: url('/images/sarong-melasti-turquoise-beach-dress-1.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -476,7 +476,7 @@ background-position: center;
 
 .howtostylesarongs-image-7 {
 background-color: #fff7f3;
-background-image: url('/images/sarong-melasti-turquoise-beach-dress-1.jpg');
+background-image: url('/images/sarong-lembongan-beach-dress-front.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -589,7 +589,7 @@ background-position: center;
 
 .collection-image-9 {
 background-color: #fff7f3;
-background-image: url('/images/sarong-suluban-villa-5.jpg');
+background-image: url('/images/sarong-melasti-orange-villa-4-2.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -645,7 +645,7 @@ background-position: center;
 
 .collection-image-17 {
 background-color: #fff7f3;
-background-image: url('/images/sarong-melasti-orange-villa-4-2.jpg');
+background-image: url('/images/sarong-suluban-villa-5.jpg');
 background-size: cover;
 background-position: top;
 }
@@ -1978,6 +1978,42 @@ form button {
         margin-top: 80px;
     }
 
+    .vertical-text-1 {
+        margin-left: -2vw;
+        margin-top: -0vw;
+        position: absolute;
+        transform-origin: bottom right 0;
+        font-size: 14px;
+        letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-2 {
+    margin-left: -15vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 14px;
+    letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-3 {
+    margin-left: -7vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 14px;
+    letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-4 {
+    margin-left: -19vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 14px;
+    letter-spacing: 0.25rem;
+    }
+
 }
 
 .flex-flip { flex-direction: column-reverse; }
@@ -2095,6 +2131,42 @@ form button {
         margin-top: 50px;
     }
 
+    .vertical-text-1 {
+        margin-left: -8vw;
+        margin-top: -0vw;
+        position: absolute;
+        transform-origin: bottom right 0;
+        font-size: 13px;
+        letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-2 {
+    margin-left: -18vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 13px;
+    letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-3 {
+    margin-left: -15vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 13px;
+    letter-spacing: 0.25rem;
+    }
+    
+    .vertical-text-4 {
+    margin-left: -24vw;
+    margin-top: 0vw;
+    position: absolute;
+    transform-origin: bottom right 0;
+    font-size: 13px;
+    letter-spacing: 0.25rem;
+    }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -2209,7 +2281,7 @@ form button {
     }
     
     .vertical-text-2 {
-    margin-left: -18vw;
+    margin-left: -20vw;
     margin-top: 0vw;
     position: absolute;
     transform-origin: bottom right 0;
@@ -2218,7 +2290,7 @@ form button {
     }
     
     .vertical-text-3 {
-    margin-left: -15vw;
+    margin-left: -17vw;
     margin-top: 0vw;
     position: absolute;
     transform-origin: bottom right 0;
