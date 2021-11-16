@@ -2293,9 +2293,9 @@ NOTE: divide 400 / 16 as 1 em=16px*/
             max-width: 30px;
             display: block;
             /* margin: auto; */
-            margin-top: -2.5rem;
+            margin-top: -2rem;
             margin-left: 1rem; 
-            margin-bottom: -4rem;
+            margin-bottom: -3rem;
         }
 
     .palmtree-newsletter {
