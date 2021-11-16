@@ -502,6 +502,20 @@ background-size: cover;
 background-position: center;
 }
 
+.howtostylesarongs-image-10-2 {
+    background-image: url('/images/sarong-suluban-villa-5.jpg');
+    background-color: #fff7f3;
+    background-size: cover;
+    background-position: center;
+    }
+
+.howtostylesarongs-image-10-3 {
+    background-image: url('/images/sarong-uluwatu-villa-1.jpg');
+    background-color: #fff7f3;
+    background-size: cover;
+    background-position: center;
+    }
+
 .howtostylesarongs-image-11 {
 background-color: #fff7f3;
 background-image: url('/images/sarong-melasti-turquoise-beach-pirate-1.jpg');
@@ -1985,7 +1999,7 @@ form button {
     }
     
     .vertical-text-2 {
-    margin-left: -15vw;
+    margin-left: -12vw;
     margin-top: 0vw;
     position: absolute;
     transform-origin: bottom right 0;
@@ -2003,7 +2017,7 @@ form button {
     }
     
     .vertical-text-4 {
-    margin-left: -19vw;
+    margin-left: -15vw;
     margin-top: 0vw;
     position: absolute;
     transform-origin: bottom right 0;
