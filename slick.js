@@ -37,7 +37,7 @@ $('.slider-container').slick({
     asNavFor: '.slider-nav'
   });
   $('.slider-nav').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 6,
     asNavFor: '.slider-for',
     dots: false,

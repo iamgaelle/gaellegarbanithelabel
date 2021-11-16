@@ -1371,6 +1371,16 @@ display: block;
     /* color: red; */
 }
 
+.slick-next::before {
+    margin-left: 5vw;
+    position: absolute;
+    color:transparent;
+}
+
+.slick-prev::before {
+  color:transparent;
+}
+
 .slick-dots {
      /* bottom: 10px; */
      /* left: 0;  */
