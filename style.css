@@ -447,7 +447,7 @@ background-position: center;
 
 .howtostylesarongs-image-3 {
 background-color: #fff7f3;
-background-image: url('/images/sarong-menjangan-beach-skirt-front.jpg');
+background-image: url('/images/sarong-menjangan-beach-skirt-back.jpg');
 background-size: cover;
 background-position: center;
 }
@@ -1265,12 +1265,33 @@ footer .californiafont-light {
 
   /*.......SHOP SARONGS / HOW TO STYLE YOUR SARONGS SECTION....  */
 
-  .howtostyle {
+  .howtostylefont {
     font-size: 1.1rem;
     letter-spacing: 0.3rem;
     font-weight: 300;
     text-transform: uppercase;
   }
+
+  /* .howtostyle [class*=col-], [class*=col_], [class~=col] {
+    padding-bottom:1rem;
+    padding-top:1rem;
+    } */
+
+.howtostylepadding [class*="grid-"][class*="col-"], 
+    [class*="grid-"][class*="col_"], 
+    [class*="grid-"][class~="col"], 
+    [class*="grid_"][class*="col-"], 
+    [class*="grid_"][class*="col_"], 
+    [class*="grid_"][class~="col"], 
+    [class~="grid"][class*="col-"], 
+    [class~="grid"][class*="col_"], 
+    [class~="grid"][class~="col"] {
+        
+    padding-bottom:1rem;
+    /* padding-top:1rem; */
+    
+    }
+  
 
 
 /* ......slick slider styling...... */
@@ -1926,6 +1947,7 @@ form button {
 
 }
 
+.flex-flip { flex-direction: column-reverse; }
 
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
